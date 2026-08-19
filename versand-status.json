@@ -1,0 +1,23 @@
+{
+ "hub": "Knowledge-Hub Chronische Erkrankungen",
+ "domain": "ncd.m-vf.de",
+ "datum": "2026-08-19",
+ "stand": "gestoppt",
+ "titel": "MVF NCD-Newsletter 19.08.2026",
+ "betreff": "Neueste Studien - Nicht uebertragbare Krankheiten – 19. August 2026",
+ "anzahl": 7,
+ "pmids": [
+  "42612086",
+  "42609817",
+  "42607051",
+  "42601104",
+  "42596896",
+  "42583708",
+  "42535037"
+ ],
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098460",
+ "termin_utc": null,
+ "beanstandungen": [
+  "das Empfaengersegment ist leer - niemand wuerde die Ausgabe bekommen"
+ ]
+}
