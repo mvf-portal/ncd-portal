@@ -1,5 +1,44 @@
 [
  {
+  "pmid": "42609821",
+  "journal": "Int J Chron Obstruct Pulmon Dis",
+  "year": "2026",
+  "author": "Narendra DK et al.",
+  "pubdate": "13.08.2026",
+  "added": "18.08.2026",
+  "transfer": "USA-Daten; Effektivitätsbefund (Exazerbationslast trotz optimaler medikamentöser Versorgung) übertragbar auf Deutschland.",
+  "title": "COPD mit Typ-2-Entzündung und Exazerbationen trotz Dreifachtherapie – 3-fach höhere Kosten und Hospitalisierungsrate",
+  "sum": "Retrospektive Analyse der Optum-Datenbank (über 28 Millionen Versicherte, USA) zu Exazerbationen und Versorgungslast bei COPD-Patienten mit Typ-2-Entzündung (erhöhte Eosinophile) und Exazerbationshistorie trotz Dreifachtherapie.",
+  "result": "Bei 13.840 Patienten (6.389 mit Exazerbationen und Eosinophile ≥150 Zellen/μL): durchschnittlich 1,58 COPD-Exazerbationen/Jahr vs. 0,52 in der Kontrollgruppe; um ~6.700 USD höhere jährliche Kosten; höhere Notaufnahme- und Hospitalisierungsraten trotz optimierter medikamentöser Therapie. Ungedeckter Versorgungsbedarf.",
+  "aufgenommen": "2026-08-20"
+ },
+ {
+  "pmid": "42566017",
+  "journal": "Health Care Manag Sci",
+  "year": "2026",
+  "author": "Wood RM et al.",
+  "pubdate": "07.08.2026",
+  "added": "07.08.2026",
+  "transfer": "Vereinigtes Königreich, NHS-Struktur, ähnliche Versorgungsmotivation.",
+  "title": "Cluster-Analyse identifiziert sechs Subtypen hochgradig multimorbider Patienten für gezielte Interventionen im englischen Gesundheitssystem",
+  "sum": "Clusteranalyse von 19.520 Hochmorbidität-Patienten (top 3% von 1 Million Versicherten, >1/5 der Kosten) in Bristol, um heterogene Subgruppen und entsprechende Versorgungsziele zu definieren.",
+  "result": "Sechs Cluster identifiziert: Ältere ohne Demenz (n=1.243); Krebs (n=1.055); Jünger/komplex (n=2.199); Atemwege (n=4.743); Kardiovaskulär (n=6.140); Demenz (n=4.579). Jeder Cluster erhielt wertbasierte Versorgungsziele und spezifische klinische Managemententscheidungen. Heterogenität innerhalb der Hochmorbidität erfordert maßgeschneiderte Interventionen.",
+  "aufgenommen": "2026-08-20"
+ },
+ {
+  "pmid": "42559972",
+  "journal": "Prim Health Care Res Dev",
+  "year": "2026",
+  "author": "Llubes-Arrià L et al.",
+  "pubdate": "06.08.2026",
+  "added": "06.08.2026",
+  "transfer": "Spanien, ambulante Primärversorgung ähnlich Deutschland.",
+  "title": "Capability Cards unterstützen personzentrierte Gespräche bei Mehrfacherkrankungen in spanischer Primärversorgung – validiert",
+  "sum": "Methodische Validierungsstudie der spanischen Übersetzung und kulturellen Anpassung der Capability Cards als Werkzeug für Patienten mit Mehrfacherkrankung in spanischen Gemeinschaftspraxen.",
+  "result": "Hohe inhaltsliche Validität in allen Gruppen (Content Validity Index: Experten 0,88; Fachkräfte 0,96; Zielpopulation 0,98); ausgezeichnete Usability (System Usability Scale). Capability Cards zeigten starke kulturelle Angemessenheit und Eignung für strukturierte, personzentrierte Gespräche zur Förderung von Empowerment und partizipatorischer Versorgung bei Mehrfacherkrankung.",
+  "aufgenommen": "2026-08-20"
+ },
+ {
   "pmid": "42612086",
   "journal": "J Med Internet Res",
   "year": "2026",

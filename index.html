@@ -1053,71 +1053,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "19. Aug. 2026, 13:47 Uhr";
+const SNAP_DATE = "20. Aug. 2026, 07:18 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
-  {
-    journal:"J Med Internet Res", year:"2026", pmid:"42612086",
-    author:"Gómez-López A et al.", pubdate:"18.08.2026",
-    added:"18.08.2026",
-    title:"Hybrid-Versorgung für COPD-Patienten mit hohem Risiko: Pflegeleitung, Personalisierung und digitale Unterstützung zeigen Machbarkeit",
-    sum:"Co-Design-Studie in Barcelona mit vier PDSA-Zyklen zur Operationalisierung einer Hybrid-Care-Intervention (Pflege vor Ort, Personalisierung, digitale Unterstützung) für Patienten mit COPD, Asthma und Bronchiektasen bei exazerbierter und stabiler Erkrankung.",
-    result:"Am Ende PDSA-3 (August 2025) wurde Operationalisierung dreier Kernkomponenten erreicht: (1) Nurse-Led-Versorgung vor Ort, (2) Personalisierung der Intervention, (3) fortgeschrittene digitale Unterstützung. Konsens unter allen Stakeholdern zu Anwendbarkeit im klinisch stabilen und exazerbiertem Zustand sowie zu kurzfristiger Implementierungs- und nachhaltiger Übernahmestrategie.",
-    transfer:"Spanien, katalanisches Gesundheitssystem – Erkenntnisse zur Integration digitaler Tools in koordinierte Versorgung relevant"
-  },
-  {
-    journal:"PLoS One", year:"2026", pmid:"42607051",
-    author:"Van Wilder L et al.", pubdate:"17.08.2026",
-    added:"17.08.2026",
-    title:"Strukturierte Transitionsversorgung erhöht Übergangsbereitschaft junger Erwachsener mit chronischen Erkrankungen (COCCOS-Protokoll)",
-    sum:"Protokoll einer quasi-experimentellen Studie zur Evaluation eines co-gestalteten Übergangsprogramms von Kindermedizin zu Erwachsenenmedizin bei Patienten mit Typ-1-Diabetes, Asthma oder Adipositas in Belgien.",
-    result:"Ziel ist Test von vier strukturierten Konsultationen über 13–16 Monate. Primäres Outcome: Transition Readiness Assessment Questionnaire. Sekundäroutcomes: Patient Empowerment, Therapietreue, gesundheitsbezogene Lebensqualität, psychische Gesundheit. Kosteneffektivität aus Payer-Perspektive mit Quality-Adjusted Life Years gemessen. Mixed-Methods-Prozessevaluationen geplant. Im Stadium PDSA-3 (August 2025); Ergebnisse erwartet 2027.",
-    transfer:"Belgien, ähnliche Versicherungssysteme und Versorgungspfade wie deutschsprachiger Raum"
-  },
   {
     journal:"BMJ Open", year:"2026", pmid:"42601104",
     author:"Doheny M et al.", pubdate:"14.08.2026",
     added:"14.08.2026",
-    title:"Mehrfacherkrankung im Alter erhöht Gesamt-Versorgungsausgaben um 11,6 %; sozioökonomische Ungleichheiten verstärken den Effekt",
-    sum:"Querschnittsuntersuchung von 371.583 Personen ≥65 Jahre in Region Stockholm zur Prävalenz und Kostenfolgen von Mehrfacherkrankung.",
-    result:"Mehrfacherkrankung bei 62,6 % der älteren Erwachsenen. Mit ≥4 Erkrankungen stiegen die Durchschnittsausgaben auf 143.063 SEK (gegenüber 34.346 SEK ohne Erkrankung). Multimorbidität assoziiert mit 11,6 % höheren Gesamtausgaben (Cost Ratio 1,116, KI 1,114–1,118). Tiefste Einkommensgruppe zeigte 3,8 % höhere Ausgaben als höchste Gruppe. Soziale Pflegeausgaben überstiegen ab Alter 80 Jahren die Gesundheitsausgaben.",
-    transfer:"Schweden, vergleichbares öffentliches Versicherungssystem und Dokumentation wie Deutschland"
+    title:"Mehrfacherkrankung senkt Heilungsergebnisse für ältere Menschen in der Stockholmer Region ab – eine bevölkerungsbezogene Studie sozioökonomischer Unterschiede und Ausgabenlast",
+    sum:"Analyse der Mehrfacherkrankung, Ausgaben für Gesundheit und Soziales sowie sozioökonomische Unterschiede bei über 65-Jährigen in Stockholm.",
+    result:"62,6% der über 65-Jährigen hatten Mehrfacherkrankung; durchschnittliche Gesamtausgaben stiegen von 34.346 SEK (keine Erkrankung) auf 143.063 SEK (≥4 Erkrankungen); Mehrfacherkrankung war unabhängig mit 11,6% höheren Gesamtausgaben assoziiert; niedrigere Einkommensgruppen zeigten 3,8% höhere Ausgaben als höchste Einkommensgruppe.",
+    transfer:"Schweden, vergleichbares Versicherungssystem und Sozialwesen."
   },
   {
-    journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"42609817",
-    author:"Di Giorgi N et al.", pubdate:"13.08.2026",
+    journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"42609821",
+    author:"Narendra DK et al.", pubdate:"13.08.2026",
     added:"18.08.2026",
-    title:"Patienten mit eosinophiler COPD und Exazerbationen haben hohes Hospitalisierungs- und Kostenrisiko trotz Dreifachtherapie",
-    sum:"Reale-Welt-Datenanalyse von 3.279 COPD-Patienten in einem italienischen Tertiärkrankenhaus zur Identifikation von Patienten mit erhöhten Eosinophilen, die für zielgerichtete biologische Therapien (Dupilumab) infrage kommen.",
-    result:"Unter 224 Patienten mit Exazerbationen unter Dreifachtherapie hatten 87 (38,8 %) mindestens eine Eosinophilenzahl ≥300 Zellen/µL (Median-Messwerte 210 [IQR 130–335] Zellen/µL). Patienten mit EOS ≥300 gegenüber &lt;300: höhere Krankenhausaufnahmen (23,0 % vs. 12,2 %; p=0,005), größere Komorbiditätslast (71,3 % kardiovaskulär, 59,8 % metabolisch), numerisch höhere Gesamtsterblichkeit (19,5 % vs. 13,0 %, nicht signifikant), mehr jährliche Kontakte (4,5 vs. 3,0; p&lt;0,001).",
-    transfer:"Italien, vergleichbares europäisches Krankenversicherungssystem; Eosinophil-Monitoring zur Therapiesteuerung"
+    title:"COPD mit Typ-2-Entzündung und Exazerbationen trotz Dreifachtherapie – 3-fach höhere Kosten und Hospitalisierungsrate",
+    sum:"Retrospektive Analyse der Optum-Datenbank (über 28 Millionen Versicherte, USA) zu Exazerbationen und Versorgungslast bei COPD-Patienten mit Typ-2-Entzündung (erhöhte Eosinophile) und Exazerbationshistorie trotz Dreifachtherapie.",
+    result:"Bei 13.840 Patienten (6.389 mit Exazerbationen und Eosinophile ≥150 Zellen/μL): durchschnittlich 1,58 COPD-Exazerbationen/Jahr vs. 0,52 in der Kontrollgruppe; um ~6.700 USD höhere jährliche Kosten; höhere Notaufnahme- und Hospitalisierungsraten trotz optimierter medikamentöser Therapie. Ungedeckter Versorgungsbedarf.",
+    transfer:"USA-Daten; Effektivitätsbefund (Exazerbationslast trotz optimaler medikamentöser Versorgung) übertragbar auf Deutschland."
   },
   {
     journal:"Scand J Prim Health Care", year:"2026", pmid:"42583708",
     author:"Bring H et al.", pubdate:"12.08.2026",
     added:"12.08.2026",
-    title:"Verzögerte Palliativversorgung in Primärversorgung treibt vermeidbare Notfallabteilungsbesuche bei älteren Menschen mit Mehrfacherkrankung",
-    sum:"Qualitative Befragung von 100 Fachleuten (Ärzte, Pflegekräfte) über Gründe für Notfallabteilungsbesuche bei älteren Patienten mit Mehrfacherkrankung und Palliativbedarf in Stockholm.",
-    result:"Übergeordnetes Thema: ‚Verzögerte, fragmentierte Palliativversorgung trägt zu ED-Besuchen bei'. Zwei Kategorien identifiziert: (1) Palliativbeschlüsse in Primärversorgung (Erkennen von Bedarf, Initiierung, Einbeziehung von Patienten/Familien); (2) Versorgung zu Hause (Planung, Symptommanagement, Informationstransfer). Fachleute berichteten, dass fehlende Vorlaufplanung zu krisenhaften ED-Besuchen führt, die Patientenwünschen widersprechen.",
-    transfer:"Schweden, vergleichbare Primärversorgungsstruktur und Palliativstandards mit Deutschland/DACH"
+    title:"Palliative Versorgung in der Hausarztpraxis verzögert – Haupttreiber für vermeidbare Notaufnahmebesuche bei älteren Menschen mit Mehrfacherkrankungen",
+    sum:"Qualitative Befragung von Ärzten und Pflegekräften über Ursachen vermeidbarer Notaufnahmevisiten bei älteren Patienten mit Mehrfacherkrankungen und Palliativbedarf in Stockholm.",
+    result:"Kernthema: 'Verzögerte, fragmentierte palliative Versorgung in der Hausarztpraxis trägt zu Notaufnahmebesuchen bei'. Zwei Hauptkategorien identifiziert: (1) Mangelhafter palliative Entscheidungsfindung (Erkennung und Initiation; Einbindung von Patienten); (2) Defizite in häuslicher Versorgungsplanung und Symptommanagement sowie unzureichende Informationsweitergabe von Patientenpräferenzen.",
+    transfer:"Schweden, vergleichbare Primärversorgungsstrukturen und Koordination."
   },
   {
-    journal:"Euro Surveill", year:"2026", pmid:"42596896",
-    author:"Vargas-Zambrano JC et al.", pubdate:"Aug. 2026",
-    added:"14.08.2026",
-    title:"Pertussis-Hospitalisierungen bei chronischen Erkrankungen: Hochrisiko-Gruppen und Präventionsbedarf in Frankreich",
-    sum:"Retrospektive Analyse von 10.893 Patienten mit Keuchhusten-Hospitalisierungen 2008–2020 in Frankreich nach Präsenz chronischer Grunderkrankungen (Asthma, COPD, Diabetes, Immunsuppression).",
-    result:"Bei Kindern/Jugendlichen (n=7.212): 17,5 % mit Asthma, 0,9 % mit Immunsuppression. Höchste kumulierte Inzidenzrate bei Immunsuppression (adjustiert CIR 3,6; KI 2,8–4,6). Bei Erwachsenen (n=3.681): 62,4 % mit Asthma/COPD, 16,1 % immunsupprimiert, 12,3 % mit Diabetes. Höchste CIR bei Asthma/COPD (18,6; KI 17,4–19,9). Medianhosp.-kosten für Immunsupprimierte 4.401 EUR. Keine signifikanten Änderungen der Ressourcennutzung vor/nach Hospitalisierung bei Erwachsenen.",
-    transfer:"Frankreich, französisches Gesundheitssystem und Krankenversicherungsdaten wie Deutschland"
+    journal:"Health Care Manag Sci", year:"2026", pmid:"42566017",
+    author:"Wood RM et al.", pubdate:"07.08.2026",
+    added:"07.08.2026",
+    title:"Cluster-Analyse identifiziert sechs Subtypen hochgradig multimorbider Patienten für gezielte Interventionen im englischen Gesundheitssystem",
+    sum:"Clusteranalyse von 19.520 Hochmorbidität-Patienten (top 3% von 1 Million Versicherten, &gt;1/5 der Kosten) in Bristol, um heterogene Subgruppen und entsprechende Versorgungsziele zu definieren.",
+    result:"Sechs Cluster identifiziert: Ältere ohne Demenz (n=1.243); Krebs (n=1.055); Jünger/komplex (n=2.199); Atemwege (n=4.743); Kardiovaskulär (n=6.140); Demenz (n=4.579). Jeder Cluster erhielt wertbasierte Versorgungsziele und spezifische klinische Managemententscheidungen. Heterogenität innerhalb der Hochmorbidität erfordert maßgeschneiderte Interventionen.",
+    transfer:"Vereinigtes Königreich, NHS-Struktur, ähnliche Versorgungsmotivation."
+  },
+  {
+    journal:"Prim Health Care Res Dev", year:"2026", pmid:"42559972",
+    author:"Llubes-Arrià L et al.", pubdate:"06.08.2026",
+    added:"06.08.2026",
+    title:"Capability Cards unterstützen personzentrierte Gespräche bei Mehrfacherkrankungen in spanischer Primärversorgung – validiert",
+    sum:"Methodische Validierungsstudie der spanischen Übersetzung und kulturellen Anpassung der Capability Cards als Werkzeug für Patienten mit Mehrfacherkrankung in spanischen Gemeinschaftspraxen.",
+    result:"Hohe inhaltsliche Validität in allen Gruppen (Content Validity Index: Experten 0,88; Fachkräfte 0,96; Zielpopulation 0,98); ausgezeichnete Usability (System Usability Scale). Capability Cards zeigten starke kulturelle Angemessenheit und Eignung für strukturierte, personzentrierte Gespräche zur Förderung von Empowerment und partizipatorischer Versorgung bei Mehrfacherkrankung.",
+    transfer:"Spanien, ambulante Primärversorgung ähnlich Deutschland."
   },
   {
     journal:"Front Public Health", year:"2026", pmid:"42535037",
     author:"Aparicio-Rodriguez G et al.", pubdate:"16.07.2026",
     added:"31.07.2026",
-    title:"Polypharmazie konzentriert sich auf ältere, multimorbide und sozioökonomisch benachteiligte Personen – Versorgungsmuster in Spanien",
-    sum:"Querschnittsstudie von 33.534 Personen mit Polypharmazie (≥5 verschiedene ATC4-Medikamentengruppen) in La Rioja, Spanien, zu Verteilung nach Alter, Geschlecht und sozioökonomischem Status.",
-    result:"Mittlere Medikamentenbelastung 7,07 Gruppen (SD 2,17); 58,4 % erhielten 6–9 Gruppen. 71,8 % gehörten zur unteren Einkommensgruppe, die höchsten Belastungen (≥10 Gruppen) zeigten 14,9 % der Armen gegen 8,0–9,2 % der mittleren und höheren Gruppen. Chronische Grunderkrankungen (Herzinsuffizienz, Nierenkrankheit, Gefäßerkrankung) stark assoziiert mit höherer Medikamentenbelastung.",
-    transfer:"Spanien, deutschsprachiger Raum – Datenquellen aus öffentlich finanzierter Versorgung"
+    title:"Polypharmacy konzentriert sich auf sozioökonomisch benachteiligte Ältere mit Mehrfacherkrankungen – Spanische Populationsstudie",
+    sum:"Retrospektive Querschnittsstudie aller Patienten mit Polypharmacy (≥5 ATC4-Medikamentengruppen) in La Rioja, Spanien 2024, mit Analyse der Medikamentenlast und Zusammenhang mit sozioökonomischen Faktoren.",
+    result:"Bei 33.534 Patienten mit Polypharmacy (Durchschnittsalter 73,9 Jahre): mittlere Medikamentenlast 7,07 Gruppen; 71,8% gehörten zur niedrigen Einkommensgruppe; 14,9% der niedrigen Einkommensgruppe erhielten ≥10 ATC4-Gruppen gegenüber 8,0% der höchsten Einkommensgruppe. Polypharmacy ist ein sozial gepattertes Phänomen, nicht nur klinische Komplexität.",
+    transfer:"Spanien, öffentlich finanziertes Gesundheitssystem vergleichbar mit Deutschland."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
