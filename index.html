@@ -894,7 +894,7 @@
           <p>eRelation AG – Content in Health, vertreten durch Peter Stegmaier, Johannes-von-Hanstein-Str. 2, 53115 Bonn. Kontakt siehe Impressum.</p>
           <h4>2. Charakter dieses Angebots</h4>
           <p>Dieses Portal ist eine statische Informationsseite. Es setzt <strong>keine Cookies</strong> und bindet <strong>keine Analyse- oder Trackingdienste Dritter</strong> ein. Über die anonyme Reichweitenmessung nach Abschnitt 3 hinaus werden beim bloßen Lesen keine personenbezogenen Daten erhoben oder gespeichert.</p><p>Eine Ausnahme bildet die Seite <a href="newsletter.html">Newsletter bestellen</a>: Dort können Sie freiwillig eine E-Mail-Adresse angeben, um einen Newsletter zu abonnieren. Näheres in den Abschnitten 4 und 5.</p>
-          <h4>3. Reichweitenmessung ohne Cookies</h4><p>Damit wir wissen, ob und wie dieses Angebot genutzt wird, zählen wir Seitenaufrufe. Die Zählung läuft auf einem eigenen Server von <i>Monitor Versorgungsforschung</i>; ein Dritter ist daran nicht beteiligt. Es werden <strong>keine Cookies gesetzt</strong> und <strong>keine Informationen auf Ihrem Endgerät gespeichert oder ausgelesen</strong> — eine Einwilligung nach § 25 Abs. 1 TTDSG ist dafür nicht erforderlich.</p><p>Gespeichert werden ausschließlich Summen: die aufgerufene Seite, die Domain der verweisenden Seite, die Art des Geräts (Desktop oder Mobilgerät) und die Stunde des Zugriffs. <strong>Ihre IP-Adresse wird nicht gespeichert.</strong> Sie geht gemeinsam mit der Browserkennung und einer geheimen Zufallszahl in einen nicht umkehrbaren Hashwert ein, der es uns allein erlaubt, mehrere Aufrufe desselben Tages als eine Person zu zählen. Die Zufallszahl wird jede Nacht durch eine neue ersetzt und die alte verworfen; danach ist auch uns eine Zuordnung nicht mehr möglich. Eine Wiedererkennung über den Tag hinaus findet nicht statt, ebenso wenig eine Zusammenführung mit anderen Daten oder eine Profilbildung.</p><p>Rechtsgrundlage ist unser berechtigtes Interesse an einer bedarfsgerechten Gestaltung dieses Angebots (Art. 6 Abs. 1 lit. f DSGVO). Aufrufe von Browsern, die <i>Do Not Track</i> oder <i>Global Privacy Control</i> senden, werden gar nicht erst gezählt.</p><h4>4. Newsletter-Anmeldung</h4>
+          <h4>3. Reichweitenmessung ohne Cookies</h4><p>Damit wir wissen, ob und wie dieses Angebot genutzt wird, zählen wir Seitenaufrufe. Die Zählung läuft auf einem eigenen Server von <i>Monitor Versorgungsforschung</i>; ein Dritter ist daran nicht beteiligt. Es werden <strong>keine Cookies gesetzt</strong> und <strong>keine Informationen auf Ihrem Endgerät gespeichert oder ausgelesen</strong> — eine Einwilligung nach § 25 Abs. 1 TTDSG ist dafür nicht erforderlich.</p><p>Gespeichert werden ausschließlich Summen: die aufgerufene Seite, die Domain der verweisenden Seite, die Art des Geräts (Desktop oder Mobilgerät), die Bildschirmbreite in groben Stufen und die Stunde des Zugriffs. Die Bildschirmbreite wird bewusst nur als Stufe festgehalten und nicht als genaue Auflösung — diese wäre eines der stärksten Merkmale, um einen Browser wiederzuerkennen. <strong>Ihre IP-Adresse wird nicht gespeichert.</strong> Sie geht gemeinsam mit der Browserkennung und einer geheimen Zufallszahl in einen nicht umkehrbaren Hashwert ein, der es uns allein erlaubt, mehrere Aufrufe desselben Tages als eine Person zu zählen. Die Zufallszahl wird jede Nacht durch eine neue ersetzt und die alte verworfen; danach ist auch uns eine Zuordnung nicht mehr möglich. Eine Wiedererkennung über den Tag hinaus findet nicht statt, ebenso wenig eine Zusammenführung mit anderen Daten oder eine Profilbildung.</p><p>Rechtsgrundlage ist unser berechtigtes Interesse an einer bedarfsgerechten Gestaltung dieses Angebots (Art. 6 Abs. 1 lit. f DSGVO). Aufrufe von Browsern, die <i>Do Not Track</i> oder <i>Global Privacy Control</i> senden, werden gar nicht erst gezählt.</p><h4>4. Newsletter-Anmeldung</h4>
           <p><b>Welche Daten.</b> Für die Bestellung eines Newsletters benötigen wir Ihre E-Mail-Adresse. Weitere Angaben verlangen wir nicht. Mit übermittelt wird, welchen der beiden Newsletter Sie ausgewählt haben.</p>
           <p><b>Bestätigungsverfahren.</b> Nach dem Absenden erhalten Sie eine E-Mail mit einem Bestätigungslink; der Versand beginnt erst, wenn Sie ihn anklicken (Double-Opt-in). So kann niemand fremde Adressen eintragen. Anmeldung und Bestätigung werden mit Zeitpunkt und IP-Adresse protokolliert, damit wir Ihre Einwilligung nachweisen können.</p>
           <p><b>Rechtsgrundlage.</b> Der Versand erfolgt aufgrund Ihrer Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO. Die Protokollierung der Einwilligung stützt sich auf Art. 6 Abs. 1 lit. c DSGVO in Verbindung mit der Nachweispflicht aus Art. 7 Abs. 1 DSGVO.</p>
@@ -947,22 +947,22 @@ const DB = [
   {c:"deutsch", n:"Monitor Versorgungsforschung", de:1, d:"Deutsche Fachzeitschrift für Politik, Praxis & Forschung der Versorgung — durchsuchbares Facharchiv.", t:"live", u:"https://www.monitor-versorgungsforschung.de/?s=%s&utm_source=ncd-hub&utm_medium=referral&utm_campaign=ncd-portal", b:0},
   {c:"deutsch", n:"LIVIVO (ZB MED)", de:1, d:"Größtes deutschsprachiges Suchportal der Lebenswissenschaften — Begriff nach Öffnen eingeben.", t:"portal", u:"https://www.livivo.de/"},
   {c:"deutsch", n:"German Medical Science (GMS)", de:1, d:"Open-Access-Portal deutscher medizinischer Fachgesellschaften (AWMF/ZB MED).", t:"portal", u:"https://www.egms.de/"},
-  {c:"deutsch", n:"Nationale VersorgungsLeitlinien", de:1, d:"Die Leitlinien fuer die haeufigsten chronischen Erkrankungen - Diabetes, KHK, COPD, Herzinsuffizienz, Kreuzschmerz.", t:"live", u:"https://www.leitlinien.de/@@search?SearchableText=%s"},
-  {c:"deutsch", n:"Gemeinsamer Bundesausschuss (G-BA)", de:1, d:"Beschluesse zu Disease-Management-Programmen, Frueherkennung und Leistungsanspruch.", t:"live", u:"https://www.g-ba.de/sys/suche/?suchbegriff=%s"},
-  {c:"deutsch", n:"Robert Koch-Institut (RKI)", de:1, d:"Bevoelkerungsbezogene Gesundheitsdaten: DEGS, GEDA und die Berichterstattung zu chronischen Krankheiten.", t:"live", u:"https://www.rki.de/SiteGlobals/Forms/Suche/Expertensuche/Servicesuche_Formular.html?templateQueryString=%s"},
+  {c:"deutsch", n:"Nationale VersorgungsLeitlinien", de:1, d:"Die Leitlinien für die häufigsten chronischen Erkrankungen - Diabetes, KHK, COPD, Herzinsuffizienz, Kreuzschmerz.", t:"live", u:"https://www.leitlinien.de/@@search?SearchableText=%s"},
+  {c:"deutsch", n:"Gemeinsamer Bundesausschuss (G-BA)", de:1, d:"Beschlüsse zu Disease-Management-Programmen, Früherkennung und Leistungsanspruch.", t:"live", u:"https://www.g-ba.de/sys/suche/?suchbegriff=%s"},
+  {c:"deutsch", n:"Robert Koch-Institut (RKI)", de:1, d:"Bevölkerungsbezogene Gesundheitsdaten: DEGS, GEDA und die Berichterstattung zu chronischen Krankheiten.", t:"live", u:"https://www.rki.de/SiteGlobals/Forms/Suche/Expertensuche/Servicesuche_Formular.html?templateQueryString=%s"},
   {c:"deutsch", n:"Deutsches Ärzteblatt", de:1, d:"Fachartikel mit deutschen Versorgungsdaten, oft zu Diabetes, Herz-Kreislauf und Krebs.", t:"live", u:"https://www.aerzteblatt.de/search?q=%s"},
-  {c:"deutsch", n:"Bundesgesundheitsministerium", de:1, d:"Gesetze und Verordnungen zu Praevention, DMP und Versorgungsstrukturen.", t:"live", u:"https://www.bundesgesundheitsministerium.de/suche.html?tx_solr%5Bq%5D=%s"},
+  {c:"deutsch", n:"Bundesgesundheitsministerium", de:1, d:"Gesetze und Verordnungen zu Prävention, DMP und Versorgungsstrukturen.", t:"live", u:"https://www.bundesgesundheitsministerium.de/suche.html?tx_solr%5Bq%5D=%s"},
   {c:"deutsch", n:"IQWiG", de:1, d:"Nutzenbewertungen und die Berichte zu den Disease-Management-Programmen.", t:"portal", u:"https://www.iqwig.de/"},
-  {c:"deutsch", n:"Kassenärztliche Bundesvereinigung (KBV)", de:1, d:"Vertraege, Abrechnung und Praxisinformationen zur ambulanten Chronikerversorgung.", t:"portal", u:"https://www.kbv.de/"},
-  {c:"deutsch", n:"Deutsche Diabetes Gesellschaft", de:1, d:"Fachgesellschaft mit Leitlinien und dem jaehrlichen Gesundheitsbericht Diabetes.", t:"portal", u:"https://www.ddg.info/"},
+  {c:"deutsch", n:"Kassenärztliche Bundesvereinigung (KBV)", de:1, d:"Verträge, Abrechnung und Praxisinformationen zur ambulanten Chronikerversorgung.", t:"portal", u:"https://www.kbv.de/"},
+  {c:"deutsch", n:"Deutsche Diabetes Gesellschaft", de:1, d:"Fachgesellschaft mit Leitlinien und dem jährlichen Gesundheitsbericht Diabetes.", t:"portal", u:"https://www.ddg.info/"},
   {c:"deutsch", n:"Deutsche Gesellschaft für Kardiologie", de:1, d:"Kardiologische Leitlinien und Positionspapiere, dazu der Deutsche Herzbericht.", t:"live", u:"https://dgk.org/?s=%s"},
   {c:"deutsch", n:"Deutsche Krebsgesellschaft", de:1, d:"Zertifizierung von Krebszentren, Leitlinien und Versorgungsdaten der Onkologie.", t:"portal", u:"https://www.krebsgesellschaft.de/"},
-  {c:"deutsch", n:"Leitlinienprogramm Onkologie", de:1, d:"S3-Leitlinien und Patientenleitlinien fuer alle haeufigen Krebsarten.", t:"portal", u:"https://www.leitlinienprogramm-onkologie.de/"},
+  {c:"deutsch", n:"Leitlinienprogramm Onkologie", de:1, d:"S3-Leitlinien und Patientenleitlinien für alle häufigen Krebsarten.", t:"portal", u:"https://www.leitlinienprogramm-onkologie.de/"},
   {c:"deutsch", n:"Deutsche Adipositas-Gesellschaft", de:1, d:"Leitlinien und Stellungnahmen zu Adipositas als chronischer Erkrankung.", t:"live", u:"https://adipositas-gesellschaft.de/?s=%s"},
-  {c:"deutsch", n:"Deutsche Gesellschaft für Pneumologie", de:1, d:"Fachgesellschaft fuer COPD, Asthma und die uebrigen chronischen Atemwegserkrankungen.", t:"portal", u:"https://pneumologie.de/"},
-  {c:"deutsch", n:"Deutsche Alzheimer Gesellschaft", de:1, d:"Zahlen, Praxiswissen und Angehoerigenperspektive zu Demenzerkrankungen.", t:"portal", u:"https://www.deutsche-alzheimer.de/"},
-  {c:"deutsch", n:"Deutsche Schmerzgesellschaft", de:1, d:"Chronischer Schmerz als eigenstaendige Erkrankung - Leitlinien und Versorgungsstrukturen.", t:"portal", u:"https://www.schmerzgesellschaft.de/"},
-  {c:"deutsch", n:"Deutsche Rentenversicherung — Reha", de:1, d:"Rehabilitation und Erwerbsminderung: die zweite Saeule der Chronikerversorgung.", t:"portal", u:"https://www.deutsche-rentenversicherung.de/"},
+  {c:"deutsch", n:"Deutsche Gesellschaft für Pneumologie", de:1, d:"Fachgesellschaft für COPD, Asthma und die übrigen chronischen Atemwegserkrankungen.", t:"portal", u:"https://pneumologie.de/"},
+  {c:"deutsch", n:"Deutsche Alzheimer Gesellschaft", de:1, d:"Zahlen, Praxiswissen und Angehörigenperspektive zu Demenzerkrankungen.", t:"portal", u:"https://www.deutsche-alzheimer.de/"},
+  {c:"deutsch", n:"Deutsche Schmerzgesellschaft", de:1, d:"Chronischer Schmerz als eigenständige Erkrankung - Leitlinien und Versorgungsstrukturen.", t:"portal", u:"https://www.schmerzgesellschaft.de/"},
+  {c:"deutsch", n:"Deutsche Rentenversicherung — Reha", de:1, d:"Rehabilitation und Erwerbsminderung: die zweite Säule der Chronikerversorgung.", t:"portal", u:"https://www.deutsche-rentenversicherung.de/"},
   {c:"deutsch", n:"AWMF Leitlinienregister", de:1, d:"Alle Leitlinien der deutschen Fachgesellschaften an einer Stelle.", t:"portal", u:"https://register.awmf.org/de/leitlinien/aktuelle-leitlinien"},
 
   // 02 — Bibliografische Datenbanken (international)
@@ -974,8 +974,8 @@ const DB = [
   {c:"biblio", n:"Scopus", d:"Große Abstract- & Zitationsdatenbank (Elsevier).", t:"lic", u:"https://www.scopus.com/"},
   {c:"biblio", n:"CINAHL", d:"Pflege & Gesundheitsfachberufe (EBSCO).", t:"lic", u:"https://www.ebsco.com/products/research-databases/cinahl-database"},
   {c:"biblio", n:"APA PsycInfo", d:"Psychologie, psychische Gesundheit & Verhaltenswissenschaften.", t:"lic", u:"https://www.apa.org/pubs/databases/psycinfo"},
-  {c:"biblio", n:"The Lancet Diabetes & Endocrinology", d:"Fuehrende Zeitschrift fuer Diabetes und Stoffwechsel.", t:"portal", u:"https://www.thelancet.com/journals/landia/home"},
-  {c:"biblio", n:"Preventing Chronic Disease (CDC)", d:"Frei zugaengliche Zeitschrift zu Praevention und Versorgung chronischer Krankheiten.", t:"portal", u:"https://www.cdc.gov/pcd/"},
+  {c:"biblio", n:"The Lancet Diabetes & Endocrinology", d:"Führende Zeitschrift für Diabetes und Stoffwechsel.", t:"portal", u:"https://www.thelancet.com/journals/landia/home"},
+  {c:"biblio", n:"Preventing Chronic Disease (CDC)", d:"Frei zugängliche Zeitschrift zu Prävention und Versorgung chronischer Krankheiten.", t:"portal", u:"https://www.cdc.gov/pcd/"},
   {c:"biblio", n:"Journal of Multimorbidity and Comorbidity", d:"Die einzige Zeitschrift, die Mehrfacherkrankung zum Gegenstand hat.", t:"portal", u:"https://journals.sagepub.com/home/cob"},
   {c:"biblio", n:"BMJ Open Diabetes Research & Care", d:"Open-Access-Zeitschrift mit vielen Versorgungsstudien zu Diabetes.", t:"portal", u:"https://drc.bmj.com/"},
 
@@ -985,44 +985,44 @@ const DB = [
   {c:"evidenz", n:"Trip Database", d:"Klinische Suchmaschine für evidenzbasierte Antworten & Leitlinien.", t:"live", u:"https://www.tripdatabase.com/search?criteria=%s"},
   {c:"evidenz", n:"PROSPERO", d:"Internationales Register geplanter systematischer Reviews (CRD, York).", t:"portal", u:"https://www.crd.york.ac.uk/prospero/"},
   {c:"evidenz", n:"JBI EBP Database", d:"Evidenzsynthesen des Joanna Briggs Institute.", t:"portal", u:"https://jbi.global/ebp"},
-  {c:"evidenz", n:"Cochrane — Metabolic & Endocrine Disorders", d:"Die Cochrane-Gruppe fuer Diabetes und Stoffwechselerkrankungen.", t:"portal", u:"https://meten.cochrane.org/"},
-  {c:"evidenz", n:"Campbell Collaboration", d:"Systematische Uebersichten zu sozialen und verhaltensbezogenen Massnahmen.", t:"portal", u:"https://www.campbellcollaboration.org/"},
+  {c:"evidenz", n:"Cochrane — Metabolic & Endocrine Disorders", d:"Die Cochrane-Gruppe für Diabetes und Stoffwechselerkrankungen.", t:"portal", u:"https://meten.cochrane.org/"},
+  {c:"evidenz", n:"Campbell Collaboration", d:"Systematische Übersichten zu sozialen und verhaltensbezogenen Maßnahmen.", t:"portal", u:"https://www.campbellcollaboration.org/"},
 
   // 04 — Krankheitsdaten & Register
-  {c:"krankheitsdaten", n:"Gesundheitsberichterstattung des Bundes", de:1, d:"Amtliche Indikatoren zu Praevalenz, Sterblichkeit und Versorgung in Deutschland.", t:"portal", u:"https://www.gbe-bund.de/"},
-  {c:"krankheitsdaten", n:"RKI — Diabetes-Surveillance", de:1, d:"Laufende Beobachtung der Diabeteslage: Praevalenz, Folgeerkrankungen, Versorgung.", t:"portal", u:"https://diabsurv.rki.de/"},
-  {c:"krankheitsdaten", n:"Zentrum für Krebsregisterdaten", de:1, d:"Bundesweite Krebsregisterdaten - Inzidenz, Ueberleben, Frueherkennung.", t:"portal", u:"https://www.krebsdaten.de/"},
-  {c:"krankheitsdaten", n:"Gesundheitsatlas Deutschland (WIdO)", de:1, d:"Regionale Krankheitshaeufigkeit aus Routinedaten, bis auf Kreisebene.", t:"portal", u:"https://www.gesundheitsatlas-deutschland.de/"},
+  {c:"krankheitsdaten", n:"Gesundheitsberichterstattung des Bundes", de:1, d:"Amtliche Indikatoren zu Prävalenz, Sterblichkeit und Versorgung in Deutschland.", t:"portal", u:"https://www.gbe-bund.de/"},
+  {c:"krankheitsdaten", n:"RKI — Diabetes-Surveillance", de:1, d:"Laufende Beobachtung der Diabeteslage: Prävalenz, Folgeerkrankungen, Versorgung.", t:"portal", u:"https://diabsurv.rki.de/"},
+  {c:"krankheitsdaten", n:"Zentrum für Krebsregisterdaten", de:1, d:"Bundesweite Krebsregisterdaten - Inzidenz, Überleben, Früherkennung.", t:"portal", u:"https://www.krebsdaten.de/"},
+  {c:"krankheitsdaten", n:"Gesundheitsatlas Deutschland (WIdO)", de:1, d:"Regionale Krankheitshäufigkeit aus Routinedaten, bis auf Kreisebene.", t:"portal", u:"https://www.gesundheitsatlas-deutschland.de/"},
   {c:"krankheitsdaten", n:"Statistisches Bundesamt (Destatis)", de:1, d:"Todesursachen, Krankenhausdiagnosen und Gesundheitsausgaben.", t:"live", u:"https://www.destatis.de/SiteGlobals/Forms/Suche/Servicesuche_Formular.html?templateQueryString=%s"},
-  {c:"krankheitsdaten", n:"Eurostat — Gesundheit", d:"Europaeische Gesundheitsstatistik samt der Befragung zu chronischen Beschwerden.", t:"live", u:"https://ec.europa.eu/eurostat/search?p_auth=&text=%s"},
-  {c:"krankheitsdaten", n:"Global Burden of Disease (IHME)", d:"Krankheitslast weltweit, nach Land, Alter und Risikofaktor aufgeschluesselt.", t:"portal", u:"https://vizhub.healthdata.org/gbd-compare/"},
-  {c:"krankheitsdaten", n:"NCD Risk Factor Collaboration", d:"Weltweite Zeitreihen zu Blutdruck, Blutzucker, Cholesterin und Koerpergewicht.", t:"portal", u:"https://ncdrisc.org/"},
-  {c:"krankheitsdaten", n:"WHO — NCD-Laenderprofile", d:"Kennzahlen und Fortschritt je Mitgliedstaat gegenueber den NCD-Zielen.", t:"portal", u:"https://www.who.int/teams/noncommunicable-diseases/surveillance/data"},
-  {c:"krankheitsdaten", n:"IDF Diabetes Atlas", d:"Der internationale Bezugswert fuer Diabetespraevalenz und -kosten.", t:"portal", u:"https://diabetesatlas.org/"},
+  {c:"krankheitsdaten", n:"Eurostat — Gesundheit", d:"Europäische Gesundheitsstatistik samt der Befragung zu chronischen Beschwerden.", t:"live", u:"https://ec.europa.eu/eurostat/search?p_auth=&text=%s"},
+  {c:"krankheitsdaten", n:"Global Burden of Disease (IHME)", d:"Krankheitslast weltweit, nach Land, Alter und Risikofaktor aufgeschlüsselt.", t:"portal", u:"https://vizhub.healthdata.org/gbd-compare/"},
+  {c:"krankheitsdaten", n:"NCD Risk Factor Collaboration", d:"Weltweite Zeitreihen zu Blutdruck, Blutzucker, Cholesterin und Körpergewicht.", t:"portal", u:"https://ncdrisc.org/"},
+  {c:"krankheitsdaten", n:"WHO — NCD-Länderprofile", d:"Kennzahlen und Fortschritt je Mitgliedstaat gegenüber den NCD-Zielen.", t:"portal", u:"https://www.who.int/teams/noncommunicable-diseases/surveillance/data"},
+  {c:"krankheitsdaten", n:"IDF Diabetes Atlas", d:"Der internationale Bezugswert für Diabetesprävalenz und -kosten.", t:"portal", u:"https://diabetesatlas.org/"},
   {c:"krankheitsdaten", n:"Global Obesity Observatory", d:"Adipositasdaten nach Land, Alter und Zeitverlauf.", t:"portal", u:"https://data.worldobesity.org/"},
-  {c:"krankheitsdaten", n:"Global Cancer Observatory", d:"Krebsinzidenz und -mortalitaet weltweit (GLOBOCAN).", t:"portal", u:"https://gco.iarc.fr/"},
+  {c:"krankheitsdaten", n:"Global Cancer Observatory", d:"Krebsinzidenz und -mortalität weltweit (GLOBOCAN).", t:"portal", u:"https://gco.iarc.fr/"},
   {c:"krankheitsdaten", n:"Our World in Data", d:"Aufbereitete, gut zitierbare Zeitreihen zu Krankheitslast und Risikofaktoren.", t:"portal", u:"https://ourworldindata.org/"},
-  {c:"krankheitsdaten", n:"OECD — Health at a Glance", d:"Laendervergleich zu Versorgungsqualitaet, Ausgaben und Ergebnissen.", t:"portal", u:"https://www.oecd.org/health/health-at-a-glance.htm"},
+  {c:"krankheitsdaten", n:"OECD — Health at a Glance", d:"Ländervergleich zu Versorgungsqualität, Ausgaben und Ergebnissen.", t:"portal", u:"https://www.oecd.org/health/health-at-a-glance.htm"},
 
   // 05 — Leitlinien & Programme
   {c:"leitlinien", n:"NICE — Guidance", d:"Britische Leitlinien mit ausgewiesener Kosten-Nutzen-Bewertung - methodisch vorbildlich.", t:"live", u:"https://www.nice.org.uk/search?q=%s"},
   {c:"leitlinien", n:"SIGN (Schottland)", d:"Schottische Leitlinien, knapp gefasst und gut zum Vergleich.", t:"portal", u:"https://www.sign.ac.uk/"},
   {c:"leitlinien", n:"Guidelines International Network", d:"Internationale Leitliniendatenbank zum Vergleich nationaler Empfehlungen.", t:"portal", u:"https://guidelines.ebmportal.com/"},
-  {c:"leitlinien", n:"ICHOM — Standard Sets", d:"Vereinbarte Ergebnismessgroessen je Krankheitsbild - die Grundlage von Vergleichen.", t:"portal", u:"https://connect.ichom.org/patient-centered-outcome-measures/"},
-  {c:"leitlinien", n:"NHS England", d:"Programme zu Long Term Conditions, einschliesslich der Qualitaetsvergueting QOF.", t:"portal", u:"https://www.england.nhs.uk/"},
+  {c:"leitlinien", n:"ICHOM — Standard Sets", d:"Vereinbarte Ergebnismessgrößen je Krankheitsbild - die Grundlage von Vergleichen.", t:"portal", u:"https://connect.ichom.org/patient-centered-outcome-measures/"},
+  {c:"leitlinien", n:"NHS England", d:"Programme zu Long Term Conditions, einschließlich der Qualitätsvergütung QOF.", t:"portal", u:"https://www.england.nhs.uk/"},
 
   // 06 — Institutionen & Gesundheitspolitik (international)
   {c:"policy", n:"WHO IRIS", d:"Institutionelles Repositorium der WHO — Volltexte aller Berichte und Leitlinien.", t:"live", u:"https://iris.who.int/discover?query=%s"},
 
   // 07 — Risikofaktoren & Prävention
-  {c:"risiko", n:"USPSTF — Preventive Services Task Force", d:"Systematisch begruendete Empfehlungen zu Frueherkennung und Praevention.", t:"live", u:"https://www.uspreventiveservicestaskforce.org/uspstf/search_results?searchterm=%s"},
-  {c:"risiko", n:"The Community Guide (CDC)", d:"Evidenzbasierte Empfehlungen fuer bevoelkerungsbezogene Praevention.", t:"portal", u:"https://www.thecommunityguide.org/"},
+  {c:"risiko", n:"USPSTF — Preventive Services Task Force", d:"Systematisch begründete Empfehlungen zu Früherkennung und Prävention.", t:"live", u:"https://www.uspreventiveservicestaskforce.org/uspstf/search_results?searchterm=%s"},
+  {c:"risiko", n:"The Community Guide (CDC)", d:"Evidenzbasierte Empfehlungen für bevölkerungsbezogene Prävention.", t:"portal", u:"https://www.thecommunityguide.org/"},
   {c:"risiko", n:"CDC — Chronic Disease", d:"US-Programme und Indikatoren zu chronischen Krankheiten.", t:"portal", u:"https://www.cdc.gov/chronic-disease/"},
   {c:"risiko", n:"WHO — Noncommunicable Diseases", d:"Globale Strategie, Zielvorgaben und Berichte der WHO zu NCDs.", t:"live", u:"https://www.who.int/home/search?indexCatalogue=genericsearchindex1&searchQuery=%s"},
-  {c:"risiko", n:"NCD Alliance", d:"Zivilgesellschaftliches Buendnis; gute Uebersichten zu Politik und Versorgungsluecken.", t:"live", u:"https://ncdalliance.org/?s=%s"},
-  {c:"risiko", n:"Bundeszentrale für gesundheitliche Aufklärung", de:1, d:"Aufklaerung und Kampagnen zu Bewegung, Ernaehrung, Tabak und Alkohol.", t:"live", u:"https://www.bzga.de/suche/?tx_solr%5Bq%5D=%s"},
-  {c:"risiko", n:"Health Evidence (McMaster)", d:"Bewertete Uebersichtsarbeiten zur Wirksamkeit bevoelkerungsbezogener Praevention.", t:"portal", u:"https://www.healthevidence.org/"},
-  {c:"risiko", n:"EPPI-Centre", d:"Systematische Uebersichten zu Public Health und Gesundheitsfoerderung.", t:"live", u:"https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=53&searchtext=%s"},
+  {c:"risiko", n:"NCD Alliance", d:"Zivilgesellschaftliches Bündnis; gute Übersichten zu Politik und Versorgungslücken.", t:"live", u:"https://ncdalliance.org/?s=%s"},
+  {c:"risiko", n:"Bundeszentrale für gesundheitliche Aufklärung", de:1, d:"Aufklärung und Kampagnen zu Bewegung, Ernährung, Tabak und Alkohol.", t:"live", u:"https://www.bzga.de/suche/?tx_solr%5Bq%5D=%s"},
+  {c:"risiko", n:"Health Evidence (McMaster)", d:"Bewertete Übersichtsarbeiten zur Wirksamkeit bevölkerungsbezogener Prävention.", t:"portal", u:"https://www.healthevidence.org/"},
+  {c:"risiko", n:"EPPI-Centre", d:"Systematische Übersichten zu Public Health und Gesundheitsförderung.", t:"live", u:"https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=53&searchtext=%s"},
 
   // 08 — Open Access & Discovery
   {c:"openaccess", n:"Google Scholar", d:"Breite Suchmaschine für wissenschaftliche Literatur inkl. grauer Literatur & Zitationen.", t:"live", u:"https://scholar.google.com/scholar?q=%s", b:1},
@@ -1798,15 +1798,27 @@ goBtn.disabled = !input.value.trim();
   try {
     if (navigator.doNotTrack === '1' || window.doNotTrack === '1'
         || navigator.globalPrivacyControl === true) return;
+    // Automatische Umgebungen melden sich selbst: navigator.webdriver setzen
+    // Headless Chrome und Selenium von sich aus. Zuverlaessiger als jede
+    // Liste von Browserkennungen, weil es nicht geraten, sondern gemeldet wird.
+    if (navigator.webdriver) return;
+    if (!screen.width || !screen.height) return;   // kein echter Bildschirm
     if (!/\.m-vf\.de$/.test(location.hostname)) return;   // lokal nicht zaehlen
     var r = '';
     try { r = document.referrer ? new URL(document.referrer).hostname : ''; }
     catch (e) { r = ''; }
     if (r === location.hostname) r = '';
+    // Bildschirmbreite nur in Stufen. Die genaue Aufloesung waere eines der
+    // staerksten Merkmale zum Wiedererkennen eines Browsers; fuer die Frage,
+    // fuer welche Breite zu gestalten ist, genuegt die Schublade.
+    var w = screen.width;
+    var stufe = w < 480 ? 'bis480' : w < 768 ? 'bis768' : w < 1024 ? 'bis1024'
+              : w < 1440 ? 'bis1440' : w < 1920 ? 'bis1920' : 'ueber1920';
     var q = 'h=' + encodeURIComponent(location.hostname)
           + '&p=' + encodeURIComponent(location.pathname)
           + '&r=' + encodeURIComponent(r ? 'https://' + r + '/' : '')
           + '&g=' + (Math.min(screen.width, screen.height) < 768 ? 'm' : 'd')
+          + '&b=' + stufe
           + '&c=' + Date.now();
     new Image(1, 1).src =
       'https://www.monitor-versorgungsforschung.de/zaehler/z.php?' + q;
