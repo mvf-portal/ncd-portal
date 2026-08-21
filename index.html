@@ -1053,62 +1053,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "20. Aug. 2026, 07:18 Uhr";
+const SNAP_DATE = "21. Aug. 2026, 07:20 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
+  {
+    journal:"Lancet Psychiatry", year:"2026", pmid:"42586082",
+    author:"Halstead S et al.", pubdate:"Sept. 2026",
+    added:"12.08.2026",
+    title:"Psychische Erkrankungen mit 1,85- bis 3,16-fach erhöhtem Risiko für systemische Mehrfacherkrankung bei jungen Frauen",
+    sum:"Kohortenstudie mit 30.189 Patienten mit Schizophrenie-Spektrum/bipolaren Störungen und 148.476 Kontrollen (Queensland, Australien, 2000–2023) zu Inzidenz und absoluten Unterschieden in systemischer Mehrfacherkrankung (Multiple Systeme betroffen).",
+    result:"Relative Inzidenz der Mehrfacherkrankung signifikant erhöht: mindestens ein System HR=1,85 (95%-KI 1,81–1,88), fünf Systeme HR=3,16 (95%-KI 3,01–3,30). Bei 20 Jahren absolute Cumulative-Incidence-Unterschiede: 9,79 zusätzliche Fälle pro 100 Personen (≥1 System), höchste Effekte bei Frauen &lt;25 Jahren (HR=9,24 für ≥5 Systeme; 95%-KI 7,30–11,71).",
+    transfer:"Australien (vergleichbar mit Mittelsystemländern), großes Register, aber klinisches Risikoprofil generell übertragbar"
+  },
+  {
+    journal:"PLoS Med", year:"2026", pmid:"42623335",
+    author:"Johnson E et al.", pubdate:"20.08.2026",
+    added:"20.08.2026",
+    title:"Digitales Multikomponent-Programm reduziert Angst und Depression bei Mehrfacherkrankung um 2,6–2,9 Punkte auf HADS",
+    sum:"Dreiarmige randomisierte Studie (825 Patienten über 13 Länder, online durchgeführt 2023–2024) zu Effekt eines digitalen Programms mit oder ohne menschliche Unterstützung versus Warteliste bei Angst und Depression bei chronischen Erkrankungen.",
+    result:"Primärer Vergleich (eMPower + Human Support vs. Kontrolle): HADS-Gesamtscore verbesserte sich um 2,9 Punkte (95%-KI 2,0–3,8; p&lt;0,001). Self-directed eMPower zeigte ähnliche Verbesserung (2,6 Punkte; 95%-KI 1,8–3,5; p&lt;0,001); kein signifikanter Unterschied zwischen Interventionen. Verbesserungen auch bei Müdigkeit (MFIS) und Lebensqualität (SF-12, EQ-5D-5L). Keine unerwünschten Ereignisse berichtet.",
+    transfer:"Internetbasiert, international, aber auf Mehrfacherkrankung generell bezogen, gute Übertragbarkeit"
+  },
   {
     journal:"BMJ Open", year:"2026", pmid:"42601104",
     author:"Doheny M et al.", pubdate:"14.08.2026",
     added:"14.08.2026",
-    title:"Mehrfacherkrankung senkt Heilungsergebnisse für ältere Menschen in der Stockholmer Region ab – eine bevölkerungsbezogene Studie sozioökonomischer Unterschiede und Ausgabenlast",
-    sum:"Analyse der Mehrfacherkrankung, Ausgaben für Gesundheit und Soziales sowie sozioökonomische Unterschiede bei über 65-Jährigen in Stockholm.",
-    result:"62,6% der über 65-Jährigen hatten Mehrfacherkrankung; durchschnittliche Gesamtausgaben stiegen von 34.346 SEK (keine Erkrankung) auf 143.063 SEK (≥4 Erkrankungen); Mehrfacherkrankung war unabhängig mit 11,6% höheren Gesamtausgaben assoziiert; niedrigere Einkommensgruppen zeigten 3,8% höhere Ausgaben als höchste Einkommensgruppe.",
-    transfer:"Schweden, vergleichbares Versicherungssystem und Sozialwesen."
-  },
-  {
-    journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"42609821",
-    author:"Narendra DK et al.", pubdate:"13.08.2026",
-    added:"18.08.2026",
-    title:"COPD mit Typ-2-Entzündung und Exazerbationen trotz Dreifachtherapie – 3-fach höhere Kosten und Hospitalisierungsrate",
-    sum:"Retrospektive Analyse der Optum-Datenbank (über 28 Millionen Versicherte, USA) zu Exazerbationen und Versorgungslast bei COPD-Patienten mit Typ-2-Entzündung (erhöhte Eosinophile) und Exazerbationshistorie trotz Dreifachtherapie.",
-    result:"Bei 13.840 Patienten (6.389 mit Exazerbationen und Eosinophile ≥150 Zellen/μL): durchschnittlich 1,58 COPD-Exazerbationen/Jahr vs. 0,52 in der Kontrollgruppe; um ~6.700 USD höhere jährliche Kosten; höhere Notaufnahme- und Hospitalisierungsraten trotz optimierter medikamentöser Therapie. Ungedeckter Versorgungsbedarf.",
-    transfer:"USA-Daten; Effektivitätsbefund (Exazerbationslast trotz optimaler medikamentöser Versorgung) übertragbar auf Deutschland."
+    title:"Mehrfacherkrankung bei älteren Menschen in Stockholm: Sozialer Gradient kostet 11,6 % zusätzlich pro Krankheit",
+    sum:"Registerstudie mit 371.583 älteren Personen ≥65 Jahren aus Stockholm 2019 zur Prävalenz von Mehrfacherkrankung und deren Zusammenhang mit Gesundheits- und Sozialausgaben.",
+    result:"Mehrfacherkrankung lag bei 62,6 % vor und stieg mit dem Alter; sie war mit 11,6 % höheren Gesamtausgaben pro zusätzliche Erkrankung assoziiert (KI 1,114–1,118). Ausgaben waren auch in niedrigeren Einkommensgruppen erhöht, was auf soziale Ungleichheit hindeutet.",
+    transfer:"Schwedische Registerdata, Sozialversicherungssystem vergleichbar mit Deutschland"
   },
   {
     journal:"Scand J Prim Health Care", year:"2026", pmid:"42583708",
     author:"Bring H et al.", pubdate:"12.08.2026",
     added:"12.08.2026",
-    title:"Palliative Versorgung in der Hausarztpraxis verzögert – Haupttreiber für vermeidbare Notaufnahmebesuche bei älteren Menschen mit Mehrfacherkrankungen",
-    sum:"Qualitative Befragung von Ärzten und Pflegekräften über Ursachen vermeidbarer Notaufnahmevisiten bei älteren Patienten mit Mehrfacherkrankungen und Palliativbedarf in Stockholm.",
-    result:"Kernthema: 'Verzögerte, fragmentierte palliative Versorgung in der Hausarztpraxis trägt zu Notaufnahmebesuchen bei'. Zwei Hauptkategorien identifiziert: (1) Mangelhafter palliative Entscheidungsfindung (Erkennung und Initiation; Einbindung von Patienten); (2) Defizite in häuslicher Versorgungsplanung und Symptommanagement sowie unzureichende Informationsweitergabe von Patientenpräferenzen.",
-    transfer:"Schweden, vergleichbare Primärversorgungsstrukturen und Koordination."
+    title:"Verzögerte Palliativversorgung in der Primärversorgung treibt vermeidbare Notaufnahmen bei älteren multimorbiden Patienten",
+    sum:"Qualitative Studie mit 100 Fachpersonen (Ärzte, Pflegekräfte) aus sechs Versorgungsbereichen in Stockholm zur Frage, was vermeidbare Notaufnahmen bei älteren multimorbiden Patienten verursacht.",
+    result:"Zentrale Befunde: Späte Erkennung von Palliativbedarfen und Mangel an proaktiver Symptomkontrolle sowie unzureichende Einbeziehung von Patienten und Familien in geteilte Entscheidungsfindung führten zu krisengesteuerten Notaufnahmen, die häufig den Wünschen der Patienten (zuhause sterben) zuwiderliefen.",
+    transfer:"Schweden, vergleichbare Primärversorgungsstruktur mit Deutschland"
   },
   {
     journal:"Health Care Manag Sci", year:"2026", pmid:"42566017",
     author:"Wood RM et al.", pubdate:"07.08.2026",
     added:"07.08.2026",
-    title:"Cluster-Analyse identifiziert sechs Subtypen hochgradig multimorbider Patienten für gezielte Interventionen im englischen Gesundheitssystem",
-    sum:"Clusteranalyse von 19.520 Hochmorbidität-Patienten (top 3% von 1 Million Versicherten, &gt;1/5 der Kosten) in Bristol, um heterogene Subgruppen und entsprechende Versorgungsziele zu definieren.",
-    result:"Sechs Cluster identifiziert: Ältere ohne Demenz (n=1.243); Krebs (n=1.055); Jünger/komplex (n=2.199); Atemwege (n=4.743); Kardiovaskulär (n=6.140); Demenz (n=4.579). Jeder Cluster erhielt wertbasierte Versorgungsziele und spezifische klinische Managemententscheidungen. Heterogenität innerhalb der Hochmorbidität erfordert maßgeschneiderte Interventionen.",
-    transfer:"Vereinigtes Königreich, NHS-Struktur, ähnliche Versorgungsmotivation."
+    title:"Clusteranalyse von Hochmultimorbiden identifiziert sechs Zielgruppen für Interventionen mit unterschiedlichem Nutzen",
+    sum:"Clusteranalyse von etwa 18.000 hochmultimorbiden Personen (oberes 3 % des Ausgabenspektrums) einer englischen Gesundheitsregion zur Heterogenität und Identifikation tailorierter Interventionsziele.",
+    result:"Sechs Cluster wurden identifiziert: Ältere ohne Demenz (n=1.243), Krebs (n=1.055), Jüngere Komplexe (n=2.199), Atemwege (n=4.743), Kardiovaskulär (n=6.140), Demenz (n=4.579). Jeder Cluster zeigte unterschiedliche Ausgabenmuster und wurde mit spezifischen klinischen Interventionszielen verknüpft zur Wertoptimierung.",
+    transfer:"NHS-England-Daten, anderes Finanzierungsmodell, aber identifizierbarer Clusteransatz übertragbar"
   },
   {
-    journal:"Prim Health Care Res Dev", year:"2026", pmid:"42559972",
-    author:"Llubes-Arrià L et al.", pubdate:"06.08.2026",
-    added:"06.08.2026",
-    title:"Capability Cards unterstützen personzentrierte Gespräche bei Mehrfacherkrankungen in spanischer Primärversorgung – validiert",
-    sum:"Methodische Validierungsstudie der spanischen Übersetzung und kulturellen Anpassung der Capability Cards als Werkzeug für Patienten mit Mehrfacherkrankung in spanischen Gemeinschaftspraxen.",
-    result:"Hohe inhaltsliche Validität in allen Gruppen (Content Validity Index: Experten 0,88; Fachkräfte 0,96; Zielpopulation 0,98); ausgezeichnete Usability (System Usability Scale). Capability Cards zeigten starke kulturelle Angemessenheit und Eignung für strukturierte, personzentrierte Gespräche zur Förderung von Empowerment und partizipatorischer Versorgung bei Mehrfacherkrankung.",
-    transfer:"Spanien, ambulante Primärversorgung ähnlich Deutschland."
+    journal:"J Eval Clin Pract", year:"2026", pmid:"42623506",
+    author:"Hopwood E et al.", pubdate:"Aug. 2026",
+    added:"20.08.2026",
+    title:"Self-Management-Interventionen zeigen Verbesserung in Verhalten, aber nicht in Lebensqualität bei Mehrfacherkrankung",
+    sum:"Systematische Übersicht von 28 Studien zu Wirksamkeit und Erfahrungen mit Self-Management-Interventionen für Erwachsene mit Mehrfacherkrankung (quantitativ und qualitativ).",
+    result:"Quantitative Evidenz zeigte bescheidene Verbesserungen in spezifischen Self-Management-Verhaltensweisen (gesundheitsorientierte Aktivitäten, Selbstmonitoring), aber wenig bis kein Effekt auf Lebensqualität oder psychologische Outcomes. Qualitative Befunde deuteten auf subjektive Verbesserungen in Lebensqualität und psychischer Gesundheit hin – Diskrepanz unterstreicht Bedarf nach validierten Mehrfacherkrankungs-spezifischen Outcome-Maßen.",
+    transfer:"Internationale Evidenz, vorwiegend europäisch, direkt auf Primärversorgung übertragbar"
   },
   {
     journal:"Front Public Health", year:"2026", pmid:"42535037",
     author:"Aparicio-Rodriguez G et al.", pubdate:"16.07.2026",
     added:"31.07.2026",
-    title:"Polypharmacy konzentriert sich auf sozioökonomisch benachteiligte Ältere mit Mehrfacherkrankungen – Spanische Populationsstudie",
-    sum:"Retrospektive Querschnittsstudie aller Patienten mit Polypharmacy (≥5 ATC4-Medikamentengruppen) in La Rioja, Spanien 2024, mit Analyse der Medikamentenlast und Zusammenhang mit sozioökonomischen Faktoren.",
-    result:"Bei 33.534 Patienten mit Polypharmacy (Durchschnittsalter 73,9 Jahre): mittlere Medikamentenlast 7,07 Gruppen; 71,8% gehörten zur niedrigen Einkommensgruppe; 14,9% der niedrigen Einkommensgruppe erhielten ≥10 ATC4-Gruppen gegenüber 8,0% der höchsten Einkommensgruppe. Polypharmacy ist ein sozial gepattertes Phänomen, nicht nur klinische Komplexität.",
-    transfer:"Spanien, öffentlich finanziertes Gesundheitssystem vergleichbar mit Deutschland."
+    title:"Polypharmazie bei älteren Menschen konzentriert sich auf sozial Benachteiligte: 71,8 % in niedrigstem Einkommensquintil",
+    sum:"Populationsbasierte Querschnittsstudie mit 33.534 Personen mit Polypharmazie (≥5 ATC4-Gruppen) in La Rioja, Spanien 2024, zur Verteilung von Arzneimittelbelastung nach sozioökonomischem Status.",
+    result:"Polypharmakotherapeutische Last (Durchschnitt 7,07 ATC4-Gruppen) konzentrierte sich auf ältere Menschen und solche mit Mehrfacherkrankungen. 71,8 % der Polymedikamentierten gehörten zur niedrigsten Einkommensgruppe; diese Gruppe hatte höchsten Anteil mit ≥10 ATC4-Gruppen (14,9 % vs. 8,0–9,2 % höhere Einkommen), was auf Ungleichheit hindeutet.",
+    transfer:"Spanien (Sozialversicherung vergleichbar mit Deutschland), elektronische Apothekendaten"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===

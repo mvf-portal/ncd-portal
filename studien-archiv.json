@@ -1,5 +1,44 @@
 [
  {
+  "pmid": "42623506",
+  "journal": "J Eval Clin Pract",
+  "year": "2026",
+  "author": "Hopwood E et al.",
+  "pubdate": "Aug. 2026",
+  "added": "20.08.2026",
+  "transfer": "Internationale Evidenz, vorwiegend europäisch, direkt auf Primärversorgung übertragbar",
+  "title": "Self-Management-Interventionen zeigen Verbesserung in Verhalten, aber nicht in Lebensqualität bei Mehrfacherkrankung",
+  "sum": "Systematische Übersicht von 28 Studien zu Wirksamkeit und Erfahrungen mit Self-Management-Interventionen für Erwachsene mit Mehrfacherkrankung (quantitativ und qualitativ).",
+  "result": "Quantitative Evidenz zeigte bescheidene Verbesserungen in spezifischen Self-Management-Verhaltensweisen (gesundheitsorientierte Aktivitäten, Selbstmonitoring), aber wenig bis kein Effekt auf Lebensqualität oder psychologische Outcomes. Qualitative Befunde deuteten auf subjektive Verbesserungen in Lebensqualität und psychischer Gesundheit hin – Diskrepanz unterstreicht Bedarf nach validierten Mehrfacherkrankungs-spezifischen Outcome-Maßen.",
+  "aufgenommen": "2026-08-21"
+ },
+ {
+  "pmid": "42623335",
+  "journal": "PLoS Med",
+  "year": "2026",
+  "author": "Johnson E et al.",
+  "pubdate": "20.08.2026",
+  "added": "20.08.2026",
+  "transfer": "Internetbasiert, international, aber auf Mehrfacherkrankung generell bezogen, gute Übertragbarkeit",
+  "title": "Digitales Multikomponent-Programm reduziert Angst und Depression bei Mehrfacherkrankung um 2,6–2,9 Punkte auf HADS",
+  "sum": "Dreiarmige randomisierte Studie (825 Patienten über 13 Länder, online durchgeführt 2023–2024) zu Effekt eines digitalen Programms mit oder ohne menschliche Unterstützung versus Warteliste bei Angst und Depression bei chronischen Erkrankungen.",
+  "result": "Primärer Vergleich (eMPower + Human Support vs. Kontrolle): HADS-Gesamtscore verbesserte sich um 2,9 Punkte (95%-KI 2,0–3,8; p<0,001). Self-directed eMPower zeigte ähnliche Verbesserung (2,6 Punkte; 95%-KI 1,8–3,5; p<0,001); kein signifikanter Unterschied zwischen Interventionen. Verbesserungen auch bei Müdigkeit (MFIS) und Lebensqualität (SF-12, EQ-5D-5L). Keine unerwünschten Ereignisse berichtet.",
+  "aufgenommen": "2026-08-21"
+ },
+ {
+  "pmid": "42586082",
+  "journal": "Lancet Psychiatry",
+  "year": "2026",
+  "author": "Halstead S et al.",
+  "pubdate": "Sept. 2026",
+  "added": "12.08.2026",
+  "transfer": "Australien (vergleichbar mit Mittelsystemländern), großes Register, aber klinisches Risikoprofil generell übertragbar",
+  "title": "Psychische Erkrankungen mit 1,85- bis 3,16-fach erhöhtem Risiko für systemische Mehrfacherkrankung bei jungen Frauen",
+  "sum": "Kohortenstudie mit 30.189 Patienten mit Schizophrenie-Spektrum/bipolaren Störungen und 148.476 Kontrollen (Queensland, Australien, 2000–2023) zu Inzidenz und absoluten Unterschieden in systemischer Mehrfacherkrankung (Multiple Systeme betroffen).",
+  "result": "Relative Inzidenz der Mehrfacherkrankung signifikant erhöht: mindestens ein System HR=1,85 (95%-KI 1,81–1,88), fünf Systeme HR=3,16 (95%-KI 3,01–3,30). Bei 20 Jahren absolute Cumulative-Incidence-Unterschiede: 9,79 zusätzliche Fälle pro 100 Personen (≥1 System), höchste Effekte bei Frauen <25 Jahren (HR=9,24 für ≥5 Systeme; 95%-KI 7,30–11,71).",
+  "aufgenommen": "2026-08-21"
+ },
+ {
   "pmid": "42609821",
   "journal": "Int J Chron Obstruct Pulmon Dis",
   "year": "2026",
