@@ -1053,71 +1053,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "21. Aug. 2026, 07:20 Uhr";
+const SNAP_DATE = "22. Aug. 2026, 07:04 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
-  {
-    journal:"Lancet Psychiatry", year:"2026", pmid:"42586082",
-    author:"Halstead S et al.", pubdate:"Sept. 2026",
-    added:"12.08.2026",
-    title:"Psychische Erkrankungen mit 1,85- bis 3,16-fach erhöhtem Risiko für systemische Mehrfacherkrankung bei jungen Frauen",
-    sum:"Kohortenstudie mit 30.189 Patienten mit Schizophrenie-Spektrum/bipolaren Störungen und 148.476 Kontrollen (Queensland, Australien, 2000–2023) zu Inzidenz und absoluten Unterschieden in systemischer Mehrfacherkrankung (Multiple Systeme betroffen).",
-    result:"Relative Inzidenz der Mehrfacherkrankung signifikant erhöht: mindestens ein System HR=1,85 (95%-KI 1,81–1,88), fünf Systeme HR=3,16 (95%-KI 3,01–3,30). Bei 20 Jahren absolute Cumulative-Incidence-Unterschiede: 9,79 zusätzliche Fälle pro 100 Personen (≥1 System), höchste Effekte bei Frauen &lt;25 Jahren (HR=9,24 für ≥5 Systeme; 95%-KI 7,30–11,71).",
-    transfer:"Australien (vergleichbar mit Mittelsystemländern), großes Register, aber klinisches Risikoprofil generell übertragbar"
-  },
   {
     journal:"PLoS Med", year:"2026", pmid:"42623335",
     author:"Johnson E et al.", pubdate:"20.08.2026",
     added:"20.08.2026",
-    title:"Digitales Multikomponent-Programm reduziert Angst und Depression bei Mehrfacherkrankung um 2,6–2,9 Punkte auf HADS",
-    sum:"Dreiarmige randomisierte Studie (825 Patienten über 13 Länder, online durchgeführt 2023–2024) zu Effekt eines digitalen Programms mit oder ohne menschliche Unterstützung versus Warteliste bei Angst und Depression bei chronischen Erkrankungen.",
-    result:"Primärer Vergleich (eMPower + Human Support vs. Kontrolle): HADS-Gesamtscore verbesserte sich um 2,9 Punkte (95%-KI 2,0–3,8; p&lt;0,001). Self-directed eMPower zeigte ähnliche Verbesserung (2,6 Punkte; 95%-KI 1,8–3,5; p&lt;0,001); kein signifikanter Unterschied zwischen Interventionen. Verbesserungen auch bei Müdigkeit (MFIS) und Lebensqualität (SF-12, EQ-5D-5L). Keine unerwünschten Ereignisse berichtet.",
-    transfer:"Internetbasiert, international, aber auf Mehrfacherkrankung generell bezogen, gute Übertragbarkeit"
+    title:"Digitale Intervention mit menschlicher Unterstützung senkt Angst und Depressionen bei chronischen Erkrankungen um 2,9 HADS-Punkte",
+    sum:"Dreiarmige randomisierte Studie (n=825, Februar 2023–Dezember 2024) mit Online-Rekrutierung über 13 Länder zur Wirksamkeit einer multikomponenten digitalen Intervention (eMPower) mit oder ohne wöchentliche Telefonanrufe vs. Warteliste auf Angst, Depression und Krankheitslast.",
+    result:"Primäres Ergebnis: eMPower + menschliche Unterstützung verbesserte HADS-Gesamtscore um 2,9 Punkte (95% KI 2,0–3,8, p&lt;0,001) gegenüber Kontrolle; selbstgesteuertes eMPower zeigte vergleichbaren Effekt (2,6 Punkte; p&lt;0,001); beide Arme verbesserten sekundäre Outcomes (MFIS, SF-12, EQ-5D); keine Unterschiede zwischen eMPower-Armen. Digitale Interventionen mit und ohne menschliche Unterstützung reduzieren Angst/Depression und Fatigue bei Mehrfacherkrankung mit vergleichbarer Effektivität.",
+    transfer:"Kanada-basiert, generische Chroniker-Population über multiple Länder, Implementierbarkeit hoch"
+  },
+  {
+    journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"42621973",
+    author:"Rogier J et al.", pubdate:"15.08.2026",
+    added:"20.08.2026",
+    title:"HAQ-DI-basierte Screening identifiziert Hochrisiko-Phänotyp mit funktioneller Behinderung in COPD",
+    sum:"Französische Kohortenstudie (n=117) der funktionalen Behinderung bei COPD-Patienten mittels Health Assessment Questionnaire – Disability Index (HAQ-DI) in Relation zu Krankheitsschwere und Krankheitslast.",
+    result:"Patienten mit COPD GOLD 3–4 zeigten höhere HAQ-DI-Werte als GOLD 1–2 (0,50 vs. 0,25, p=0,015); 20 Patienten (17,1%) erfüllten Kriterien für \"Hochfunktionelle Behinderung\" (HAQ-DI ≥1) mit ungünstigeren Prognose-Markern; HAQ-DI korrelierte mit Exazerbationen, Dyspnoe und Krankheitslast (alle p&lt;0,001). HAQ-DI ist ein praktisches Screening-Instrument zur Identifizierung von Patienten mit hohem funktionellem Risiko, die von Rehabilitations- und psychologischem Support profitieren könnten.",
+    transfer:"Frankreich, vergleichbare Dokumentation von Komorbiditäten und Funktionalität"
   },
   {
     journal:"BMJ Open", year:"2026", pmid:"42601104",
     author:"Doheny M et al.", pubdate:"14.08.2026",
     added:"14.08.2026",
-    title:"Mehrfacherkrankung bei älteren Menschen in Stockholm: Sozialer Gradient kostet 11,6 % zusätzlich pro Krankheit",
-    sum:"Registerstudie mit 371.583 älteren Personen ≥65 Jahren aus Stockholm 2019 zur Prävalenz von Mehrfacherkrankung und deren Zusammenhang mit Gesundheits- und Sozialausgaben.",
-    result:"Mehrfacherkrankung lag bei 62,6 % vor und stieg mit dem Alter; sie war mit 11,6 % höheren Gesamtausgaben pro zusätzliche Erkrankung assoziiert (KI 1,114–1,118). Ausgaben waren auch in niedrigeren Einkommensgruppen erhöht, was auf soziale Ungleichheit hindeutet.",
-    transfer:"Schwedische Registerdata, Sozialversicherungssystem vergleichbar mit Deutschland"
+    title:"Mehrfacherkrankung und Kosten: Untergruppenanalyse zeigt sozioökonomische Disparitäten bei älteren Patienten in Stockholm",
+    sum:"Schwedische populationsbasierte Querschnittsuntersuchung (n=371.583, ≥65 Jahre) in Stockholm zur Prävalenz von Mehrfacherkrankung, Inanspruchnahme von Gesundheits- und Sozialleistungen und Kostentreibern nach Einkommensgruppen.",
+    result:"Mehrfacherkrankungs-Prävalenz: 62,6% (davon ≥4 Erkrankungen 26,4%); durchschnittliche Jahresausgaben stiegen von 34.346 SEK (keine Erkrankung) auf 143.063 SEK (≥4 Erkrankungen); Mehrfacherkrankung assoziiert mit 11,6% höheren Gesamtkosten (CR 1,116); Patienten im untersten Einkommensquintil hatten 3,8% höhere Kosten als im höchsten; ab Alter 80 Jahre überstiegen Sozialausgaben Gesundheitsausgaben. Mehrfacherkrankung ist Treiber von Kostensteigerung mit deutlichem Gefälle nach Einkommen.",
+    transfer:"Schweden, sozialversicherungsbasierte Kostenerfassung vergleichbar mit Deutschland"
+  },
+  {
+    journal:"BMJ Open", year:"2026", pmid:"42595358",
+    author:"van der Linden IA et al.", pubdate:"13.08.2026",
+    added:"13.08.2026",
+    title:"SMART-Youth: Longitudinale Kohortenstudie zu kardiovaskulären Risikofaktoren für subklinische Atherosklerose bei Kindern mit chronischen Erkrankungen",
+    sum:"Prospektive longitudinale Kohortenstudie in niederländischem Universitätskrankenhaus (geplant n&gt;2000, 8–18 Jahre) zu krankheits- und lebensstilassoziierten kardiovaskulären Risikofaktoren für subklinische Atherosklerose bei Kindern mit diversen chronischen Erkrankungen (CF, JIA, CKD, IBD, angeborene Herzerkrankung etc.); Rekrutierung seit August 2024.",
+    result:"Baseline-Charakterisierung: Erfassung von Blutdruck, BMI, Lipiden, HbA1c, CRP; Messung von Karotis-Intima-Media-Dicke, Karotis-Distension und Karotis-Femoral-Pulswellen-Geschwindigkeit bei Baseline, 2-Jahr-Follow-up und Alter 17–18 Jahren. Primärer Fokus: langfristige Assoziationen zwischen kardiovaskulären Risikofaktoren und früher subklinischer Atherosklerose bei chronisch erkrankten Kindern zur Risikostratifizierung und Früherkennung.",
+    transfer:"Niederlande, Universitätskrankenhaus in vergleichbarem System; Mehrfacherkrankungen-Fokus bei Kindern"
   },
   {
     journal:"Scand J Prim Health Care", year:"2026", pmid:"42583708",
     author:"Bring H et al.", pubdate:"12.08.2026",
     added:"12.08.2026",
-    title:"Verzögerte Palliativversorgung in der Primärversorgung treibt vermeidbare Notaufnahmen bei älteren multimorbiden Patienten",
-    sum:"Qualitative Studie mit 100 Fachpersonen (Ärzte, Pflegekräfte) aus sechs Versorgungsbereichen in Stockholm zur Frage, was vermeidbare Notaufnahmen bei älteren multimorbiden Patienten verursacht.",
-    result:"Zentrale Befunde: Späte Erkennung von Palliativbedarfen und Mangel an proaktiver Symptomkontrolle sowie unzureichende Einbeziehung von Patienten und Familien in geteilte Entscheidungsfindung führten zu krisengesteuerten Notaufnahmen, die häufig den Wünschen der Patienten (zuhause sterben) zuwiderliefen.",
-    transfer:"Schweden, vergleichbare Primärversorgungsstruktur mit Deutschland"
-  },
-  {
-    journal:"Health Care Manag Sci", year:"2026", pmid:"42566017",
-    author:"Wood RM et al.", pubdate:"07.08.2026",
-    added:"07.08.2026",
-    title:"Clusteranalyse von Hochmultimorbiden identifiziert sechs Zielgruppen für Interventionen mit unterschiedlichem Nutzen",
-    sum:"Clusteranalyse von etwa 18.000 hochmultimorbiden Personen (oberes 3 % des Ausgabenspektrums) einer englischen Gesundheitsregion zur Heterogenität und Identifikation tailorierter Interventionsziele.",
-    result:"Sechs Cluster wurden identifiziert: Ältere ohne Demenz (n=1.243), Krebs (n=1.055), Jüngere Komplexe (n=2.199), Atemwege (n=4.743), Kardiovaskulär (n=6.140), Demenz (n=4.579). Jeder Cluster zeigte unterschiedliche Ausgabenmuster und wurde mit spezifischen klinischen Interventionszielen verknüpft zur Wertoptimierung.",
-    transfer:"NHS-England-Daten, anderes Finanzierungsmodell, aber identifizierbarer Clusteransatz übertragbar"
+    title:"Verzögerte palliative Versorgung in der Primärversorgung führt zu vermeidbaren Notfallbesuchen bei älteren Patienten mit Mehrfacherkrankung",
+    sum:"Qualitative Inhaltsanalyse von Freitextantworten einer Befragung (n=100 Ärzte, Pflegefachkräfte) an sechs Versorgungsanbietern in Stockholm zu Gründen für vermeidbare Notfallabteilungs-Besuche bei älteren Patienten mit Mehrfacherkrankung und palliativen Versorgungsbedarf.",
+    result:"Übergeordnetes Thema: \"Verzögerte, fragmentierte palliative Versorgung in der Primärversorgung führt zu Notfallbesuchen.\" Befragte identifizierten als Haupthindernisse: (1) Verzögerte Erkennung palliativer Versorgungsbedarf und mangelnde Initiierung (2) unzureichende Planung und Symptommanagement zu Hause (3) fehlende Informationsweitergabe über Patientenpräferenzen. Verstärkung generalistischer Palliativversorgung in der Primärversorgung durch Bildung, Ressourcen und Spezialist:innen-Support sind erforderlich.",
+    transfer:"Schweden, ambulantes Primarärzte-Modell vergleichbar mit deutschem System"
   },
   {
     journal:"J Eval Clin Pract", year:"2026", pmid:"42623506",
     author:"Hopwood E et al.", pubdate:"Aug. 2026",
     added:"20.08.2026",
-    title:"Self-Management-Interventionen zeigen Verbesserung in Verhalten, aber nicht in Lebensqualität bei Mehrfacherkrankung",
-    sum:"Systematische Übersicht von 28 Studien zu Wirksamkeit und Erfahrungen mit Self-Management-Interventionen für Erwachsene mit Mehrfacherkrankung (quantitativ und qualitativ).",
-    result:"Quantitative Evidenz zeigte bescheidene Verbesserungen in spezifischen Self-Management-Verhaltensweisen (gesundheitsorientierte Aktivitäten, Selbstmonitoring), aber wenig bis kein Effekt auf Lebensqualität oder psychologische Outcomes. Qualitative Befunde deuteten auf subjektive Verbesserungen in Lebensqualität und psychischer Gesundheit hin – Diskrepanz unterstreicht Bedarf nach validierten Mehrfacherkrankungs-spezifischen Outcome-Maßen.",
-    transfer:"Internationale Evidenz, vorwiegend europäisch, direkt auf Primärversorgung übertragbar"
-  },
-  {
-    journal:"Front Public Health", year:"2026", pmid:"42535037",
-    author:"Aparicio-Rodriguez G et al.", pubdate:"16.07.2026",
-    added:"31.07.2026",
-    title:"Polypharmazie bei älteren Menschen konzentriert sich auf sozial Benachteiligte: 71,8 % in niedrigstem Einkommensquintil",
-    sum:"Populationsbasierte Querschnittsstudie mit 33.534 Personen mit Polypharmazie (≥5 ATC4-Gruppen) in La Rioja, Spanien 2024, zur Verteilung von Arzneimittelbelastung nach sozioökonomischem Status.",
-    result:"Polypharmakotherapeutische Last (Durchschnitt 7,07 ATC4-Gruppen) konzentrierte sich auf ältere Menschen und solche mit Mehrfacherkrankungen. 71,8 % der Polymedikamentierten gehörten zur niedrigsten Einkommensgruppe; diese Gruppe hatte höchsten Anteil mit ≥10 ATC4-Gruppen (14,9 % vs. 8,0–9,2 % höhere Einkommen), was auf Ungleichheit hindeutet.",
-    transfer:"Spanien (Sozialversicherung vergleichbar mit Deutschland), elektronische Apothekendaten"
+    title:"Self-Management-Interventionen bei Mehrfacherkrankung verbessern spezifische Verhaltensweisen, nicht aber Lebensqualität",
+    sum:"Gemischte systematische Übersichtsarbeit (n=28 Studien) zu Effektivität und Erfahrungen von Self-Management-Support-Interventionen bei Erwachsenen mit Mehrfacherkrankung; Synthese von quantitativen und qualitativen Studien.",
+    result:"Quantitative Befunde: bescheidene Verbesserungen in spezifischen Self-Management-Verhaltensweisen (gesundheitsgerichtetes Verhalten, Selbstüberwachung, Kompetenzentwicklung); wenig bis kein Effekt auf Lebensqualität oder psychische Outcomes. Qualitative Befunde: wahrgenommene Verbesserungen in Lebensqualität, psychischer Gesundheit und Self-Management-Verhaltensweisen; soziale Faktoren (Beziehungen, Finanzen) beeinflussen Engagement. Diskrepanz zwischen quantitativ messbaren und qualitativ berichteten Ergebnissen; Bedarf an validierten MLTC-spezifischen Outcomes.",
+    transfer:"UK-Cochrane-Review, europäische und Nord-amerikanische Kontexte, generalisierbar auf deutsches System"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
