@@ -1053,62 +1053,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "22. Aug. 2026, 07:04 Uhr";
+const SNAP_DATE = "23. Aug. 2026, 07:16 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"PLoS Med", year:"2026", pmid:"42623335",
-    author:"Johnson E et al.", pubdate:"20.08.2026",
-    added:"20.08.2026",
-    title:"Digitale Intervention mit menschlicher Unterstützung senkt Angst und Depressionen bei chronischen Erkrankungen um 2,9 HADS-Punkte",
-    sum:"Dreiarmige randomisierte Studie (n=825, Februar 2023–Dezember 2024) mit Online-Rekrutierung über 13 Länder zur Wirksamkeit einer multikomponenten digitalen Intervention (eMPower) mit oder ohne wöchentliche Telefonanrufe vs. Warteliste auf Angst, Depression und Krankheitslast.",
-    result:"Primäres Ergebnis: eMPower + menschliche Unterstützung verbesserte HADS-Gesamtscore um 2,9 Punkte (95% KI 2,0–3,8, p&lt;0,001) gegenüber Kontrolle; selbstgesteuertes eMPower zeigte vergleichbaren Effekt (2,6 Punkte; p&lt;0,001); beide Arme verbesserten sekundäre Outcomes (MFIS, SF-12, EQ-5D); keine Unterschiede zwischen eMPower-Armen. Digitale Interventionen mit und ohne menschliche Unterstützung reduzieren Angst/Depression und Fatigue bei Mehrfacherkrankung mit vergleichbarer Effektivität.",
-    transfer:"Kanada-basiert, generische Chroniker-Population über multiple Länder, Implementierbarkeit hoch"
-  },
-  {
-    journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"42621973",
-    author:"Rogier J et al.", pubdate:"15.08.2026",
-    added:"20.08.2026",
-    title:"HAQ-DI-basierte Screening identifiziert Hochrisiko-Phänotyp mit funktioneller Behinderung in COPD",
-    sum:"Französische Kohortenstudie (n=117) der funktionalen Behinderung bei COPD-Patienten mittels Health Assessment Questionnaire – Disability Index (HAQ-DI) in Relation zu Krankheitsschwere und Krankheitslast.",
-    result:"Patienten mit COPD GOLD 3–4 zeigten höhere HAQ-DI-Werte als GOLD 1–2 (0,50 vs. 0,25, p=0,015); 20 Patienten (17,1%) erfüllten Kriterien für \"Hochfunktionelle Behinderung\" (HAQ-DI ≥1) mit ungünstigeren Prognose-Markern; HAQ-DI korrelierte mit Exazerbationen, Dyspnoe und Krankheitslast (alle p&lt;0,001). HAQ-DI ist ein praktisches Screening-Instrument zur Identifizierung von Patienten mit hohem funktionellem Risiko, die von Rehabilitations- und psychologischem Support profitieren könnten.",
-    transfer:"Frankreich, vergleichbare Dokumentation von Komorbiditäten und Funktionalität"
+    journal:"PLoS One", year:"2026", pmid:"42607051",
+    author:"Van Wilder L et al.", pubdate:"17.08.2026",
+    added:"17.08.2026",
+    title:"Strukturiertes Übergangsprogramm für Jugendliche mit chronischen Erkrankungen – Protokoll einer Evaluationsstudie",
+    sum:"Belgien, zwei Universitätskrankenhäuser; quasi-experimentelle Studie zur Evaluierung eines Co-Design-Übergangsprogramms (COCCOS) vom pädiatrischen ins Erwachsenensystem bei 17–18-jährigen mit Typ-1-Diabetes, Asthma oder Adipositas.",
+    result:"Studienprotokoll: Primäres Ergebnis ist Übergangsbereitschaft (Transition Readiness Assessment Questionnaire). Sekundäre: Patient-Empowerment, Therapietreue, Lebensqualität, psychische Gesundheit. Intervention: 4 strukturierte Konsultationen über 13–16 Monate. Kosten-Effektivität wird aus Perspektive des Kostenträgers bewertet (QALY). Prozessevaluation untersucht Fidelität, Akzeptanz, Kontextfaktoren. Vollständige Ergebnisse erwartet Anfang 2027; Studie wird Evidenz für Machbarkeit und vorläufige Wirksamkeit liefern.",
+    transfer:"Belgien, ähnliches Sozialversicherungssystem wie Schweiz/Deutschland, spezialisierte Zentren"
   },
   {
     journal:"BMJ Open", year:"2026", pmid:"42601104",
     author:"Doheny M et al.", pubdate:"14.08.2026",
     added:"14.08.2026",
-    title:"Mehrfacherkrankung und Kosten: Untergruppenanalyse zeigt sozioökonomische Disparitäten bei älteren Patienten in Stockholm",
-    sum:"Schwedische populationsbasierte Querschnittsuntersuchung (n=371.583, ≥65 Jahre) in Stockholm zur Prävalenz von Mehrfacherkrankung, Inanspruchnahme von Gesundheits- und Sozialleistungen und Kostentreibern nach Einkommensgruppen.",
-    result:"Mehrfacherkrankungs-Prävalenz: 62,6% (davon ≥4 Erkrankungen 26,4%); durchschnittliche Jahresausgaben stiegen von 34.346 SEK (keine Erkrankung) auf 143.063 SEK (≥4 Erkrankungen); Mehrfacherkrankung assoziiert mit 11,6% höheren Gesamtkosten (CR 1,116); Patienten im untersten Einkommensquintil hatten 3,8% höhere Kosten als im höchsten; ab Alter 80 Jahre überstiegen Sozialausgaben Gesundheitsausgaben. Mehrfacherkrankung ist Treiber von Kostensteigerung mit deutlichem Gefälle nach Einkommen.",
-    transfer:"Schweden, sozialversicherungsbasierte Kostenerfassung vergleichbar mit Deutschland"
+    title:"Mehrfacherkrankung bei älteren Menschen führt zu Kostensteigerung, soziale Ungleichheit persistent",
+    sum:"Stockholms Region 2019: 371.583 Personen ≥65 Jahre; Analyse von Gesundheits- und Sozialkostenausgaben stratifiziert nach Einkommen und Mehrfacherkrankungen.",
+    result:"Mehrfacherkrankungsprävalenz 62,6%. Durchschnittliche Gesamtausgaben: 34.346 SEK (keine Erkrankung) bis 143.063 SEK (≥4 Erkrankungen). Jede zusätzliche Erkrankung assoziiert mit 11,6% höherer Gesamtkostenbelastung (KR 1,116; 95% CI 1,114–1,118). Niedrigste Einkommensgruppe: 3,8% höhere Ausgaben als höchste (KR 1,038). Soziale Betreuung überstieg Gesundheitsausgaben ab 80 Jahren.",
+    transfer:"Schweden, vergleichbares Sozialversicherungssystem, Routinedaten öffentliches System"
   },
   {
     journal:"BMJ Open", year:"2026", pmid:"42595358",
     author:"van der Linden IA et al.", pubdate:"13.08.2026",
     added:"13.08.2026",
-    title:"SMART-Youth: Longitudinale Kohortenstudie zu kardiovaskulären Risikofaktoren für subklinische Atherosklerose bei Kindern mit chronischen Erkrankungen",
-    sum:"Prospektive longitudinale Kohortenstudie in niederländischem Universitätskrankenhaus (geplant n&gt;2000, 8–18 Jahre) zu krankheits- und lebensstilassoziierten kardiovaskulären Risikofaktoren für subklinische Atherosklerose bei Kindern mit diversen chronischen Erkrankungen (CF, JIA, CKD, IBD, angeborene Herzerkrankung etc.); Rekrutierung seit August 2024.",
-    result:"Baseline-Charakterisierung: Erfassung von Blutdruck, BMI, Lipiden, HbA1c, CRP; Messung von Karotis-Intima-Media-Dicke, Karotis-Distension und Karotis-Femoral-Pulswellen-Geschwindigkeit bei Baseline, 2-Jahr-Follow-up und Alter 17–18 Jahren. Primärer Fokus: langfristige Assoziationen zwischen kardiovaskulären Risikofaktoren und früher subklinischer Atherosklerose bei chronisch erkrankten Kindern zur Risikostratifizierung und Früherkennung.",
-    transfer:"Niederlande, Universitätskrankenhaus in vergleichbarem System; Mehrfacherkrankungen-Fokus bei Kindern"
+    title:"SMART-Youth-Studie untersucht kardiovaskuläre Risikofaktoren für frühe Atherosklerose bei Kindern mit chronischen Erkrankungen",
+    sum:"Prospektive Langzeitkohorte an niederländischem Universitätskrankenhaus: 2000+ Kinder (8–18 Jahre) mit verschiedenen chronischen Erkrankungen (zystische Fibrose, juvenile idiopathische Arthritis, CKD, IBD u.a.); Erfassung von Kardiovaskularrisikofaktoren und Markers für präklinische Atherosklerose über 15 Jahre.",
+    result:"Studienprotokoll (laufend seit August 2024): Messungen von Blutdruck, BMI, viszeralem/subkutanem Fettgewebe, Ernährung, körperlicher Aktivität, Stress, Blutfetten, HbA1c, CRP sowie Karotis-Intima-Media-Dicke und Pulsenwellengeschwindigkeit. Ziel: Identifikation von Krankheits- und Lebensstil-assoziierten Risikofaktoren für präklinische Atherosklerose. Prospektive Designweise ermöglicht Longitudinalanalysen über Entwicklungsalter hinweg.",
+    transfer:"Niederlande, vergleichbares Sozialversicherungssystem, pädiatrische spezialisierte Zentren"
   },
   {
     journal:"Scand J Prim Health Care", year:"2026", pmid:"42583708",
     author:"Bring H et al.", pubdate:"12.08.2026",
     added:"12.08.2026",
-    title:"Verzögerte palliative Versorgung in der Primärversorgung führt zu vermeidbaren Notfallbesuchen bei älteren Patienten mit Mehrfacherkrankung",
-    sum:"Qualitative Inhaltsanalyse von Freitextantworten einer Befragung (n=100 Ärzte, Pflegefachkräfte) an sechs Versorgungsanbietern in Stockholm zu Gründen für vermeidbare Notfallabteilungs-Besuche bei älteren Patienten mit Mehrfacherkrankung und palliativen Versorgungsbedarf.",
-    result:"Übergeordnetes Thema: \"Verzögerte, fragmentierte palliative Versorgung in der Primärversorgung führt zu Notfallbesuchen.\" Befragte identifizierten als Haupthindernisse: (1) Verzögerte Erkennung palliativer Versorgungsbedarf und mangelnde Initiierung (2) unzureichende Planung und Symptommanagement zu Hause (3) fehlende Informationsweitergabe über Patientenpräferenzen. Verstärkung generalistischer Palliativversorgung in der Primärversorgung durch Bildung, Ressourcen und Spezialist:innen-Support sind erforderlich.",
-    transfer:"Schweden, ambulantes Primarärzte-Modell vergleichbar mit deutschem System"
+    title:"Verzögerte palliative Versorgung in Primärcare treibt vermeidbare Notaufnahmebesuche bei älteren Multimorbiden",
+    sum:"Qualitative Befragung von 100 Fachpersonen (Ärzte, Pflegekräfte) aus Stockholm zu Gründen für Notaufnahmebesuche bei älteren Menschen mit Mehrfacherkrankungen und Palliativbedarf.",
+    result:"Kernthema: ‚Verspätete, fragmentierte Palliativversorgung in der Primärcare führt zu ED-Besuchen'. Erkannte Barrieren: (1) verzögerte Erkennung von Palliativbedarf und fehlende Initiierung; (2) unzureichende Kommunikation mit Patienten/Familien über Ziele; (3) mangelnde symptomatische und medikamentöse Versorgungsplanung daheim; (4) ungenügende Informationsübertragung über Patientenpräferenzen. Diese Versäumnisse führten zu Krisenbesuchen, die Patientenwünschen (z.B. zu Hause sterben) zuwiderliefen.",
+    transfer:"Schweden, spezialisierte Primärcare und Spezialistensystem; ähnliche Infrastruktur Deutschland"
   },
   {
-    journal:"J Eval Clin Pract", year:"2026", pmid:"42623506",
-    author:"Hopwood E et al.", pubdate:"Aug. 2026",
-    added:"20.08.2026",
-    title:"Self-Management-Interventionen bei Mehrfacherkrankung verbessern spezifische Verhaltensweisen, nicht aber Lebensqualität",
-    sum:"Gemischte systematische Übersichtsarbeit (n=28 Studien) zu Effektivität und Erfahrungen von Self-Management-Support-Interventionen bei Erwachsenen mit Mehrfacherkrankung; Synthese von quantitativen und qualitativen Studien.",
-    result:"Quantitative Befunde: bescheidene Verbesserungen in spezifischen Self-Management-Verhaltensweisen (gesundheitsgerichtetes Verhalten, Selbstüberwachung, Kompetenzentwicklung); wenig bis kein Effekt auf Lebensqualität oder psychische Outcomes. Qualitative Befunde: wahrgenommene Verbesserungen in Lebensqualität, psychischer Gesundheit und Self-Management-Verhaltensweisen; soziale Faktoren (Beziehungen, Finanzen) beeinflussen Engagement. Diskrepanz zwischen quantitativ messbaren und qualitativ berichteten Ergebnissen; Bedarf an validierten MLTC-spezifischen Outcomes.",
-    transfer:"UK-Cochrane-Review, europäische und Nord-amerikanische Kontexte, generalisierbar auf deutsches System"
+    journal:"Health Care Manag Sci", year:"2026", pmid:"42566017",
+    author:"Wood RM et al.", pubdate:"07.08.2026",
+    added:"07.08.2026",
+    title:"Clusteranalyse identifiziert sechs Risikogruppen unter Hochmorbiden mit unterschiedlichem Interventionsbedarf",
+    sum:"Bristol-Region (England), ~1 Million Einwohner; Segmentierung der 3% mit höchster Multimorbidität in 6 Cluster mittels hierarchischer Dichteclusterung zur Identifikation von Interventionsmöglichkeiten.",
+    result:"Sechs Cluster identifiziert (Bezugsgröße: höchste Morbidität n=19.939 Patienten): (1) Ältere ohne Demenz (n=1.243); (2) Krebs (n=1.055); (3) Jüngere mit Komplexität (n=2.199); (4) Atmungswegserkrankungen (n=4.743); (5) Kardiovaskulär (n=6.140); (6) Demenz (n=4.579). Jeder Cluster mit definierten Zielen und gezielten klinischen Maßnahmenkombinationen. Befunde unterstützen stratifizierte Interventionsplanung statt einteiliger Programme.",
+    transfer:"England, NHS, Routineadministrationsdaten ähnlich deutschem Abrechnungssystem"
+  },
+  {
+    journal:"Prim Health Care Res Dev", year:"2026", pmid:"42559972",
+    author:"Llubes-Arrià L et al.", pubdate:"06.08.2026",
+    added:"06.08.2026",
+    title:"Spanische Adaptation der ‚Capability Cards' verbessert patientenzentrierte Gespräche bei Mehrfacherkrankung in der Primärcare",
+    sum:"Methodische Validierungsstudie in Lleida (Spanien): Übersetzung, kulturelle Anpassung und Validierung der ‚Capability Cards' für Erwachsene mit Mehrfacherkrankungen im Community-Setting.",
+    result:"Content-Validity-Index (CVI) durchweg hoch: Experten 0,88, Fachpersonen 0,96, Betroffene 0,98 (alle über empfohlener Schwelle). System Usability Scale: ‚Exzellente Usability' attestiert. Spanische Version zeigt starke Inhaltsvalidität, kulturelle Passung und Nutzbarkeitmerkmale. Tool unterstützt strukturierte, personenzentrierte Gespräche, fördert Empowerment und partizipative Entscheidungsfindung.",
+    transfer:"Spanien, Gesundheitssystem mit Schwerpunkt Primärcare vergleichbar Deutschland"
+  },
+  {
+    journal:"Eur J Clin Invest", year:"2026", pmid:"42629441",
+    author:"Reinilä S et al.", pubdate:"Aug. 2026",
+    added:"21.08.2026",
+    title:"Mehrfacherkrankung bei Vorhofflimmern nimmt zu: Gepräge und Verlauf stark heterogen",
+    sum:"Finnische Kohorte aller Patienten mit neu diagnostiziertem Vorhofflimmern 2009–2018 (n=196.536); Erfassung von Begleiterkrankungen über nationale Register mit 5-Jahres-Lookback.",
+    result:"85% hatten ≥2 Begleiterkrankungsgruppen, 28% ≥6 Gruppen. Mittlere Anzahl von Diagnosegruppen stieg von 3,9 auf 4,2 Gruppen (2009–2018); nach Adjustment für Alter signifikant. Mehrfacherkrankung war bei Frauen häufiger (4,2 vs. 3,9 Gruppen) und nahm mit dem Alter zu. Häufigste Begleiterkrankungen: Hypertonie, Stoffwechselerkrankungen, Diabetes, andere kardiovaskuläre Erkrankungen. Eine bedeutende Versorgungsherausforderung mit wachsendem Bedarf für ganzheitliche Behandlung.",
+    transfer:"Finnland, vergleichbares nordisches Gesundheitssystem, nationale Registerdaten"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
