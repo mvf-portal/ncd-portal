@@ -58,7 +58,7 @@ Jeder `DB`-Eintrag hat einen Typ `t`:
 
 ### Studien aktualisieren
 
-`.github/workflows/update-studies.yml` läuft um 04:00 UTC (06:00 Uhr deutscher Sommerzeit): `scripts/update_studies.py` → PubMed → Claude-API → Marker-Block ersetzen → commit & push.
+`.github/workflows/update-studies.yml` läuft um 03:00 UTC (05:00 Uhr deutscher Sommerzeit): `scripts/update_studies.py` → PubMed → Claude-API → Marker-Block ersetzen → commit & push.
 
 **`scripts/thema.py` hält alles Themenspezifische** — Suchabfrage, Rollenbeschreibung, Auswahlregeln, Anzahl. Wer die Auswahl ändern will, ändert dort Text, keinen Code. `update_studies.py` bleibt in allen Portalen wortgleich.
 
@@ -99,7 +99,9 @@ Der Grund für diese Bauweise: Versand ist der einzige Schritt der Kette, der si
 
 **Schlägt eine Prüfung an, wird nicht terminiert.** Der Entwurf bleibt liegen, die Redaktion bekommt die Testausgabe mit Freigabekasten, und der Grund steht in `versand-status.json`. Lieber ein Tag ohne Newsletter als ein falscher.
 
-`versand-status.json` wird vom Workflow mitcommittet. Das Repo `mvf-portal/knowledge-hubs` liest sie von allen Portalen ein und macht daraus **eine** GitHub-Issue statt fünf E-Mails (`scripts/versand_bericht.py`, täglich 04:45 UTC).
+**Der Torwächter arbeitet in zwei Stufen** (seit 24.08.2026). `vorpruefung()` sortiert einzelne missglückte Studien aus, bevor die Ausgabe gebaut wird — ein zu langer Titel an einer Studie soll nicht sieben einwandfreie mitnehmen. Fällt mehr als ein Drittel weg oder bleiben weniger als zwei übrig, stoppt stattdessen die ganze Ausgabe. Danach entscheidet `pruefe()` über die Ausgabe als Ganzes; **die Abgleiche gegen PubMed stoppen weiterhin hart** — eine falsche Zeitschrift ist kein Formfehler, sondern ein Rückfall im Mechanismus. Was aussortiert wurde, steht in `versand-status.json` und im Sammelbericht: Aussortieren ist der stille Fall, und still darf er nicht bleiben.
+
+`versand-status.json` wird vom Workflow mitcommittet. Das Repo `mvf-portal/knowledge-hubs` liest sie von allen Portalen ein und macht daraus **eine** GitHub-Issue statt fünf E-Mails (`scripts/versand_bericht.py`, täglich 03:45 UTC).
 
 Qualitative Interviewstudien und Expertenpapiere sind ausdrücklich **zugelassen** — der Torwächter verlangt deshalb Substanz im Ergebnisfeld, aber keine Zahl.
 
