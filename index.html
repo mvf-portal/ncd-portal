@@ -1053,71 +1053,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "23. Aug. 2026, 07:16 Uhr";
+const SNAP_DATE = "24. Aug. 2026, 07:58 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"PLoS One", year:"2026", pmid:"42607051",
-    author:"Van Wilder L et al.", pubdate:"17.08.2026",
-    added:"17.08.2026",
-    title:"Strukturiertes Übergangsprogramm für Jugendliche mit chronischen Erkrankungen – Protokoll einer Evaluationsstudie",
-    sum:"Belgien, zwei Universitätskrankenhäuser; quasi-experimentelle Studie zur Evaluierung eines Co-Design-Übergangsprogramms (COCCOS) vom pädiatrischen ins Erwachsenensystem bei 17–18-jährigen mit Typ-1-Diabetes, Asthma oder Adipositas.",
-    result:"Studienprotokoll: Primäres Ergebnis ist Übergangsbereitschaft (Transition Readiness Assessment Questionnaire). Sekundäre: Patient-Empowerment, Therapietreue, Lebensqualität, psychische Gesundheit. Intervention: 4 strukturierte Konsultationen über 13–16 Monate. Kosten-Effektivität wird aus Perspektive des Kostenträgers bewertet (QALY). Prozessevaluation untersucht Fidelität, Akzeptanz, Kontextfaktoren. Vollständige Ergebnisse erwartet Anfang 2027; Studie wird Evidenz für Machbarkeit und vorläufige Wirksamkeit liefern.",
-    transfer:"Belgien, ähnliches Sozialversicherungssystem wie Schweiz/Deutschland, spezialisierte Zentren"
+    journal:"Lancet Psychiatry", year:"2026", pmid:"42586082",
+    author:"Halstead S et al.", pubdate:"Sept. 2026",
+    added:"12.08.2026",
+    title:"Menschen mit Schizophrenie oder Bipolarer Störung entwickeln 1,85-fach häufiger systemische Mehrfacherkrankung",
+    sum:"Statewide Kohortenstudie aus Queenslands Krankenhauskliniken 2000–2023 mit 30.189 Patienten mit Schizophrenie-Spektrum oder Bipolarer Störung, matched mit 148.476 Kontrollen, zur Inzidenz systemischer Mehrfacherkrankung.",
+    result:"Relatives Risiko systemischer Mehrfacherkrankung für ≥1 betroffenes System HR 1,85 (95% CI 1,81–1,88), für ≥2 Systeme HR 2,25 (2,19–2,32), für ≥5 Systeme HR 3,16 (3,01–3,30). Absolute Inzidenz-Differenzen bei 20 Jahren: 9,79 pro 100 Personen für ≥1 System, 18,43 für ≥2, 11,66 für ≥5 Systeme. Höchste Unterschiede bei Frauen &lt;25 Jahren (HR 9,24 für ≥5 Systeme). Befunde unterstreichen frühe, systemische Mehrfacherkrankung und Bedarf für Früh-Prävention bei psychischen Erkrankungen.",
+    transfer:"Australien, nationale Registerdaten, Mehrfacherkrankung als Outcome bei psychiatrischen Erkrankungen"
+  },
+  {
+    journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"42633418",
+    author:"Ko J et al.", pubdate:"18.08.2026",
+    added:"23.08.2026",
+    title:"Kontinuität der Versorgung senkt Krankenhauseinweisungen und Sterblichkeit bei COPD um 25–63 %",
+    sum:"Retrospektive südkoreanische Kohortenstudie mit 29.316 neu diagnostizierten COPD-Patienten aus nationalen Versicherungsdaten 2002–2019 zur Wirkung der Versorgungskontinuität (CoC) auf Krankenhauseinweisungen und Sterblichkeit.",
+    result:"Niedrige CoC-Werte (&lt;0,7) assoziiert mit erhöhtem Risiko für 3-Jahres-Exazerbations-Krankenhauseinweisung (HR 1,63, 95% CI 1,45–1,83) und allgemeine Mortalität (HR 1,25, 95% CI 1,11–1,40) vs. hohe CoC. Progressiv: Intermediate CoC (0,4–0,7) HR 1,61 für Einweisungen und 1,24 für Mortalität; sehr niedrig (&lt;0,4) HR 1,65 und 1,26. Notaufnahmen HR 1,48, allgemeine Hospitalisierungen HR 1,70 bei niedriger CoC. Befunde konsistent über alternative Kontinuitäts-Indizes. Fragmentierte ambulante Versorgung erhöht vermeidbare Krankenhaus-Kontakte und Todesfälle erheblich.",
+    transfer:"Südkorea, nationale Versicherungsdaten, zeigt Bedeutung von Kontinuität unabhängig vom Finanzsystem"
+  },
+  {
+    journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"42621973",
+    author:"Rogier J et al.", pubdate:"15.08.2026",
+    added:"20.08.2026",
+    title:"HAQ-DI Fragebogen identifiziert hochbelastete COPD-Patienten mit Funktionseinschränkungen",
+    sum:"Prospektive französische Kohortenstudie (RINNOPARI) mit 117 COPD-Patienten zur Eignung des Health Assessment Questionnaire Disability Index (HAQ-DI) für Funktionseinschränkungen und dessen Assoziation mit Krankheitslast.",
+    result:"Median HAQ-DI-Score 0,38 [0,0–0,75]. Höhere Werte bei GOLD 3–4 (0,50 vs. 0,25 in GOLD 1–2, p=0,015). HAQ-DI assoziiert mit kardiovaskulären und depressiven Komorbiditäten (p&lt;0,05), Exazerbationen (p=0,015), mMRC, CAT, 6MWT-Distanz (alle p&lt;0,001). Multivariate Analyse: 6MWT-Distanz, CAT, SGRQ, HAD-Depressionsscore unabhängig mit HAQ-DI assoziiert. Identifizierte ‚High Functional Disability'-Phänotyp (HAQ-DI≥1, n=20) mit schlechten Prognosemarker und schwerer Krankheitslast. HAQ-DI ist feasible für Screening und Risikoidentifikation.",
+    transfer:"Frankreich, vergleichbare Krankenversicherung, Outcome-Messung bei Mehrfacherkrankung"
   },
   {
     journal:"BMJ Open", year:"2026", pmid:"42601104",
     author:"Doheny M et al.", pubdate:"14.08.2026",
     added:"14.08.2026",
-    title:"Mehrfacherkrankung bei älteren Menschen führt zu Kostensteigerung, soziale Ungleichheit persistent",
-    sum:"Stockholms Region 2019: 371.583 Personen ≥65 Jahre; Analyse von Gesundheits- und Sozialkostenausgaben stratifiziert nach Einkommen und Mehrfacherkrankungen.",
-    result:"Mehrfacherkrankungsprävalenz 62,6%. Durchschnittliche Gesamtausgaben: 34.346 SEK (keine Erkrankung) bis 143.063 SEK (≥4 Erkrankungen). Jede zusätzliche Erkrankung assoziiert mit 11,6% höherer Gesamtkostenbelastung (KR 1,116; 95% CI 1,114–1,118). Niedrigste Einkommensgruppe: 3,8% höhere Ausgaben als höchste (KR 1,038). Soziale Betreuung überstieg Gesundheitsausgaben ab 80 Jahren.",
-    transfer:"Schweden, vergleichbares Sozialversicherungssystem, Routinedaten öffentliches System"
-  },
-  {
-    journal:"BMJ Open", year:"2026", pmid:"42595358",
-    author:"van der Linden IA et al.", pubdate:"13.08.2026",
-    added:"13.08.2026",
-    title:"SMART-Youth-Studie untersucht kardiovaskuläre Risikofaktoren für frühe Atherosklerose bei Kindern mit chronischen Erkrankungen",
-    sum:"Prospektive Langzeitkohorte an niederländischem Universitätskrankenhaus: 2000+ Kinder (8–18 Jahre) mit verschiedenen chronischen Erkrankungen (zystische Fibrose, juvenile idiopathische Arthritis, CKD, IBD u.a.); Erfassung von Kardiovaskularrisikofaktoren und Markers für präklinische Atherosklerose über 15 Jahre.",
-    result:"Studienprotokoll (laufend seit August 2024): Messungen von Blutdruck, BMI, viszeralem/subkutanem Fettgewebe, Ernährung, körperlicher Aktivität, Stress, Blutfetten, HbA1c, CRP sowie Karotis-Intima-Media-Dicke und Pulsenwellengeschwindigkeit. Ziel: Identifikation von Krankheits- und Lebensstil-assoziierten Risikofaktoren für präklinische Atherosklerose. Prospektive Designweise ermöglicht Longitudinalanalysen über Entwicklungsalter hinweg.",
-    transfer:"Niederlande, vergleichbares Sozialversicherungssystem, pädiatrische spezialisierte Zentren"
+    title:"Mehrfacherkrankung führt zu 11,6 % höheren Gesundheitsausgaben; Sozialausgaben übersteigen Gesundheitsausgaben ab Alter 80",
+    sum:"Populationsbasierte Querschnittsanalyse von 371.583 Personen ≥65 Jahren in der Region Stockholm 2019 mit Fokus auf Mehrfacherkrankung, Gesundheits- und Sozialausgaben.",
+    result:"Mehrfacherkrankung lag bei 62,6 %. Durchschnittliche Gesamtausgaben stiegen von 34.346 SEK (keine Erkrankung) auf 143.063 SEK (≥4 Erkrankungen). Jede Komorbiditätsgruppe assoziiert mit 11,6 % höheren Ausgaben (Cost Ratio 1,116, 95% CI 1,114–1,118). Niedrige Einkommensgruppen zeigten 3,8 % höhere Ausgaben als höchste Einkommensgruppe. Sozialausgaben überstiegen Gesundheitsausgaben ab Alter 80 Jahren. Diese Daten unterstreichen Ungleichheit und den Bedarf für Prävention bei niedrigen Einkommensgruppen.",
+    transfer:"Schweden, vergleichbares skandinavisches Gesundheitssystem, nationale Registerauswertung"
   },
   {
     journal:"Scand J Prim Health Care", year:"2026", pmid:"42583708",
     author:"Bring H et al.", pubdate:"12.08.2026",
     added:"12.08.2026",
-    title:"Verzögerte palliative Versorgung in Primärcare treibt vermeidbare Notaufnahmebesuche bei älteren Multimorbiden",
-    sum:"Qualitative Befragung von 100 Fachpersonen (Ärzte, Pflegekräfte) aus Stockholm zu Gründen für Notaufnahmebesuche bei älteren Menschen mit Mehrfacherkrankungen und Palliativbedarf.",
-    result:"Kernthema: ‚Verspätete, fragmentierte Palliativversorgung in der Primärcare führt zu ED-Besuchen'. Erkannte Barrieren: (1) verzögerte Erkennung von Palliativbedarf und fehlende Initiierung; (2) unzureichende Kommunikation mit Patienten/Familien über Ziele; (3) mangelnde symptomatische und medikamentöse Versorgungsplanung daheim; (4) ungenügende Informationsübertragung über Patientenpräferenzen. Diese Versäumnisse führten zu Krisenbesuchen, die Patientenwünschen (z.B. zu Hause sterben) zuwiderliefen.",
-    transfer:"Schweden, spezialisierte Primärcare und Spezialistensystem; ähnliche Infrastruktur Deutschland"
-  },
-  {
-    journal:"Health Care Manag Sci", year:"2026", pmid:"42566017",
-    author:"Wood RM et al.", pubdate:"07.08.2026",
-    added:"07.08.2026",
-    title:"Clusteranalyse identifiziert sechs Risikogruppen unter Hochmorbiden mit unterschiedlichem Interventionsbedarf",
-    sum:"Bristol-Region (England), ~1 Million Einwohner; Segmentierung der 3% mit höchster Multimorbidität in 6 Cluster mittels hierarchischer Dichteclusterung zur Identifikation von Interventionsmöglichkeiten.",
-    result:"Sechs Cluster identifiziert (Bezugsgröße: höchste Morbidität n=19.939 Patienten): (1) Ältere ohne Demenz (n=1.243); (2) Krebs (n=1.055); (3) Jüngere mit Komplexität (n=2.199); (4) Atmungswegserkrankungen (n=4.743); (5) Kardiovaskulär (n=6.140); (6) Demenz (n=4.579). Jeder Cluster mit definierten Zielen und gezielten klinischen Maßnahmenkombinationen. Befunde unterstützen stratifizierte Interventionsplanung statt einteiliger Programme.",
-    transfer:"England, NHS, Routineadministrationsdaten ähnlich deutschem Abrechnungssystem"
-  },
-  {
-    journal:"Prim Health Care Res Dev", year:"2026", pmid:"42559972",
-    author:"Llubes-Arrià L et al.", pubdate:"06.08.2026",
-    added:"06.08.2026",
-    title:"Spanische Adaptation der ‚Capability Cards' verbessert patientenzentrierte Gespräche bei Mehrfacherkrankung in der Primärcare",
-    sum:"Methodische Validierungsstudie in Lleida (Spanien): Übersetzung, kulturelle Anpassung und Validierung der ‚Capability Cards' für Erwachsene mit Mehrfacherkrankungen im Community-Setting.",
-    result:"Content-Validity-Index (CVI) durchweg hoch: Experten 0,88, Fachpersonen 0,96, Betroffene 0,98 (alle über empfohlener Schwelle). System Usability Scale: ‚Exzellente Usability' attestiert. Spanische Version zeigt starke Inhaltsvalidität, kulturelle Passung und Nutzbarkeitmerkmale. Tool unterstützt strukturierte, personenzentrierte Gespräche, fördert Empowerment und partizipative Entscheidungsfindung.",
-    transfer:"Spanien, Gesundheitssystem mit Schwerpunkt Primärcare vergleichbar Deutschland"
+    title:"Verspätete Palliativversorgung in der Primärversorgung treibt vermeidbare Notaufnahmebesuche bei älteren Menschen mit Mehrfacherkrankung",
+    sum:"Qualitative Inhaltsanalyse von 100 Fachpersonen (Ärzte, Pflege) aus Primärversorgung, Spitälern und anderen Settings in Stockholm zur Frage, warum Patienten mit Mehrfacherkrankung und Palliativbedarf die Notaufnahme aufsuchen.",
+    result:"Übergreifendes Thema: ‚Verspätete, fragmentierte Palliativversorgung in der Primärversorgung trägt zu Notaufnahmebesuchen bei'. Zwei Kategorien: (1) Palliativentscheidungsfindung – fehlende Erkennung von Palliativbedarf und mangelnde Patienteneinbeziehung, (2) Versorgung zu Hause – unzureichende Symptombehandlung und Informationstransfer. Befragte beschrieben, wie diese Lücken zu Krisen-bedingten Notaufnahmebesuchen führten, die oft gegen Patientenwünsche verstoßen.",
+    transfer:"Schweden, qualitativ explorativ, Strukturierung des Systems vergleichbar mit Deutschland"
   },
   {
     journal:"Eur J Clin Invest", year:"2026", pmid:"42629441",
     author:"Reinilä S et al.", pubdate:"Aug. 2026",
     added:"21.08.2026",
-    title:"Mehrfacherkrankung bei Vorhofflimmern nimmt zu: Gepräge und Verlauf stark heterogen",
-    sum:"Finnische Kohorte aller Patienten mit neu diagnostiziertem Vorhofflimmern 2009–2018 (n=196.536); Erfassung von Begleiterkrankungen über nationale Register mit 5-Jahres-Lookback.",
-    result:"85% hatten ≥2 Begleiterkrankungsgruppen, 28% ≥6 Gruppen. Mittlere Anzahl von Diagnosegruppen stieg von 3,9 auf 4,2 Gruppen (2009–2018); nach Adjustment für Alter signifikant. Mehrfacherkrankung war bei Frauen häufiger (4,2 vs. 3,9 Gruppen) und nahm mit dem Alter zu. Häufigste Begleiterkrankungen: Hypertonie, Stoffwechselerkrankungen, Diabetes, andere kardiovaskuläre Erkrankungen. Eine bedeutende Versorgungsherausforderung mit wachsendem Bedarf für ganzheitliche Behandlung.",
-    transfer:"Finnland, vergleichbares nordisches Gesundheitssystem, nationale Registerdaten"
+    title:"Mehrfacherkrankung bei neuem Vorhofflimmern nimmt zu und erfordert ganzheitliche Versorgung",
+    sum:"Prospektive finnische Kohortenstudie mit 196.536 Patienten mit neuem Vorhofflimmern, die die Entwicklung der Mehrfacherkrankung von 2009 bis 2018 analysierte.",
+    result:"85 % der Patienten mit Vorhofflimmern hatten Diagnosen aus ≥2 Komorbiditätsgruppen, 28 % aus ≥6 Gruppen. Die durchschnittliche Anzahl der Gruppen stieg von 3,9 auf 4,2 (p signifikant auch nach Adjustierung für Alter). Frauen zeigten höhere Mehrfacherkrankung als Männer (4,2 vs. 3,9). Diese Daten zeigen eine steigende Mehrfacherkrankung bei Vorhofflimmern, die eine ganzheitliche Versorgung verlangt.",
+    transfer:"Finnland, nationale Versicherungsdaten, Registerstudie, vergleichbar mit Deutschland"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
