@@ -934,9 +934,11 @@ const CATS = [
   {id:"policy", h:338, num:"06", name:"Institutionen & Gesundheitspolitik (international)"},
   {id:"risiko", h:30, num:"07", name:"Risikofaktoren & Prävention",
    hinweis:"Vier Risikofaktoren — Rauchen, Alkohol, Ernährung, Bewegungsmangel — erklären einen großen Teil der chronischen Krankheitslast. Diese Rubrik sammelt, was gegen sie wirkt, von der Einzelberatung bis zur Verhältnisprävention."},
-  {id:"openaccess", h:150, num:"08", name:"Open Access & Discovery"},
-  {id:"register", h:212, num:"09", name:"Studienregister & Preprints"},
-  {id:"volltext", h:100, num:"10", name:"Volltext beschaffen"},
+  {id:"postcovid", h:265, num:"08", name:"Post-COVID, Long COVID & ME/CFS",
+   hinweis:"Eine chronische Erkrankung, die aus einer Infektion entsteht — und ein Feld, in dem die Versorgungsfragen dieses Hubs besonders scharf gestellt sind: Wer stellt die Diagnose, wer koordiniert, wer bezahlt die Rehabilitation? Diese Rubrik bündelt Leitlinie, Anlaufstellen, Forschungsnetze und die Verbände der Betroffenen, für Long COVID und das verwandte ME/CFS."},
+  {id:"openaccess", h:150, num:"09", name:"Open Access & Discovery"},
+  {id:"register", h:212, num:"10", name:"Studienregister & Preprints"},
+  {id:"volltext", h:100, num:"11", name:"Volltext beschaffen"},
 ];
 // === CATS-BLOCK-ENDE ===
 
@@ -1024,7 +1026,23 @@ const DB = [
   {c:"risiko", n:"Health Evidence (McMaster)", d:"Bewertete Übersichtsarbeiten zur Wirksamkeit bevölkerungsbezogener Prävention.", t:"portal", u:"https://www.healthevidence.org/"},
   {c:"risiko", n:"EPPI-Centre", d:"Systematische Übersichten zu Public Health und Gesundheitsförderung.", t:"live", u:"https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=53&searchtext=%s"},
 
-  // 08 — Open Access & Discovery
+  // 08 — Post-COVID, Long COVID & ME/CFS
+  {c:"postcovid", n:"PubMed — Post-COVID-Filter", de:0, d:"Ihre Suche, eingegrenzt auf das Schlagwort „Post-Acute COVID-19 Syndrome“ — die Trefferliste ohne den Rest der COVID-Literatur.", t:"live", u:"https://pubmed.ncbi.nlm.nih.gov/?term=%s+AND+%22Post-Acute+COVID-19+Syndrome%22%5BMeSH+Terms%5D"},
+  {c:"postcovid", n:"S1-Leitlinie Long/Post-COVID (AWMF)", de:1, d:"Die deutsche Leitlinie, Version 4.1 vom Mai 2024, seither in Überarbeitung — mit Langfassung und Patientenleitlinie zum Download.", t:"portal", u:"https://register.awmf.org/de/leitlinien/detail/020-027"},
+  {c:"postcovid", n:"G-BA — Long COVID", de:1, d:"Richtlinie und Beschlüsse zur Versorgung: wer überweisen darf, was abgerechnet wird, welche Anforderungen an Ambulanzen gelten.", t:"portal", u:"https://www.g-ba.de/themen/long-covid/"},
+  {c:"postcovid", n:"BMG — Long COVID", de:1, d:"Das Informationsportal des Bundesgesundheitsministeriums: Krankheitsbild, Forschungsförderung, Rechte gegenüber Kasse und Rentenversicherung.", t:"portal", u:"https://www.bmg-longcovid.de/"},
+  {c:"postcovid", n:"BMG — Anlaufstellen und Ambulanzen", de:1, d:"Die Übersicht der Versorgungsangebote nach Bundesland — die praktische Frage, wohin überwiesen werden kann.", t:"portal", u:"https://www.bmg-longcovid.de/versorgung/anlaufstellen"},
+  {c:"postcovid", n:"RKI — Long COVID", de:1, d:"Evidenzanalyse, Scoping Review und die Studienlage zu Häufigkeit und Verlauf, laufend fortgeschrieben.", t:"portal", u:"https://www.rki.de/DE/Themen/Infektionskrankheiten/Infektionskrankheiten-A-Z/C/COVID-19/Long-COVID/Inhalt-gesamt.html"},
+  {c:"postcovid", n:"Charité Fatigue Centrum", de:1, d:"Die deutsche Spezialambulanz für ME/CFS und schwere Fatigue nach Infektion, mit eigenen Studien und Diagnosekriterien.", t:"portal", u:"https://cfc.charite.de/"},
+  {c:"postcovid", n:"NAPKON — Nationales Pandemie Kohorten Netz", de:1, d:"Die bundesweite Kohorte zu Krankheitsverläufen nach COVID-19; Datenzugang für Forschende über das Antragsportal.", t:"portal", u:"https://napkon.de/"},
+  {c:"postcovid", n:"Deutsche Gesellschaft für ME/CFS", de:1, d:"Fachlich gepflegte Übersicht zu Diagnostik, Versorgungslage und Sozialrecht bei ME/CFS.", t:"live", u:"https://www.mecfs.de/?s=%s"},
+  {c:"postcovid", n:"Long COVID Deutschland", de:1, d:"Betroffenenorganisation mit Erfahrungsberichten, Adressen und dem, was in der Versorgung tatsächlich ankommt.", t:"live", u:"https://longcoviddeutschland.org/?s=%s"},
+  {c:"postcovid", n:"Fatigatio e. V.", de:1, d:"Ältester deutscher Verband für ME/CFS-Betroffene — Beratung, Selbsthilfegruppen, Materialien für Ärztinnen und Ärzte.", t:"portal", u:"https://www.fatigatio.de/"},
+  {c:"postcovid", n:"ME/CFS Research Foundation", de:1, d:"Fördert die deutsche Forschung zu ME/CFS und bündelt den Stand der Wissenschaft allgemeinverständlich.", t:"portal", u:"https://mecfs-research.org/"},
+  {c:"postcovid", n:"WHO — Post COVID-19 condition", de:0, d:"Falldefinition, Leitlinienempfehlungen und der internationale Forschungsstand der Weltgesundheitsorganisation.", t:"portal", u:"https://www.who.int/teams/health-care-readiness/post-covid-19-condition"},
+  {c:"postcovid", n:"CDC — Long COVID", de:0, d:"US-Gesundheitsbehörde: Krankheitsbild, Häufigkeitsdaten und Hinweise für die ärztliche Praxis.", t:"portal", u:"https://www.cdc.gov/covid/long-term-effects/"},
+  {c:"postcovid", n:"NIH RECOVER", de:0, d:"Das große US-Forschungsprogramm zu Long COVID — Studienübersicht, Ergebnisse und laufende Rekrutierung.", t:"portal", u:"https://recovercovid.org/"},
+  // 09 — Open Access & Discovery
   {c:"openaccess", n:"Google Scholar", d:"Breite Suchmaschine für wissenschaftliche Literatur inkl. grauer Literatur & Zitationen.", t:"live", u:"https://scholar.google.com/scholar?q=%s", b:1},
   {c:"openaccess", n:"Semantic Scholar", d:"Discovery mit Zitationskontext (Allen Institute).", t:"live", u:"https://www.semanticscholar.org/search?q=%s&sort=relevance"},
   {c:"openaccess", n:"OpenAlex", d:"Offener Katalog von >250 Mio. Werken, Autoren & Institutionen.", t:"live", u:"https://openalex.org/works?filter=default.search%3A%s", b:1},
@@ -1035,14 +1053,14 @@ const DB = [
   {c:"openaccess", n:"Dimensions", d:"Publikationen, Förderung, Patente & klinische Studien vernetzt (Digital Science).", t:"live", u:"https://app.dimensions.ai/discover/publication?search_text=%s"},
   {c:"openaccess", n:"Zenodo", d:"Offenes Repositorium (CERN) für Artikel, Daten und Software.", t:"live", u:"https://zenodo.org/search?q=%s", b:1},
 
-  // 09 — Studienregister & Preprints
+  // 10 — Studienregister & Preprints
   {c:"register", n:"ClinicalTrials.gov", d:"Weltweit größtes Register klinischer Studien (NLM).", t:"live", u:"https://clinicaltrials.gov/search?term=%s", b:1},
   {c:"register", n:"DRKS", de:1, d:"Deutsches Register Klinischer Studien — Begriff nach Öffnen eingeben.", t:"portal", u:"https://drks.de/"},
   {c:"register", n:"WHO ICTRP", d:"International Clinical Trials Registry Platform — Meta-Suche über alle Register.", t:"portal", u:"https://trialsearch.who.int/"},
   {c:"register", n:"medRxiv", d:"Preprint-Server für die medizinischen & Gesundheitswissenschaften.", t:"live", u:"https://www.medrxiv.org/search/%s", b:1},
   {c:"register", n:"OSF", d:"Open Science Framework — Preprints, Daten, Code & Präregistrierungen.", t:"live", u:"https://osf.io/search/?q=%s"},
 
-  // 10 — Volltext beschaffen
+  // 11 — Volltext beschaffen
   {c:"volltext", n:"Nationallizenzen (DFG)", de:1, d:"DFG-finanzierte Lizenzen für Zeitschriftenarchive und E-Books. Privatpersonen mit Wohnsitz in Deutschland können sich kostenlos registrieren.", t:"live", u:"https://www.nationallizenzen.de/@@search?SearchableText=%s", b:0},
   {c:"volltext", n:"Unpaywall", d:"Findet legale Open-Access-Fassungen zu einer DOI — über 50 Mio. Volltexte. DOI nach dem Öffnen eingeben.", t:"portal", u:"https://unpaywall.org/"},
   {c:"volltext", n:"Open Access Button", d:"Sucht frei zugängliche Fassungen und fordert sie bei Bedarf direkt beim Autor an. DOI oder Titel nach dem Öffnen eingeben.", t:"portal", u:"https://openaccessbutton.org/"},
@@ -1120,6 +1138,7 @@ const CHIPS = [
   "Herzinsuffizienz",
   "COPD",
   "Disease-Management-Programm",
+  "Long COVID",
   "multimorbidity",
   "chronic care",
 ];

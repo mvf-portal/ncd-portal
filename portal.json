@@ -1,5 +1,5 @@
 {
-  "_": "Themenprofil NCD - nicht uebertragbare Krankheiten. Achtes Portal. Datenbanken am 19.08.2026 mit linkpruefung.py geprueft, PubMed-Zahlen vom selben Tag: 9.298 Arbeiten in zwoelf Monaten (25,5 pro Tag), 3,0 Prozent Ueberschneidung mit den sieben Schwesterportalen - der niedrigste Wert der Reihe.",
+  "_": "Themenprofil NCD - nicht uebertragbare Krankheiten. Achtes Portal. Datenbanken am 19.08.2026 mit linkpruefung.py geprueft, PubMed-Zahlen vom selben Tag: 9.298 Arbeiten in zwoelf Monaten (25,5 pro Tag), 3,0 Prozent Ueberschneidung mit den sieben Schwesterportalen - der niedrigste Wert der Reihe. Am 25.08.2026 um die Rubrik Post-COVID, Long COVID und ME/CFS erweitert (15 Kacheln, Links am selben Tag geprueft); die Studienabfrage blieb unveraendert.",
   "DOMAIN": "ncd.m-vf.de",
   "REPO": "mvf-portal/ncd-portal",
   "TITEL": "Knowledge-Hub Chronische Erkrankungen",
@@ -27,7 +27,7 @@
   "GLOSSAR_ANLASS": "„Mehrfacherkrankung\" liefert dort nichts.",
   "STARTBEGRIFF": "Multimorbidität",
   "PLATZHALTER": "z. B. Multimorbidität, Diabetes, DMP, chronic disease …",
-  "CHIPS": "Multimorbidität\nDiabetes\nHerzinsuffizienz\nCOPD\nDisease-Management-Programm\nmultimorbidity\nchronic care",
+  "CHIPS": "Multimorbidität\nDiabetes\nHerzinsuffizienz\nCOPD\nDisease-Management-Programm\nLong COVID\nmultimorbidity\nchronic care",
   "TERM_A": "        '((((\"Noncommunicable Diseases\"[Majr] OR \"Chronic Disease\"[Majr] '\n        'OR \"Multiple Chronic Conditions\"[Majr] OR \"Multimorbidity\"[Majr]) '\n        'OR (\"noncommunicable disease*\"[Title] OR \"non-communicable disease*\"[Title] '\n        'OR \"chronic disease*\"[Title] OR \"chronic illness\"[Title] '\n        'OR multimorbidity[Title] OR \"chronic condition*\"[Title] OR NCDs[Title])) '\n        'NOT (\"Artificial Intelligence\"[Majr] OR \"Machine Learning\"[Majr] '\n        'OR \"Deep Learning\"[Majr] OR \"Telemedicine\"[Majr] '\n        'OR \"Medical Informatics\"[Majr] OR \"Mobile Applications\"[Majr] '\n        'OR \"Electronic Health Records\"[Majr] '\n        'OR \"Nursing\"[Majr] OR \"Nursing Care\"[Majr] OR \"Long-Term Care\"[Majr] '\n        'OR \"Nursing Homes\"[Majr] OR \"Caregivers\"[Majr] OR \"Home Care Services\"[Majr] '\n        'OR \"Aging\"[Majr] OR \"Longevity\"[Majr] OR \"Frailty\"[Majr] OR \"Geriatrics\"[Majr] '\n        'OR \"Health Literacy\"[Majr] OR \"Patient Education as Topic\"[Majr] '\n        'OR \"Decision Making, Shared\"[Majr] OR \"Health Communication\"[Majr] '\n        'OR \"Climate Change\"[Majr] OR \"Air Pollution\"[Majr] OR \"Hot Temperature\"[Majr] '\n        'OR \"Vaccination\"[Majr] OR \"Vaccines\"[Majr] OR \"Immunization\"[Majr]))'",
   "TERM_B": "        '(\"Delivery of Health Care\"[MeSH Terms] OR \"Health Services\"[MeSH Terms] '\n        'OR \"Quality of Health Care\"[MeSH Terms] OR \"Patient Care\"[MeSH Terms] '\n        'OR \"Health Policy\"[MeSH Terms] OR \"Public Health\"[MeSH Terms] '\n        'OR \"health care\"[Title/Abstract] OR \"health services\"[Title/Abstract] '\n        'OR \"patient outcome*\"[Title/Abstract] OR \"clinical practice\"[Title/Abstract] '\n        'OR implementation[Title/Abstract] OR patients[Title/Abstract])'",
   "POOL_EUROPA": "30",
@@ -54,10 +54,10 @@
   "STARTBEGRIFF_HTML": "Multimorbidität",
   "PLATZHALTER_HTML": "z. B. Multimorbidität, Diabetes, DMP, chronic disease …",
   "STUDIEN_HINWEIS_HTML": "Gesucht wird nach Arbeiten zur Versorgung chronischer, nicht übertragbarer Erkrankungen. Ausgewählt wird nach Übertragbarkeit auf Deutschland: Ein Behandlungsprogramm hängt am System, das es trägt — an Vergütung, Sektorengrenzen und daran, wer die Behandlung koordiniert.",
-  "N_DB": "86",
-  "N_LIVE": "38",
-  "N_PORTAL": "43",
+  "N_DB": "101",
+  "N_LIVE": "41",
+  "N_PORTAL": "55",
   "N_LIZENZ": "5",
-  "N_RUBRIKEN": "10",
+  "N_RUBRIKEN": "11",
   "N_GLOSSAR": "154"
 }

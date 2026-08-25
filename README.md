@@ -1,7 +1,7 @@
 # Nicht übertragbare Krankheiten · Rechercheportal
 
-Ein Rechercheportal zum Themenfeld **Nicht übertragbare Krankheiten**: 86 Datenbanken in 10 Rubriken,
-davon 38 mit Live-Suche, dazu eine täglich aus PubMed kuratierte Studienauswahl mit
+Ein Rechercheportal zum Themenfeld **Nicht übertragbare Krankheiten**: 101 Datenbanken in 11 Rubriken,
+davon 41 mit Live-Suche, dazu eine täglich aus PubMed kuratierte Studienauswahl mit
 deutschen Zusammenfassungen.
 
 Ein Angebot von **Monitor Versorgungsforschung** (eRelation AG – Content in Health, Bonn).
@@ -17,8 +17,8 @@ dort indexiert sind (154 Begriffe).
 
 | | |
 |---|---|
-| Datenbanken | 86 in 10 Rubriken |
-| Live-Suche | 38 |
+| Datenbanken | 101 in 11 Rubriken |
+| Live-Suche | 41 |
 | Portal (feste URL) | 43 |
 | Lizenz nötig | 5 |
 | Suchglossar | 154 Begriffe |
