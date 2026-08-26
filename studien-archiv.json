@@ -1,5 +1,31 @@
 [
  {
+  "pmid": "42640878",
+  "journal": "PLoS Med",
+  "year": "2026",
+  "author": "Eto F et al.",
+  "pubdate": "25.08.2026",
+  "added": "25.08.2026",
+  "transfer": "UK-Register-Daten, vergleichbar mit deutschen Disease-Management-Strukturen zur geschlechtsspezifischen Therapieplanung.",
+  "title": "Geschlechtsspezifische Trajectories bei Typ-2-Diabetes: Psychische Erkrankungen bei Frauen häufiger",
+  "sum": "Kohortenstudie mit 28.720 Personen in Großbritannien untersucht unterschiedliche Krankheitsverlaufsmuster nach Typ-2-Diabetes-Diagnose, unterschieden nach Geschlecht.",
+  "result": "Bei Frauen traten psychische Erkrankungen post-Diabetes signifikant häufiger auf als bei Männern (8,1% vs. 5,3%), während Männer höhere Raten für Herz-Kreislauf- und Nierenerkrankungen zeigten (8,4% vs. 5,3%). Beide Geschlechter mit kombiniertem Diabetes und psychischer Erkrankung erlebten vorzeitige Sterblichkeit.",
+  "aufgenommen": "2026-08-26"
+ },
+ {
+  "pmid": "42625188",
+  "journal": "BMC Med",
+  "year": "2026",
+  "author": "Wallraven T et al.",
+  "pubdate": "19.08.2026",
+  "added": "21.08.2026",
+  "transfer": "Multinationale Studie (Deutschland, Schweiz); relevanter für Versorgungsfragen zu Post-COVID-Rehabilitationsbedarfen.",
+  "title": "Post-COVID-Endotheldysfunktion verschärft sich bei Patienten mit ME/CFS-Kriterien: Retinale Gefäßanalyse zeigt Arteriolenkatheteropathie",
+  "sum": "Prospektive Beobachtungsstudie mit 300 Teilnehmern (96 nie infiziert, 102 genesen, 102 mit Post-COVID-Syndrom, davon 62 mit ME/CFS-Kriterien) untersucht Mikrozirkulation mittels retinaler Gefäßanalyse.",
+  "result": "Patienten mit Post-COVID zeigten reduzierte Venendilation (3,7% ± 2,2 vs. 4,8% ± 3,0, p=0,006), engere retinale Arteriolen (CRAE: 178,3 ± 15,5 vs. 186,1 ± 15,7 μm, p=0,001) und niedrigere Arteriol-Venol-Verhältnisse als Genesene (0,83 ± 0,06 vs. 0,86 ± 0,07, p<0,001). Patienten mit ME/CFS-Kriterien zeigten stärkste Veränderungen (AUC 0,79).",
+  "aufgenommen": "2026-08-26"
+ },
+ {
   "pmid": "42633418",
   "journal": "Int J Chron Obstruct Pulmon Dis",
   "year": "2026",
