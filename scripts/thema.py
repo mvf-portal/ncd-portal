@@ -91,7 +91,7 @@ EUROPA_ZUERST = True
 # und maxItems ab (am 17.08.2026 zweimal mit HTTP 400 belegt).
 ANZAHL_SOLL = 6
 ANZAHL_MAX = 7
-ANZAHL_MIN = 5
+ANZAHL_MIN = 1
 # True: zu viele Studien werden auf ANZAHL_SOLL gekuerzt (die Auswahl ist nach
 # Relevanz geordnet, die vorderen sind brauchbar). False: zu viele lassen den
 # Lauf scheitern - so hielt es das Versorgungsforschungs-Portal von Anfang an.
