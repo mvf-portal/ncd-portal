@@ -343,6 +343,32 @@
   /* Die Anmeldung selbst liegt bei Monitor Versorgungsforschung; hier steht nur
      der Hinweis darauf. Wie .archive: flex:0 0 auto, sonst staucht die
      Studienliste den Kasten in der Sticky-Spalte weg. */
+  /* ---------- Aus dem Magazin ----------
+     Beitraege von m-vf.de zum Themenfeld dieses Hubs. Steht bewusst UNTER
+     den Studien und ueber dem Newsletter-Kasten: Die Studien sind das
+     Herzstueck, das Magazin ist die Einordnung dazu. */
+  .magazin{
+    margin-top:10px; border:1px solid var(--line); border-radius:6px;
+    background:var(--card); padding:11px 13px; flex:0 0 auto;
+  }
+  .magazin[hidden]{ display:none; }
+  .magazin-title{
+    display:flex; align-items:center; gap:8px;
+    font-weight:700; font-size:13.5px; color:var(--ink); margin-bottom:3px;
+  }
+  .magazin-title::before{ content:"\1F4F0"; font-size:15px; filter:grayscale(.3); }
+  .magazin-sub{ font-size:11px; line-height:1.45; color:var(--ink-faint); margin:0 0 8px; }
+  .magazin-sub a{ color:var(--ink-faint); }
+  .magazin-list{ list-style:none; margin:0; padding:0; }
+  .magazin-list li{ padding:7px 0; border-top:1px solid var(--line-soft); }
+  .magazin-list li:first-child{ border-top:none; }
+  .magazin-list a{
+    font-size:12.5px; line-height:1.35; font-weight:600; color:var(--brand);
+    text-decoration:none; display:block; hyphens:auto;
+  }
+  .magazin-list a:hover{ text-decoration:underline; }
+  .magazin-datum{ display:block; font-size:11px; color:var(--ink-faint); margin-top:3px; }
+
   .nl{
     margin-top:10px; border:1px solid var(--line); border-radius:6px;
     background:var(--card); padding:11px 13px; flex:0 0 auto;
@@ -891,6 +917,19 @@
         <p class="arch-status">Wird geladen …</p>
       </div>
     </details>
+    <!-- Aus dem Magazin. Angeregt vom selben Nutzer wie der
+         Ausschreibungsradar: Wer sich fuer ein Thema interessiert, will nicht
+         nur die Studienlage, sondern auch, was dazu geschrieben wurde.
+         Quelle ist ausschliesslich das eigene Archiv (m-vf.de) - Fremdmedien
+         waeren presserechtlich heikel und verwaesserten das Evidenz-Profil.
+         Gefuellt von scripts/newsfeed.py, verborgen bis dahin. -->
+    <section class="magazin" id="magazin" hidden>
+      <div class="magazin-title">Ausgesuchte News zu diesem Themenfeld</div>
+      <p class="magazin-sub">Beiträge aus dem Portal von „Monitor
+        Versorgungsforschung" (<a href="https://www.monitor-versorgungsforschung.de/?utm_source=ncd-hub&amp;utm_medium=referral&amp;utm_campaign=magazin" target="_blank" rel="noopener">www.m-vf.de</a>)</p>
+      <ul class="magazin-list" id="magazinList"></ul>
+    </section>
+
     <!-- Anmeldung bewusst NICHT hier: Der Hub erhebt keine personenbezogenen
          Daten. Das Formular liegt bei Monitor Versorgungsforschung, wo auch
          Double-Opt-in und Einwilligung verwaltet werden. -->
@@ -1173,6 +1212,19 @@ const RADAR_ZUHAUSE = false;
 const RADAR_FRISTEN = [];
 // === RADAR-BLOCK-ENDE ===
 
+// Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
+// === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
+const NEWS_STAND = "28.08.2026";
+const NEWS = [
+  {titel:"Diabetesprävention neu denken", datum:"2026-08-19", url:"https://www.monitor-versorgungsforschung.de/news/diabetespraevention-neu-denken/"},
+  {titel:"Lancet-Studie: Behandlungsqualität von COPD-Patienten steigt nach Klinikaufenthalt auf rund 80 Prozent", datum:"2026-07-23", url:"https://www.monitor-versorgungsforschung.de/news/lancet-studie-behandlungsqualitaet-von-copd-patienten-steigt-nach-klinikaufenthalt-auf-rund-80-prozent/"},
+  {titel:"Zi-Studie: Multimorbidität ab 50 Jahren weit verbreitet", datum:"2026-05-07", url:"https://www.monitor-versorgungsforschung.de/news/zi-studie-multimorbiditaet-ab-50-jahren-weit-verbreitet/"},
+  {titel:"1. LongCARE-Symposium zeigt Fort­schritte bei Forschung und Versorgung von Long Covid und ME/CFS", datum:"2026-02-04", url:"https://www.monitor-versorgungsforschung.de/news/1-longcare-symposium-zeigt-fortschritte-bei-forschung-und-versorgung-von-long-covid-und-me-cfs/"},
+  {titel:"TNO-Spin-off AIKON Health sichert 1,2 Millionen Euro, um die Ferneüberwachung bei Herzinsuffizienz voranzutreiben", datum:"2025-07-01", url:"https://www.monitor-versorgungsforschung.de/news/tno-spin-off-aikon-health-sichert-12-millionen-euro-um-die-ferneueberwachung-bei-herzinsuffizienz-voranzutreiben/"},
+  {titel:"13. MVF-Fachkongress „Mit PROM und PREM zu Patient Centered Care“ (9.12.24)", datum:"2024-09-10", url:"https://www.monitor-versorgungsforschung.de/kongresse/13-mvf-fachkongress/"},
+];
+// === NEWS-BLOCK-ENDE ===
+
 // === CHIPS-BLOCK-START (themenspezifisch) ===
 const CHIPS = [
   "Multimorbidität",
@@ -1333,6 +1385,39 @@ STUDIES.forEach(s=>{
     '<a class="study-src" href="'+url+'" target="_blank" rel="noopener">PubMed · PMID '+s.pmid+' ↗</a>';
   studiesList.appendChild(art);
 });
+
+// ---- Aus dem Magazin ----
+// Die Beitraege stehen fertig im Block; hier wird nur gerendert. Findet
+// newsfeed.py nichts, bleibt der alte Inhalt stehen - eine leere Karte saehe
+// aus wie ein Themenfeld, ueber das nie etwas geschrieben wurde.
+(function(){
+  const kasten = document.getElementById('magazin');
+  const liste = document.getElementById('magazinList');
+  if(!kasten || !liste || typeof NEWS === 'undefined' || !NEWS.length) return;
+  NEWS.forEach(n => {
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    a.href = n.url;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    // textContent statt innerHTML: In Beitragstiteln stehen Anfuehrungs-
+    // zeichen, Gedankenstriche und gelegentlich ein Ampersand.
+    a.textContent = n.titel;
+    li.appendChild(a);
+    if(n.datum){
+      const d = new Date(n.datum + 'T00:00:00');
+      if(!isNaN(d)){
+        const span = document.createElement('span');
+        span.className = 'magazin-datum';
+        span.textContent = d.toLocaleDateString('de-DE',
+          {day:'2-digit', month:'long', year:'numeric'});
+        li.appendChild(span);
+      }
+    }
+    liste.appendChild(li);
+  });
+  kasten.hidden = false;
+})();
 
 // ---- Hinweis auf den Ausschreibungsradar ----
 // Der Block oben nennt die Fristen des eigenen Themengebiets, nicht eine
