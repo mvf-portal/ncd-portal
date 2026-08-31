@@ -26,19 +26,13 @@
   "42533353",
   "42526931"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098628",
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098642",
  "termin_utc": "2026-08-31T08:00:00+00:00",
  "empfaenger": 4,
  "listengroesse": 5904,
  "beanstandungen": [],
  "aussortiert": [],
- "pool": {
-  "geholt": 220,
-  "bekannt": 43,
-  "pool": 51,
-  "gewaehlt": 6,
-  "neu": 6
- },
+ "pool": {},
  "rubriken": {
   "radar": "0f738af665aac486",
   "news": "d9352256198d769b"
