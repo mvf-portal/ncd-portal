@@ -77,6 +77,11 @@ Die Namen unterscheiden sich um zwei Buchstaben. Wer sie verwechselt, bekommt ke
 
 Mailchimp-Gruppe dieses Portals: `group[16143][131072]` („Studien Newsletter NCD"). **Gruppen-Nummern sind Identitäten, keine Beschriftungen** — wer eine umbenennt, verschiebt Menschen, nicht Wörter.
 
+Die Anmeldeseite `newsletter.html` kennt diese Nummer seit dem 01.09.2026 nicht mehr. Sie sendet an den Anmelde-Endpunkt auf dem MVF-Server (`/anmeldung/anmeldung.php`, beschrieben in `mvf-server/anmeldung/LIESMICH.md` im Repo `knowledge-hubs`) und nennt dort nur den Schlüssel dieses Hubs: `ncd`. Welche Gruppe dahintersteht, weiß allein der Server — **ein Schlüssel, der nicht in seiner Zulassungsliste steht, wird abgewiesen.** Ein neuer Hub braucht deshalb drei Eintragungen in dieser Reihenfolge: Gruppe in Mailchimp, Kennung in `anmeldung-zugang.php`, Schlüssel hier.
+
+Der Grund für den Umweg: Mailchimps Formularadresse `/subscribe/post` ist mit reCAPTCHA und Akamais Bot Manager geschützt und verwirft seit 2026 jede Einsendung von fremder Domain — stillschweigend, mit HTTP 200. Am 31.08.2026 mit zwei echten Adressen belegt.
+
+
 ## Gestaltung: das Erscheinungsbild von m-vf.de
 
 | Merkmal | Wert |

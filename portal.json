@@ -1,6 +1,7 @@
 {
   "_": "Themenprofil NCD - nicht uebertragbare Krankheiten. Achtes Portal. Datenbanken am 19.08.2026 mit linkpruefung.py geprueft, PubMed-Zahlen vom selben Tag: 9.298 Arbeiten in zwoelf Monaten (25,5 pro Tag), 3,0 Prozent Ueberschneidung mit den sieben Schwesterportalen - der niedrigste Wert der Reihe. Am 25.08.2026 um die Rubrik Post-COVID, Long COVID und ME/CFS erweitert (15 Kacheln, Links am selben Tag geprueft); die Studienabfrage blieb unveraendert.",
   "DOMAIN": "ncd.m-vf.de",
+  "HUB": "ncd",
   "REPO": "mvf-portal/ncd-portal",
   "TITEL": "Knowledge-Hub Chronische Erkrankungen",
   "TITEL_KURZ": "Chronische Erkrankungen",
