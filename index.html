@@ -1418,71 +1418,53 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "3. Sept. 2026, 06:21 Uhr";
+const SNAP_DATE = "4. Sept. 2026, 05:36 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"J Korean Med Sci", year:"2026", pmid:"42676071",
-    author:"Choi YY et al.", pubdate:"31.08.2026",
-    added:"01.09.2026",
-    title:"Pädiatrische Notfallverstärkung bei komplexen Erkrankungen: Zentrale Konzentration in Seoul, Reisedistanz erhöht Mortalität",
-    sum:"Nationale Analyse südkoreanischer Notfallbesuche 2016–2022 (7,76 Millionen Fälle), davon 149.306 (1,9 %) mit komplexen chronischen Erkrankungen (CCCs); Reisedistanz und regionale Unterschiede in Versorgungsergebnissen untersucht.",
-    result:"CCC-Patienten: höhere Akuität (16,5 % vs. 3,1 %), längere Anfahrt (11,2 vs. 6,2 km), ICU-Admission 4,4 % vs. 0,3 %, ED-Todesfälle 0,2 % vs. 0,04 %. 47,9 % aller CCC-Fälle in Seoul; längere Reise unabhängig mit Mortalität assoziiert: OR 1,3 (15–59,9 km), 1,6 (60–99,9 km), 1,3 (≥100 km). Zentrale Konzentration (40,7 % in 5 Krankenhäusern) zeigt Gesamtfehler in Ressourcenallokation.",
-    transfer:"Südkorea, Zentrailisierungsproblem relevant für deutsche Flächenländer; Mortalitäts-Distanz-Beziehung übertragbar"
-  },
-  {
-    journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"42677250",
-    author:"Zhang Y et al.", pubdate:"27.08.2026",
-    added:"01.09.2026",
-    title:"COPD-Therapietreue: Nur 30–50 % erreichen optimale Adhärenz; COM-B-Modell identifiziert veränderbare Faktoren",
-    sum:"Narrative Übersichtsarbeit, die Literatur zu Adhärenz-Messverfahren, Prävalenz (MPR ≥80 % bei nur 30–50 % der Patienten), Einflussfaktoren und Interventionsstrategien anhand des Capability-Opportunity-Motivation-Behaviour-Modells systematisiert.",
-    result:"Inhalationstechnikfehler 30–50 %, therapieverweigerung bei Depression/Angststörung ca. 20–25 % niedriger; Single-Inhaler-Triple-Therapie versus Multiple-Inhaler zeigte 18-Monats-Persistenz 16,5 % vs. 2,3 %. Höhere Adhärenz assoziiert mit 51 % Reduktion exazerbationsbedingter Hospitalisierung und Attenuation des FEV1-Rückgangs um ca. 21 mL/Jahr.",
-    transfer:"Internationale Literatur, Adhärenz-Muster ähnlich wie Deutschland; länderspezifische Zahlen begrenzt"
-  },
-  {
-    journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"42677230",
-    author:"Xiang J et al.", pubdate:"27.08.2026",
-    added:"01.09.2026",
-    title:"COPD-Verhalten: Vier Phänotypen kombinieren Inhalationstechnik und Adhärenz; Wissenslücken zielbar",
-    sum:"Querschnittsstudie mit 700 COPD-Patienten in Peking 2025, die kombinierte Inhalationstechnik und Therapietreue zur Klassifizierung in vier Verhaltenphänotypen nutzten; Assoziationen mit Patientenmerkmalen berechnet.",
-    result:"Nur 25,3 % zeigten perfekte Inhalationstechnik, 59,0 % gute Adhärenz. Vier Phänotypen: Standard+Adhärent (20,7 %), Nicht-adhärent+Standard (4,6 %), Adhärent+Nicht-standard (38,3 %), Nicht-standard+Nicht-adhärent (36,4 %). Krankheitswissen stärkster Prädiktor: korrekte vs. fehlerhafte Technik OR 0,30–0,35 (p&lt;0,001). Krankheitsdauer assoziiert mit unterschiedlichen Adhärenzmustern.",
-    transfer:"China, hoher Techniktransferpotential, Wissenslückenmodell auch für Deutschland prädiktiv"
-  },
-  {
-    journal:"Front Cell Infect Microbiol", year:"2026", pmid:"42683184",
-    author:"Shen Z et al.", pubdate:"18.08.2026",
+    journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"42683431",
+    author:"Chen Q et al.", pubdate:"28.08.2026",
     added:"02.09.2026",
-    title:"Dysbiose und Obstipation bei Dialysepatienten: Mikrobiotargetierende Interventionen versprechen, aber evidenzlimitiert",
-    sum:"Narrativer Übersichtsartikel, der Veränderungen der Darmflora bei Patienten mit Nierenersatztherapie (ESRD) und Obstipation, ihre pathogenen Mechanismen und Therapieoptionen (Probiotika, Präbiotika, Ernährung) systematisch zusammenfasst.",
-    result:"Kernbefund: Dysbiose mit reduzierter kurzkettigen-Fettsäure-produzierenden Bakterien und erhöhten urease-positiven Spezies; bidirektionaler Mikrobiotagutkidney-Teufelskreis mit erhöhter intestinaler Permeabilität und Nierenschaden. Evidenz für Interventionen vorhanden, aber Sicherheitsaspekte und klinische Praktikabilität unklar.",
-    transfer:"Pathophysiologie-Fokus, Interventionsevidenz zu fragmentarisch für direkte deutsche Implementierung"
+    title:"Systemischer Immunentzündungs-Index sagte COPD-Wiederaufnahmen zu 90 Tagen voraus",
+    sum:"Chinesische Kohortenstudie mit 207 Patienten mit akuter COPD-Exazerbation zur prädiktiven Wertigkeit des systemischen Immunentzündungs-Index (SII) für ungeplante Wiederaufnahmen innerhalb von 90 Tagen.",
+    result:"37,7 % (78/207) erlebten Wiederaufnahmen; jede 500er-Steigerung des SII war mit erhöhtem Wiederaufnahmerisiko assoziiert (aOR 1,329, 95%-KI 1,153-1,530; p &lt; 0,001). Integriertes Modell mit SII erreichte AUC 0,809 (95%-KI 0,742-0,869) versus 0,752 für reines klinisches Modell. Nach Bootstrap-Validierung: optimismuskorrigiert 0,785; verbesserte Modellpassung (Likelihood-Ratio p &lt; 0,001).",
+    transfer:"Chinesische Klinikdaten, Konzept übertragbar, externe Validierung erforderlich"
   },
   {
-    journal:"Iran J Kidney Dis", year:"2026", pmid:"42679368",
-    author:"Shadravan S et al.", pubdate:"31.07.2026",
-    added:"01.09.2026",
-    title:"Dapagliflozin und CKD-Progression: Effekt auf eGFR-Rückgang inkonsistent, aber Reduktion klinischer Nierenendpunkte",
-    sum:"Systematische Übersicht von 15 Studien zur Wirkung von Dapagliflozin auf chronische Nierenerkrankung; 11 waren Sekundäranalysen der DAPA-CKD-Studie mit 4.304 Teilnehmern; nur vier unabhängige Studien nach Ausschluss von Doppeltgennung verfügbar.",
-    result:"eGFR-Effekte hochgradig heterogen (-6,6 bis +0,93 mL/min/1,73m²; I²=93,7 %); DAPA-CKD zeigte Reduktion ungünstiger klinischer renaler Ergebnisse. Heterogenität und begrenzte unabhängige Evidenz verhindern Metaanalyse; dapagliflozin erscheint nierenschützend und sicher für CKD.",
-    transfer:"Internationale Evidenz, kardiorenales Konzept übertragbar; Datenstabilität limitiert"
+    journal:"Front Public Health", year:"2026", pmid:"42682672",
+    author:"Lei K et al.", pubdate:"18.08.2026",
+    added:"02.09.2026",
+    title:"Schlechter Schlaf erhöhte Komplikationsrisiko bei chronischer Nierenkrankheit um 19-54 %",
+    sum:"Kohortenstudie mit 15.809 CKD-Patienten aus UK Biobank (2006-2010, Nachverfolgung bis 2022) zur Assoziation von multidimensionalen Schlafmustern mit Anämie, kardiovaskulären Ereignissen, kognitiven Beeinträchtigungen und Nebenschilddrüsenüberfunktion.",
+    result:"Schwere Insomnie mit kurzer oder langer Schlafdauer und schwer gestörter Schlaf waren mit 19-54 % höheren Risiken für Anämie, kardiovaskuläre Erkrankungen und Nebenschilddrüsenüberfunktion assoziiert (alle p &lt; 0,05). Höhere Schlafqualität war unabhängig mit reduzierten Risiken dieser Komplikationen verbunden. Schlafprofile zeigten Heterogenität in Assoziation mit Ergebnissen je nach Geschlecht und Nierenfunktion.",
+    transfer:"UK-Biobank, vergleichbare europäische Systeme und Datenqualität"
   },
   {
-    journal:"BMC Pediatr", year:"2026", pmid:"42509542",
-    author:"Smith S et al.", pubdate:"28.07.2026",
-    added:"27.07.2026",
-    title:"Lebensbedrohliche Erkrankungen bei Kindern in Irland: Prävalenz 34,8–50,0 pro 10.000; Datendefizite erfordern sichere ID",
-    sum:"Querschnittsanalyse irischer Spitaldaten 2019 und 2024, um Prävalenz lebensbedrohlicher Zustände bei 0–19-Jährigen unter fehlender eindeutiger Patientenkennung zu schätzen; drei Schätzszenarien mit Sensitivitätsanalysen.",
-    result:"Baseline-Prävalenz 34,8–50,0 pro 10.000 (2019) und 32,3–44,5 pro 10.000 (2024); mit Adjustierung für Untererfassung: 46,4–66,6 (2019) und 43,0–59,3 pro 10.000 (2024). Höher bei Männern, größte Gruppe &lt;1 Jahr. Schätzungen konsistent mit ähnlich-wohlhabenden Ländern; Methodentransparenz ermöglicht Vergleiche trotz Datenlimitationen.",
-    transfer:"Irland, administratives Datensystem ohne eindeutige ID vergleichbar mit Teilen deutscher Krankenhauslandschaft"
+    journal:"Enferm Infecc Microbiol Clin (Engl Ed)", year:"2026", pmid:"42542350",
+    author:"Chaves-Blanco L et al.", pubdate:"Aug. 2026",
+    added:"01.08.2026",
+    title:"Quantitative Hepatitis-B-Oberflächenantigen-Tests: nur 37,4 % spanischer Labore implementiert",
+    sum:"Nationale spanische Querschnittsstudie von 91 klinisch-mikrobiologischen Laboren zur Implementierung und Praktiken von quantitativem HBsAg-Testing (qHBsAg) für das Chronic-Hepatitis-B-Management.",
+    result:"37,4 % (34/91) führten qHBsAg durch; 86 % der Nicht-Durchführer verwiesen Proben nicht wegen wahrgenommener geringer klinischer Nachfrage (57,1 %). Implementierung korrelierte mit Krankenhausgröße (p = 0,041): 0 % bei &lt;200 Betten, 23,3 % bei 200-500, 44,9 % bei 500-1000, 62,5 % bei ≥1000. Unter durchführenden Labs: 57,6 % quantifizierten nach positivem qualitativem Test, 27,3 % auf Anforderung, 15,2 % als initiales Screening. Heterogene Meldepraxis.",
+    transfer:"Spanien, direkt auf Deutschland übertragbar für Implementierungs-Gaps"
   },
   {
-    journal:"Respir Res", year:"2026", pmid:"42498935",
-    author:"Rossides M et al.", pubdate:"24.07.2026",
-    added:"24.07.2026",
-    title:"Sarcoidosis-Trajektorien: Chronische Erkrankung tritt bei 28,5 % auf, mit erhöhtem Infekt- und Depressionsrisiko",
-    sum:"Prospektive Kohortenstudie mit 9.665 Patienten, die neue Sarcoidose-Diagnosen zwischen 2006 und 2018 im schwedischen Register identifizierte und über fünf Jahre verfolgte; zwei längerfristige Verlaufsmuster wurden mittels statistischer Modellierung der Arztbesuche ermittelt.",
-    result:"71,5 % zeigten selbstlimitierten Verlauf mit Remission in zwei Jahren, 28,5 % chronischen Verlauf mit persistenten Besuchen; chronisches Sarcoidosis war assoziiert mit: eGFR Krankheit (Hoehn und Yahr ≥ 2 vs. 1), erhöhtem Infektrisiko, Herzinsuffizienz, Diabetes, Depression, Angststörung und früherem Tod. Immunosuppressive Therapie bei Diagnose erhöhte Chronizitätsrisiko um Faktor 2,18 (95%-KI 2,04–2,33).",
-    transfer:"Schweden, nationale Patientenregister, vergleichbare Gesundheitssysteme"
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"42533276",
+    author:"Moreno-Pérez O et al.", pubdate:"30.07.2026",
+    added:"30.07.2026",
+    title:"Finerenone reduzierte Albuminurie bei Typ-2-Diabetes und CKD um 34,5 % in Routineversorgung",
+    sum:"Spanische Multicenterstudie zur Effektivität und Sicherheit von Finerenon bei Patienten mit Typ-2-Diabetes und chronischer Nierenerkrankung in der Routineversorgung.",
+    result:"Bei 844 Patienten (Medianalter 72 Jahre, Median eGFR 49 mL/min/1,73 m²) reduzierte Finerenon die Albuminurie-zu-Kreatinin-Ratio (UACR) um Medianalter 34,5 % nach 6 Monaten (p &lt; 0,001), unabhängig von Hintergrundnephroprotektiva. 52,7 % erreichten die primäre Zielmarke von ≥30 % UACR-Reduktion; 89,5 % Persistenz der Therapie; Hyperkaliämie 4,8 %, Herz-Kreislauf-Ereignisse 1,1 %. Finerenon verbesserte albuminurische Marker auch bei intensiver Vormedikation.",
+    transfer:"Spanische Routinedaten, vergleichbares Sozialversicherungssystem"
+  },
+  {
+    journal:"Nat Med", year:"2026", pmid:"42521821",
+    author:"STIMULATE-ICP Consortium", pubdate:"28.07.2026",
+    added:"28.07.2026",
+    title:"Integrierter Versorgungspfad bei Long COVID: alle Interventionen erzielten Fatigue-Reduktion",
+    sum:"Phase-3-Cluster-RCT mit 1.152 Teilnehmern aus 122 englischen Primary-Care-Netzwerken zum Effekt von Multi-Organ-MRI und/oder digitaler Rehabilitation im Rahmen strukturierter ICP-Interventionen auf Fatigue-Assessment-Scale nach 12 und 24 Wochen.",
+    result:"Fatigue-Assessment-Scale verbesserte sich in allen Armen um 4,5 Punkte von 35,8 auf 31,3 (nach 12 Wochen); zusätzliche Multi-Organ-MRI zeigte 0,18-Punkte-Vorteil (95%-KI -0,72 bis 1,09; p = 0,69), digitale Rehabilitation -0,53 Punkte (95%-KI -1,42 bis 0,36; p = 0,25). Multidisziplinäre holistische Versorgung allein war mit Verbesserungen verbunden. Keine schwerwiegenden unerwünschten Ereignisse.",
+    transfer:"Englische NHS-Daten, vergleichbares Versicherungssystem und Zugangswege"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1498,7 +1480,7 @@ const RADAR_FRISTEN = [["2026-09-22", "2026-10-20", "2026-10-20", "2026-09-07", 
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "03.09.2026";
+const NEWS_STAND = "04.09.2026";
 const NEWS = [
   {titel:"Neue Studie zeigt geringe Teilnahmeraten an Krebs-Screenings von Menschen mit Behinderungen", datum:"2026-08-20", url:"https://www.monitor-versorgungsforschung.de/news/neue-studie-zeigt-geringe-teilnahmeraten-an-krebs-screenings-von-menschen-mit-behinderungen/"},
   {titel:"Lancet-Studie: Behandlungsqualität von COPD-Patienten steigt nach Klinikaufenthalt auf rund 80 Prozent", datum:"2026-07-23", url:"https://www.monitor-versorgungsforschung.de/news/lancet-studie-behandlungsqualitaet-von-copd-patienten-steigt-nach-klinikaufenthalt-auf-rund-80-prozent/"},
@@ -1516,7 +1498,7 @@ const PRESSE = [
 // Meldungen des G-BA — taeglich von scripts/newsfeed.py
 // === SELBST-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const SELBST = [
-  {titel:"Wiederaufnahme des Bewertungsverfahrens: Gezielte Lungendenervierung durch Katheterablation bei Patientinnen und Patienten mit medikamentös nicht oder nicht ausreichend behandelbarer mäßiger bis schwerer chronisch obstruktiver Lungenerkrankung", datum:"2026-08-27", url:"/beschluesse/7987/", quelle:"G-BA"},
+  {titel:"Arzneimittel-Richtlinie/Anlage XII: Mepolizumab (neues Anwendungsgebiet: COPD)", datum:"2026-09-03", url:"/beschluesse/7998/", quelle:"G-BA"},
   {titel:"Gezielte Lungendenervierung durch Katheterablation bei chronisch obstruktiver Lungenerkrankung", datum:"2026-08-27", url:"/bewertungsverfahren/methodenbewertung/181/", quelle:"G-BA"},
 ];
 // === SELBST-BLOCK-ENDE ===
