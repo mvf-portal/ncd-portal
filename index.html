@@ -1418,71 +1418,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "5. Sept. 2026, 05:35 Uhr";
+const SNAP_DATE = "6. Sept. 2026, 05:36 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Crit Care", year:"2026", pmid:"42693471",
-    author:"Karagiannidis C et al.", pubdate:"03.09.2026",
+    journal:"Sci Rep", year:"2026", pmid:"42697907",
+    author:"Saleh SE et al.", pubdate:"04.09.2026",
+    added:"05.09.2026",
+    title:"Probiotikum Lactobacillus plantarum stabilisiert Nierenfunktion bei CKD Stadium 3-4",
+    sum:"Doppelblinde, randomisierte, placebokontrollierte Studie an 72 Patienten mit CKD Stadium 3-4 (keine Hämodialyse) über 6 Monate: Lactobacillus plantarum 10¹⁰ CFU täglich versus Placebo, primärer Endpunkt Änderung der eGFR.",
+    result:"Probiotika-Gruppe zeigte signifikanten eGFR-Anstieg, Placebo-Gruppe Rückgang; 0 Probiotika-Patienten versus 8,6% Placebo zeigten CKD-Progression. Effekt war unabhängig von Diabetesstatus und CKD-Stadium. Kein signifikanter Unterschied in Indoxyl-Sulfat-Spiegeln zwischen den Gruppen.",
+    transfer:"Ägyptisches Zentrum, Mechanismus unabhängig von Region, weitere Validierung nötig"
+  },
+  {
+    journal:"JAMA Netw Open", year:"2026", pmid:"42696280",
+    author:"Chen Q et al.", pubdate:"01.09.2026",
     added:"04.09.2026",
-    title:"Extracorporeal CO₂-Elimination verkürzte Beatmungsdauer bei schwerem COPD-Exazerbation",
-    sum:"Randomisierte Studie zu ECCO₂R-gestützter Früh-Extubation vs. Standard-Beatmung bei invasiv beatmeten COPD-Patienten mit hypercapnischer Ateminsuffizienz.",
-    result:"ECCO₂R-Gruppe: Beatmungsdauer 7,1±2,0 Tage vs. Kontrolle 24,3±21,4 Tage (p=0,043); 0/8 vs. 3/9 (33 %) mit Tod/schwerer Behinderung; ventilatorassoziierte Pneumonie 0 vs. 37,5 %. Studie vorzeitig beendet (n=18, geplant 192), aber konsistente Trends für ECCO₂R.",
-    transfer:"Deutschland: Spezialisierte Zentren, technische Verfügbarkeit und Kostenübernahme prüfen."
+    title:"Antikoagulation bei Vorhofflimmern mit CKD Stadium 4-5: Apixaban senkt Schlaganfälle",
+    sum:"Retrospektive Kohortenstudie mit Zieltriallemulation an 42.052 Medicare- und Optum-Versicherten mit Vorhofflimmern und CKD Stadium 4-5 ohne Dialyse (Jan 2013–Feb 2025), Vergleich von Apixaban, Warfarin und Keine Antikoagulation.",
+    result:"Apixaban reduzierte Schlaganfallrate im Vergleich zu Kein-Antikoagulation (HR 0,46; 95%-KI 0,32–0,66), erhöhte aber Blutungsrate (HR 1,32; 95%-KI 1,11–1,58). Warfarin hatte höhere Blutungs- und Kompositrisiken. Apixaban versus Warfarin: HR 0,55 für schwere Blutungen (KI 0,46–0,65), HR 0,50 für Schlaganfall (KI 0,33–0,78).",
+    transfer:"USA-Versichertendaten, Wirkmechanismus unabhängig von Gesundheitssystem übertragbar"
   },
   {
-    journal:"Infect Dis Poverty", year:"2026", pmid:"42693478",
-    author:"Çiçek Y et al.", pubdate:"03.09.2026",
+    journal:"Front Public Health", year:"2026", pmid:"42694161",
+    author:"Shi Y et al.", pubdate:"20.08.2026",
     added:"04.09.2026",
-    title:"Regionale Benachteiligung (nicht Einzelindividuum) prägte Leberfibrose bei HBV-Infektion",
-    sum:"Nationale türkische Multicenterstudie (24 Zentren, n=956) zu Assoziation von Sozioökonomie (Individual- und Gebietsebene) mit Leberfibrosegrad bei CHB.",
-    result:"Leberfibrosegrad assoziiert mit älterem Alter (aOR 1,12 pro 10 Jahre), längerer Anfahrtszeit zu CHB-Fachzentrum (aOR 1,53 pro Kategorie, p&lt;0,001), aber vor allem mit niedriger Wohngebiets-Sozioökonomie (aOR 1,97 pro Stufe, p&lt;0,001); Vergleich höchste vs. niedrigste Stufe: aOR 26,00 (95%-KI 8,21–82,37).",
-    transfer:"Türkei (vergleichbares Gesundheitswesen); regionale Ungleichheit oft unterschätzt, Koordinationszugang zentral für Prognose."
+    title:"Behandlungslast verschlechtert Gesundheit bei Mehrfacherkrankung: Stressanpassung hilft",
+    sum:"Querschnittsuntersuchung mit Mediationsanalyse an 507 älteren Patienten mit komplexer Mehrfacherkrankung in Zhejiang, China; Beziehung zwischen Behandlungslast und ganzheitlichem Gesundheitsstatus.",
+    result:"Behandlungslast hatte direkten negativen Effekt auf Gesundheitsstatus (B = -0,263; 95%-KI -0,357 bis -0,168), Gesamteffekt -0,449 (KI -0,538 bis -0,360). Depressive Symptome und Stressanpassungskapazität mediierten diesen Effekt partiell (jeweils ca. 10% indirekte Effekte).",
+    transfer:"China, aber Konzept der Behandlungslast international anerkannt, Intervention skalierbar"
   },
   {
-    journal:"BMC Pulm Med", year:"2026", pmid:"42675482",
-    author:"Hamrefors V et al.", pubdate:"31.08.2026",
-    added:"01.09.2026",
-    title:"Isoliert reduzierte Diffusionskapazität korrelierte mit Emphysem und Rauchen",
-    sum:"Große schwedische Querschnittsstudie (SCAPIS) zu Determinanten isoliert verminderter DLCO bei 24.261 Patienten mit normalen Spirometrieparametern.",
-    result:"DLCO unterhalb LLN (n=1.472; 6,1 %): unabhängig assoziiert mit Emphysem (OR 2,6), Lungenerkrankung außer Asthma/COPD (OR 1,8), Rauchen pro 10-Pack-Jahre (OR 1,6), interstitielle Lungenabnormitäten (OR 1,4), Belastungsbrust­schmerz (OR 1,6).",
-    transfer:"Schweden; bevölkerungsbasiert, Screening-konzept übertragbar auf deutsches Präventiossystem."
+    journal:"Int J Med Sci", year:"2026", pmid:"42694884",
+    author:"Cheng TW et al.", pubdate:"30.07.2026",
+    added:"04.09.2026",
+    title:"Nierenfunktion und Urämietoxine korrelieren mit kognitiven Defiziten bei CKD",
+    sum:"Pilot-Beobachtungsstudie an 12 Patienten mit CKD Stadium 3-5 und früher kognitiver Einschränkung: Messung von Serumindoxyl-Sulfat, Serum-p-Kresyl-Sulfat, Brain-MRI und kognitiver Funktion per CANTAB.",
+    result:"Höhere eGFR korrelierte mit besserer räumlicher Arbeitsgedächtnisleistung (r = 0,695, p = 0,012). Indoxyl-Sulfat und p-Kresyl-Sulfat zeigten inverse Korrelation mit eGFR (r = -0,301 bis -0,461), aber keine klare Assoziation mit kognitiven Testergebnissen. MRI-Läsionenlast war gering, strukturelle Abnormitäten aber vorhanden.",
+    transfer:"Taiwan, kleine Pilotstichprobe, Konzept der Mehrfacherkrankung mit kognitiven Folgen zentral"
   },
   {
-    journal:"Infect Dis (Lond)", year:"2026", pmid:"42547309",
-    author:"Tiecco G et al.", pubdate:"03.08.2026",
-    added:"03.08.2026",
-    title:"HBV-Genotyp-E-Infektionen: Resistenzmutationen unter Migration und schlechter Adhärenz",
-    sum:"Retrospektive Fallserie (2015–2023) von 8 Patienten mit dokumentiertem HBV-Genotyp E und Resistenztest-Ergebnissen.",
-    result:"8 Patienten (62,5 % männlich, 87,5 % afrikanischer Herkunft); 75 % mit persistierender Virämie trotz Therapie; Lamivudin-Resistenz 12,5 %, Tenofovir-Resistenzmutationen 25 %, Immun-Escape-Mutationen 37,5 %; virologische Suppression nach Therapie­anpassung nur in 37,5 %.",
-    transfer:"Italien (reales Patientenkollektiv); strukturelle Herausforderungen (Adhärenz, Migranten) in Deutschland ähnlich."
+    journal:"Inn Med (Heidelb)", year:"2026", pmid:"42484874",
+    author:"Jessen B et al.", pubdate:"22.07.2026",
+    added:"22.07.2026",
+    title:"Nephrologen unterschätzen Symptombelastung bei CKD – Patientensicht zählt",
+    sum:"Deutschlandweite Online-Befragung: 108 Nephrologen bewerteten durchschnittliche Symptombelastung bei CKD (Chronic Kidney Disease Symptom Burden Index, CKD-SBI), Vergleich mit Selbstangaben von 222 CKD-Patienten ohne Dialysepflicht.",
+    result:"Nephrologen nannten Fatigue (69,4%), Ödeme (38,9%), Hypertonie (35,2%) als häufigste; Patienten nannten Nykturie (74,3%), Fatigue (61,3%), Schlafstörungen (47,3%). Nephrologen überschätzten Gesamtbelastung und fünf Einzelsymptome signifikant, unterschätzten Belastung von 12 Symptomen.",
+    transfer:"Deutschland, deutschsprachig, direkte Übertragbarkeit auf Praxis und Kliniken"
   },
   {
-    journal:"Nephrol Ther", year:"2026", pmid:"42684151",
-    author:"El-Haik Y et al.", pubdate:"01.08.2026",
-    added:"02.09.2026",
-    title:"ESA- und Eisenmanagement erforderte 1.093 Monats-Arbeitsstunden in französischen Dialysezentren",
-    sum:"Organisatorische Belastungsanalyse von Erythropoese-Stimulatoren und intravenösem Eisen in 12 französischen Dialyseeinrichtungen.",
-    result:"ESA-Management 313,9 h/Monat pro Zentrum (davon 285,3 h Vorbereitung/Verabreichung/Monitoring); IV-Eisen-Management 779,3 h/Monat (664 h Verabreichung/Monitoring). 74,2 % der Kühllagerfläche für ESAs.",
-    transfer:"Frankreich; direkte Übertragbarkeit auf deutsches Dialysesystem (DMP-ähnliche Strukturen, vergleichbare Dokumentation)."
-  },
-  {
-    journal:"J Viral Hepat", year:"2026", pmid:"42499137",
-    author:"Smith V et al.", pubdate:"Aug. 2026",
-    added:"25.07.2026",
-    title:"HBV-assoziierte Stigmatisierung beeinträchtigte alle Lebensqualitäts-Domänen",
-    sum:"Qualitative Studie (Concept-Elicitation-Interviews) mit 28 HBV-Patienten aus USA, China und Polen zur Erfahrung von Stigma.",
-    result:"Internalisiertes Stigma 100 %, soziales Stigma 79 %, institutionelles Stigma 57 %. Sieben Domänen identifiziert: soziale Funktion (100 %), emotionales Wohlbefinden (96 %), HBV-Transmission (96 %), körperliche Symptome, Arbeit, Beziehungen, Zugang zu Versorgung. Stigma stark mit Lebensqualitäts-Einschränkungen verwoben.",
-    transfer:"Multinational (aber gering-Einkommens- und Mitteleinkommensländer überrepräsentiert); psychosoziale Versorgung in Deutschland unterbewertet."
-  },
-  {
-    journal:"Sci Rep", year:"2026", pmid:"42693153",
-    author:"Zhang W et al.", pubdate:"24.07.2026",
-    added:"03.09.2026",
-    title:"Metabolisches Syndrom-Scoring sagte Mehrfacherkrankung voraus: 1,35-fache Risikoerhöhung",
-    sum:"Prospektive Analyse von 17.894 Teilnehmern (China, USA, UK) zur Vorhersage kardiometabolischer Mehrfacherkrankung durch kontinuierliches Metabolisches-Syndrom-Score.",
-    result:"Über Medianfolgeup 4–7 Jahre: 1.061 Fälle kardiometabolischer Mehrfacherkrankung. Höchstes vs. niedriges Tertil des Score assoziiert mit HR 1,77–4,27 je nach Kohorte. Gepoolte HR pro 1-SD-Anstieg: 1,35 (95%-KI 1,17–1,56). Dosis-Wirkungs-Beziehung dosisabhängig oder linear.",
-    transfer:"China, USA, UK; Risikostratifizierungsmodell universal anwendbar, aber externe Validierung ausstehend."
+    journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"42482839",
+    author:"Fernandez N et al.", pubdate:"17.07.2026",
+    added:"22.07.2026",
+    title:"Wrist-Wearable Sensors erkennen COPD-Risiko früh durch digitale Gangmuster",
+    sum:"Prospektive Kohortenstudie an 28.251 UK-Biobank-Teilnehmern (60-78 Jahre) mit Beschleunigungsmessern zur Prüfung, ob reale Mobilitätsmuster Hinweis auf künftiges COPD-Auftreten geben.",
+    result:"Bei 639 Teilnehmern (2,26%) trat COPD während des Beobachtungszeitraums von durchschnittlich 8,5 Jahren auf. Vier digitale Ganzbiomarker (niedrigere Laufdauer, langsamere maximale Gehgeschwindigkeit, kürzere Gehpausen, geringerer Anteil von Gängen länger als 8 Sekunden) waren unabhängig mit künftiger COPD assoziiert; ein Modell mit diesen vier Biomarkern plus Selbstangaben erreichte einen Konkordanzindex von 0,80 und ist damit vergleichbar mit klinischen Tests.",
+    transfer:"UK-Biobank-Daten, digitale Biometrie auf Smartwatches übertragbar"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1498,7 +1489,7 @@ const RADAR_FRISTEN = [["2026-09-22", "2026-10-20", "2026-10-20", "2026-09-07", 
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "05.09.2026";
+const NEWS_STAND = "06.09.2026";
 const NEWS = [
   {titel:"Neue Studie zeigt geringe Teilnahmeraten an Krebs-Screenings von Menschen mit Behinderungen", datum:"2026-08-20", url:"https://www.monitor-versorgungsforschung.de/news/neue-studie-zeigt-geringe-teilnahmeraten-an-krebs-screenings-von-menschen-mit-behinderungen/"},
   {titel:"Lancet-Studie: Behandlungsqualität von COPD-Patienten steigt nach Klinikaufenthalt auf rund 80 Prozent", datum:"2026-07-23", url:"https://www.monitor-versorgungsforschung.de/news/lancet-studie-behandlungsqualitaet-von-copd-patienten-steigt-nach-klinikaufenthalt-auf-rund-80-prozent/"},
