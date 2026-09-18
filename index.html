@@ -1531,62 +1531,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "17. Sept. 2026, 06:21 Uhr";
+const SNAP_DATE = "18. Sept. 2026, 06:21 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Liver Int", year:"2026", pmid:"42745428",
-    author:"Cerini F et al.", pubdate:"Okt. 2026",
+    journal:"Inquiry", year:"2026", pmid:"42751809",
+    author:"Shrestha H et al.", pubdate:"17.09.2026",
+    added:"17.09.2026",
+    title:"Symptombelastung korrelierte stark negativ mit Lebensqualität bei Chronischen Erkrankungen",
+    sum:"Querschnittstudie mit 164 hospitalisierten Erwachsenen mit verschiedenen chronischen Erkrankungen untersuchte Symptombelastung (ESAS-r) und Lebensqualität (SF-36) sowie deren Assoziation.",
+    result:"92,1 % hatten hohe Symptombelastung (Median 50,5; IQR 40–57,5); 65,9 % berichteten schlechte Lebensqualität. Starke negative Korrelation zwischen Symptombelastung und Lebensqualität (rs=–0,620; 95%-KI [–0,941 bis –0,641]; p&lt;0,001). Symptombelastung war mit Komorbiditäten und Krankenhausaufenthalten signifikant assoziiert.",
+    transfer:"Nepal; zeigt universelles Muster bei Mehrfacherkrankung, Screening-Bedarf bei deutschen Chronikern."
+  },
+  {
+    journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"42751338",
+    author:"Chen Y et al.", pubdate:"12.09.2026",
+    added:"17.09.2026",
+    title:"Grünflächen verringerten COPD-Risiko um 13–17 Prozent",
+    sum:"Prospektive Kohortenstudie mit 385.502 UK-Biobank-Teilnehmern untersuchte, ob Wohngebiete mit Grün- und Blauflächen das COPD-Inzidenzrisiko senken.",
+    result:"Höhere Exposition gegenüber Grünflächen (HR 0,87; 95%-KI 0,83–0,92) und natürlicher Umgebung (HR 0,83; 95%-KI 0,78–0,87) waren mit niedrigerem COPD-Risiko verbunden, unabhängig von genetischer Anfälligkeit. Die Assoziation deutet auf präventives Potenzial von Umweltmaßnahmen hin.",
+    transfer:"UK-Kohortenstudie; Umweltfaktoren gelten international, Transfer auf Präventionsinfrastruktur hängt von Planung ab."
+  },
+  {
+    journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"42751152",
+    author:"Tu X et al.", pubdate:"11.09.2026",
+    added:"17.09.2026",
+    title:"Höhere Ballaststoffaufnahme senkte COPD-Prävalenz und Entzündungsmarker",
+    sum:"Zweistufige epidemiologische und klinische Kohortenstudie (NHANES 2013–2018 und 331 klinische Teilnehmer) untersuchte Assoziation zwischen Ballaststoffaufnahme und COPD sowie Entzündungsmarkern und zirkulierendem Lipopolysaccharid.",
+    result:"NHANES: höhere energieadjustierte Ballaststoffaufnahme war mit niedrigerer COPD-Prävalenz assoziiert. Klinische Kohorte: höhere Ballaststoffaufnahme bei COPD-Patienten korrelierte mit niedrigeren Entzündungsmarkern und zirkulierendem LPS. WBC und Neutrophile zeigten statistische Signifikanz mit jeweils 1,36 % und 4,22 % indirektem Effekt.",
+    transfer:"USA (NHANES) und klinische Kohortendaten; Ernährungsintervention ist übertragbar, prospektive Studien erforderlich."
+  },
+  {
+    journal:"Nephrology (Carlton)", year:"2026", pmid:"42754360",
+    author:"Miyauchi H et al.", pubdate:"Sept. 2026",
+    added:"17.09.2026",
+    title:"Salzrestriktion senkte Nierenkomplikationen nur in frühem CKD-Stadium",
+    sum:"Retrospektive Kohortenstudie mit 462 älteren Patienten (≥75 Jahre) untersuchte Zusammenhang zwischen Salzaufnahme und nierenspezifischen Outcomes nach CKD-Stadium stratifiziert.",
+    result:"In CKD-Stadium 3: höhere Salzaufnahme mit erhöhtem Risiko assoziiert (aHR 2,70; 95%-KI 1,02–7,12). In Stadien 4–5: keine signifikante Assoziation. Salzrestriktion scheint in frühen CKD-Stadien bei älteren Erwachsenen nutzbringend zu sein.",
+    transfer:"Japan; ältere Population, Stadium-spezifische Empfehlung relevant für Deutsche Praxis."
+  },
+  {
+    journal:"Trials", year:"2026", pmid:"42665834",
+    author:"Jobst-Schwan T et al.", pubdate:"28.08.2026",
+    added:"28.08.2026",
+    title:"SP16-Behandlung könnte Akute-Nierenschädigung bei Herzoperation verhindern",
+    sum:"Phase-IIa-Studie prüft Sicherheit und Wirksamkeit von SP16 (LRP1-Agonist) zur Prävention akuter Nierenschädigung bei 120 Hochrisiko-Patienten mit chronischer Nierenkrankheit unter Herzoperation.",
+    result:"Geplante Primärendpunkte: Inzidenz akuter Nierenschädigung innerhalb 7 Tage postoperativ und Häufigkeit von Nebenwirkungen in 72 h. Rekrutierung geplant ab August 2026; Phase-IIa-Ergebnisse ausstehend. Frühe Phase-I-Sicherheit war gegeben.",
+    transfer:"Deutsches Zentrum (Erlangen); experimentelles Stadium, externe Validierung erforderlich."
+  },
+  {
+    journal:"BMC Infect Dis", year:"2026", pmid:"42750015",
+    author:"Okeke E et al.", pubdate:"07.08.2026",
     added:"16.09.2026",
-    title:"Post-Hepatitis-C-Lebersteifheit prognostiziert Dekompensation stärker als deren Veränderung",
-    sum:"Retrospektive Kohortenstudie bei 135 Patienten mit HCV-bedingter kompensierter fortgeschrittener Lebererkrankung, die eine direkt wirkende antivirale Therapie (DAA) erhielten, prüfte, ob absolute post-SVR-Lebersteifheit (LSM) oder deren Veränderung den Verlauf nach Viruseradikation besser prognostizieren.",
-    result:"Bei medianer 60 Monate (95%-KI 52–69) Nachverfolgung entwickelten 8 % (11/135) leberbezogene Ereignisse. Absolute post-Therapie-LSM zeigte bessere diskriminative Fähigkeit (tAUC Jahr 2: 0,86; Jahr 3: 0,82) als deren Veränderung. Follow-up-LSM &gt; 20 kPa war unabhängig mit leberbezogenen Ereignissen assoziiert (SHR 5,61; p = 0,007), während Baveno-VII-Kriterien für LSM-Regression nicht signifikant waren (p = 0,097). Dies unterstützt wiederholte post-SVR-LSM-Bewertung zur Risikostratifizierung.",
-    transfer:"Schweiz (Bern), deutschsprachiger Raum, vergleichbare hepatologische Versorgungsstandards"
+    title:"HIV/Hepatitis-B-Koinfektion verschlechterte Lebensqualität erheblich",
+    sum:"Querschnittsanalyse von 884 Erwachsenen mit chronischer Hepatitis B in West- und Zentralafrika untersuchte gesundheitsbezogene Lebensqualität (SF-36) stratifiziert nach Behandlungsstatus und HIV-Status.",
+    result:"Mittlere Lebensqualität 77,8 (SD 16,9) insgesamt, aber signifikant niedriger bei HIV/HBV-Koinfektion unbehandelt (59,38 vs. 80,56 bei HBV-monoinfiziert; p&lt;0,01). Erhöhte Fibrosescores, Komorbiditäten und höheres Alter waren mit schlechterer Lebensqualität assoziiert; Energie war am meisten beeinträchtigt.",
+    transfer:"Subsaharische Länder mit hoher HBV/HIV-Prävalenz; zeigt Bedarf für integrierte Versorgung auch bei deutscher Mehrfacherkrankung."
   },
   {
-    journal:"Clin Interv Aging", year:"2026", pmid:"42746399",
-    author:"Jiang L et al.", pubdate:"11.09.2026",
+    journal:"Western Pac Surveill Response J", year:"2026", pmid:"42746034",
+    author:"", pubdate:"15.07.2026",
     added:"16.09.2026",
-    title:"Orale Mehrfacherkrankungen bei älteren Menschen erfordern differenzierte Zahngesundheits-Strategien",
-    sum:"Latente-Klassen-Analyse identifizierte unterschiedliche Muster oraler Mehrfacherkrankung (Karies, Zahnfleischerkrankung, Zahnverlust) bei 423 älteren Chinesen (65–74 Jahre) und untersuchte soziale Determinanten der Klassenzugehörigkeit.",
-    result:"Drei Subtypen wurden identifiziert: Klasse 1 (23,9 %, niedrige Erkrankungslast); Klasse 2 (41,6 %, parodontaldominant mit schwerem Zahnverlust); Klasse 3 (34,5 %, kariesdominant). Älterung, Rauchen und Zahnarztbesuche waren assoziiert mit Klasse 2. Älterung, weibliches Geschlecht, urbaner Wohnort und Zahnarztbesuche waren mit Klasse 3 verbunden. Die Befunde legen subtyp-spezifische statt einheitlicher Zahngesundheitsstrategien nahe und zeigen, dass orale Mehrfacherkrankung unter älteren Menschen heterogen ist.",
-    transfer:"China, aber methodisches Vorbild für Mehrfacherkrankungs-Phänotypisierung in allen Ländern übertragbar"
-  },
-  {
-    journal:"Nat Aging", year:"2026", pmid:"42675189",
-    author:"Vetrano DL et al.", pubdate:"31.08.2026",
-    added:"31.08.2026",
-    title:"Multimorbidität-Muster beeinflussen Therapieerfolg bei älteren Menschen mit Frailty",
-    sum:"Die Studie prüfte, ob die Wirksamkeit eines multikomponentalen Lebensstil-Interventionsprogramms (körperliche Aktivität mit technologischer Unterstützung und Ernährungsberatung) bei älteren Menschen mit Frailty und Mehrfacherkrankungen je nach Erkrankungsmuster variiert.",
-    result:"Insgesamt reduzierte die Intervention das Risiko für Mobilitätsbehinderung oder Tod um 22 % (HR 0,78; 95%-KI 0,66–0,92). Bei Patienten mit psychiatrischem Erkrankungsmuster war der Nutzen besonders groß (HR 0,65; 95%-KI 0,47–0,92); diese Gruppe gewann im Median 3,09 Monate ohne Mobilitätseinschränkung oder Tod. Bei kardio-metabolischen und respiratorischen Mustern zeigten sich keine statistisch signifikanten Unterschiede. Dies zeigt, dass Erkrankungsmuster die Therapieansprechbarkeit beeinflussen und Risikostratifizierung für präventive Maßnahmen wichtig ist.",
-    transfer:"Europäische Studie (Italien, Schweden, Deutschland), vergleichbare Struktur von Versorgung und Vorsorge"
-  },
-  {
-    journal:"BMC Nephrol", year:"2026", pmid:"42717324",
-    author:"Mountcastle S et al.", pubdate:"27.08.2026",
-    added:"10.09.2026",
-    title:"Retrograde Datenerfassung zu pädiatrischen Patienten mit CKD-Anämie ermöglicht Registerstudie",
-    sum:"Machbarkeitsstudie zur Durchführbarkeit der retrospektiven Erhebung klinischer Charakteristika, Behandlungshistorie und Nebenwirkungen bei pädiatrischen Dialyse-Patienten mit Anämie aus Krankenakten in UK und USA.",
-    result:"Unter 50 eingeschlossenen Patienten (36 UK, 14 USA, Median 9 Jahre) lag die mittlere Hemoglobin-Baseline bei 10,0 (2,0) g/dL. 46 % erhielten Eisentherapie mit der erythropoese-stimulierenden Therapie. Die mediane Nachverfolgung betrug 52,1 Wochen; 20 unerwünschte Ereignisse traten bei 9 (18 %) Patienten auf (alle schwerwiegend). Die Studie demonstrierte Machbarkeit, aus medizinischen Unterlagen klinische Charakteristika, Behandlungshistorie und Nebenwirkungen bei pädiatrischen Patienten mit CKD-Anämie zu erfassen.",
-    transfer:"UK und USA, begrenzte Übertragbarkeit auf Deutschland; wesentlich für internationale Vergleichbarkeit von Pädiatrie-Versorgung"
-  },
-  {
-    journal:"Intern Emerg Med", year:"2026", pmid:"42629534",
-    author:"Rogliani P et al.", pubdate:"21.08.2026",
-    added:"21.08.2026",
-    title:"Strukturierte COPD-Versorgung mit früher Diagnose und Triple-Inhalation senkt Mortalität",
-    sum:"Italienische Expertengruppe entwickelte praktische Empfehlungen zur Optimierung der COPD-Versorgung im italienischen Gesundheitssystem, basierend auf aktuellen Daten und dem Problem der Unterdiagnose.",
-    result:"Die Empfehlungen betonen: (1) strukturierte Fallsuche in Hausarztpraxen mit Spirometrie zur frühen Diagnose; (2) Standardisierung der Identifikation unkontrollierter Patienten durch Symptom-Scores und indirekte Marker (rezidivierende Antibiotika- oder Kortikosteroid-Nutzung); (3) Single-Inhaler-Triple-Therapie (SITT) als einzige pharmakologische Strategie, die nachweislich Exazerbationen und Gesamtmortalität bei Hochrisikopatienten senkt. Die Auswirkung auf kardiopulmonale Dekompensation wird diskutiert. Ein integrierter Versorgungspfad und Überwindung therapeutischer Trägheit sind zentral.",
-    transfer:"Italien, vergleichbare Verbraucherperspektive und Dokumentationssysteme wie Deutschland"
-  },
-  {
-    journal:"J Affect Disord", year:"2026", pmid:"42551563",
-    author:"Wang Y et al.", pubdate:"01.12.2026",
-    added:"04.08.2026",
-    title:"Retinale Gefäßzeichen vorhersagen Depressionsrisiko und nachfolgende chronische Erkrankungen",
-    sum:"Longitudinale Kohortenstudie untersuchte, ob retinale Gefäßstrukturen (quantifiziert aus Fundusphotographien) das Risiko für künftige Depression und darauffolgende chronische Erkrankungen in der UK Biobank vorhersagen.",
-    result:"Über mittlere 11,3 Jahre Follow-up waren breitere retinale Venen mit erhöhtem Depressionsrisiko assoziiert (zentrales retinales Venenäquivalent: HR 1,25, 95%-KI 1,06–1,48; Venenbreite: HR 1,31, 95%-KI 1,12–1,54). Bei 1.507 Patienten mit Depression ohne vorbestehende chronische Erkrankungen war niedrigere arterielle Gefäßdichte mit erhöhtem Gesamtrisiko für chronische Erkrankung assoziiert (HR 0,71, 95%-KI 0,54–0,95), während erhöhte retinale Gefäßtortuosität mit kardiovaskulärem Risiko verbunden war (HR 2,24–1,90). Retinale Gefäßneuroimaging könnte als nicht-invasiver Biomarker-Kandidat für Risikostratifizierung dienen.",
-    transfer:"UK Biobank mit standardisierter digitaler Bildgebung, übertragbar auf deutsche Versorgungsforschung mit Screeningpotenzialen"
+    title:"Gemeindevolontäre steigerten Hepatitis-B-Therapietreue um 25 Prozentpunkte",
+    sum:"Pilotstudie in Kiribati testete Gemeindevolontäre zur Verbesserung der Adhärenz zur Hepatitis-B-Antivirentherapie bei schwangeren Frauen und Patienten mit Zirrhose von Januar bis August 2025.",
+    result:"Therapietreue war 77,4 % in der Interventionsgruppe vs. 52,5 % in der Kontrollgruppe (p&lt;0,001); bei schwangeren Frauen 89,7 %; Adhärenz &gt;80 % erreichten 58,8 % der Intervention vs. 34,1 % der Kontrollen (p=0,0012). Die Strategie ist vielversprechend, aber vorläufig ohne Matching zwischen Gruppen.",
+    transfer:"Pazifikischer Inselstaat mit hoher Prävalenz; Modell könnte auch andere chronische Erkrankungen erreichen, Transfer hängt von lokalen Ressourcen ab."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1602,7 +1611,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-09-22"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "17.09.2026";
+const NEWS_STAND = "18.09.2026";
 const NEWS = [
   {titel:"Neue Studie zeigt geringe Teilnahmeraten an Krebs-Screenings von Menschen mit Behinderungen", datum:"2026-08-20", url:"https://www.monitor-versorgungsforschung.de/news/neue-studie-zeigt-geringe-teilnahmeraten-an-krebs-screenings-von-menschen-mit-behinderungen/"},
   {titel:"Lancet-Studie: Behandlungsqualität von COPD-Patienten steigt nach Klinikaufenthalt auf rund 80 Prozent", datum:"2026-07-23", url:"https://www.monitor-versorgungsforschung.de/news/lancet-studie-behandlungsqualitaet-von-copd-patienten-steigt-nach-klinikaufenthalt-auf-rund-80-prozent/"},
@@ -1620,8 +1629,8 @@ const PRESSE = [
 // Meldungen des G-BA — taeglich von scripts/newsfeed.py
 // === SELBST-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const SELBST = [
-  {titel:"Richtlinie für organisierte Krebsfrüherkennungsprogramme: Bewertung einer Früherkennung von Darmkrebs bei Personen mit familiärem Risiko unter 50 Jahren", datum:"2026-09-11", url:"/beschluesse/7979/", quelle:"G-BA"},
-  {titel:"Gezielte Lungendenervierung durch Katheterablation bei chronisch obstruktiver Lungenerkrankung", datum:"2026-08-27", url:"/bewertungsverfahren/methodenbewertung/181/", quelle:"G-BA"},
+  {titel:"Richtlinie Methoden Krankenhausbehandlung: Perkutan implantierter interatrialer Shunt zur Behandlung der Herzinsuffizienz mit reduzierter linksventrikulärer Ejektionsfraktion (LVEF ≤ 40 %)", datum:"2026-09-17", url:"/beschluesse/8023/", quelle:"G-BA"},
+  {titel:"Richtlinie Methoden vertragsärztliche Versorgung: Perkutan implantierter interatrialer Shunt zur Behandlung der Herzinsuffizienz mit reduzierter linksventrikulärer Ejektionsfraktion (LVEF ≤ 40 %)", datum:"2026-09-17", url:"/beschluesse/8022/", quelle:"G-BA"},
 ];
 // === SELBST-BLOCK-ENDE ===
 
