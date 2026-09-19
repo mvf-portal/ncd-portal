@@ -1531,71 +1531,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "18. Sept. 2026, 06:21 Uhr";
+const SNAP_DATE = "19. Sept. 2026, 06:21 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Inquiry", year:"2026", pmid:"42751809",
-    author:"Shrestha H et al.", pubdate:"17.09.2026",
+    journal:"Liver Int", year:"2026", pmid:"42757681",
+    author:"Marcellin F et al.", pubdate:"Okt. 2026",
+    added:"18.09.2026",
+    title:"Universeller DAA-Zugang in Frankreich hob Geschlechtsunterschiede in Hepatitis-C-Therapie auf",
+    sum:"Französische Kohorte mit 97.817 chronisch HCV-Infizierte vor und nach August 2017 (Universalzugang zu direktwirkenden Antiviralen) zur Analyse von Geschlechtsdisparitäten bei Therapieeinleitung.",
+    result:"Vor Universalzugang: Frauen hatten niedrigere DAA-Initiierungsrate (24,5 vs. 26,1/100 Personenjahre, p&lt;0,001). Nach Universalzugang (2017–2022): Frauen zeigten höhere Rate (22,3 vs. 18,5/100 PY, p&lt;0,001). Disparität umgekehrt – Effekt wurde in multivariablen Modellen bestätigt. Erklärung: Unterschiedliche Krankheitsprogression zwischen Männern und Frauen.",
+    transfer:"Frankreich, vergleichbare Sozialversicherung, Versorgungspolitik-Lesson"
+  },
+  {
+    journal:"BMJ", year:"2026", pmid:"42759976",
+    author:"Hellemans R et al.", pubdate:"18.09.2026",
+    added:"18.09.2026",
+    title:"Nierentransplantation senkt Fünf-Jahres-Sterblichkeit bei älteren dialysepflichtigen Patienten",
+    sum:"Europäische Kohortenstudie zur Überlebensfähigkeit von Nieren-Nierentransplantation vs. fortlaufende Dialyse bei 39.244 transplantierten und 64.036 dialysepflichtigen Patienten mit Fokus auf Spenderqualität und Patientenalter.",
+    result:"Standardkriterium-Spendernieren zeigten unabhängig vom Alter konsistent bessere Fünf-Jahres-Überlebensraten als Dialyse. Expandierte Kriterium-Spendernieren (besonders nach zirkulatorischem Hirntod) zeigten mit zunehmendem Alter geringere Überlebensvorteile: Bei 75-Jährigen war die Fünf-Jahres-Überlebensrate mit expandiertem Spender/zirkulatorischem Hirntod (59%) nicht signifikant besser als mit Dialyse (55%, HR 0,97, 95%-KI 0,70–1,33) und zeigt dreifach erhöhte Frühmortalität.",
+    transfer:"Europäische Registerdaten, vergleichbare Gesundheitssysteme DACH und weitere"
+  },
+  {
+    journal:"Ren Fail", year:"2026", pmid:"42755292",
+    author:"Huang H et al.", pubdate:"18.09.2026",
+    added:"18.09.2026",
+    title:"Erhöhtes TSH und Schilddrüsenhormonresistenz erhöhen CKD-Risiko bei Diabetes",
+    sum:"Querschnittstudie bei 2.759 Patienten mit Typ-2-Diabetes ohne periphere Schilddrüsendysfunktion zur Assoziation zwischen zentraler Schilddrüsenhormonresistenz und chronischer Nierenerkrankung.",
+    result:"Erhöhtes TSH (oberstes Quartil) und erhöhte zentrale Schilddrüsenhormonresistenz (TFQI, TT4RI, TSHI) waren unabhängig mit erhöhtem CKD-Risiko assoziiert. TSH-Quartil 4: OR 1,50 (95%-KI 1,08–2,07). Nicht-lineare Assoziation nachgewiesen. Nach Propensity-Score-Matching (n=684 Paare): OR 1,66 (95%-KI 1,21–2,27). Leicht verfügbare Indizes könnten für Früh-Risikostratifikation nützlich sein.",
+    transfer:"China-Daten, aber Endokrinologie-Nierenpathologie universell gültig"
+  },
+  {
+    journal:"Chron Respir Dis", year:"2026", pmid:"42757587",
+    author:"Ais-Daza A et al.", pubdate:"18.09.2026",
+    added:"18.09.2026",
+    title:"Insomnie bei COPD-Patienten korreliert mit schlechterer Gesundheit und mehr Exazerbationen",
+    sum:"Querschnittstudie mit 103 COPD-Patienten (77 Männer, 26 Frauen) zur Prävalenz und Auswirkungen von Insomnie auf Gesundheitsstatus, Lungenfunktion, Angst/Depression und Exazerbationen.",
+    result:"Insomnien prävalent bei 38,8% (32,5% mild, 55,0% moderat, 12,5% schwer). Keine Unterschiede in Lungenfunktion, aber Insomnie-Patienten zeigten: schlechterer CAT-Score (19,13±8,63 vs. 11,32±8,13; p&lt;0,001), höhere Tagesmüdigkeit (5,23±3,10 vs. 3,84±2,31; p=0,011), mehr Angst (61,5% vs. 31,2%; OR 3,533) und mehr Exazerbationen (50% vs. 28,6%; OR 2,5; p=0,037). CAT-Score war unabhängiger Prädiktor (OR 1,083; 95%-KI 1,011–1,160; p=0,023).",
+    transfer:"Spanien, Primärversorgung, übertragbar auf deutsches COPD-Management"
+  },
+  {
+    journal:"Front Public Health", year:"2026", pmid:"42756024",
+    author:"Schaller A et al.", pubdate:"03.09.2026",
+    added:"18.09.2026",
+    title:"Chronisch Kranke brauchen maßgeschneiderte Betriebliche Gesundheitsförderung",
+    sum:"Qualitative Interviewstudie mit 15 beschäftigten Patienten mit chronischen Erkrankungen zu ihren Bedürfnissen bezüglich bewegungsförderlicher betrieblicher Gesundheitsprogramme.",
+    result:"Vier Themenkomplexe identifiziert: Subjektives Gesundheitsverständnis, arbeitsplatzbedingte Herausforderungen (physisch und psychisch) mit Bewältigungsstrategien (Bewegung, Ernährung, soziales Umfeld, Entspannung), WHP-Erfahrungen und konkrete Wünsche. Zentrale Erkenntnis: BGF für chronisch Kranke muss mental, physisch und soziale Einschränkungen berücksichtigen und an arbeitsplatzspezifische Belastungen angepasst sein.",
+    transfer:"Deutschland, Bundeswehr-Universität München, direkt übertragbar"
+  },
+  {
+    journal:"Korean J Intern Med", year:"2026", pmid:"42754529",
+    author:"Park JU et al.", pubdate:"01.09.2026",
     added:"17.09.2026",
-    title:"Symptombelastung korrelierte stark negativ mit Lebensqualität bei Chronischen Erkrankungen",
-    sum:"Querschnittstudie mit 164 hospitalisierten Erwachsenen mit verschiedenen chronischen Erkrankungen untersuchte Symptombelastung (ESAS-r) und Lebensqualität (SF-36) sowie deren Assoziation.",
-    result:"92,1 % hatten hohe Symptombelastung (Median 50,5; IQR 40–57,5); 65,9 % berichteten schlechte Lebensqualität. Starke negative Korrelation zwischen Symptombelastung und Lebensqualität (rs=–0,620; 95%-KI [–0,941 bis –0,641]; p&lt;0,001). Symptombelastung war mit Komorbiditäten und Krankenhausaufenthalten signifikant assoziiert.",
-    transfer:"Nepal; zeigt universelles Muster bei Mehrfacherkrankung, Screening-Bedarf bei deutschen Chronikern."
+    title:"Zentralvenöse Katheter bei Dialyse über 80 Jahren erhöhen Sterblichkeit gegenüber arteriovenösen Fisteln um den Faktor 3",
+    sum:"Koreanische nationale Kohortenstudie mit 79.286 Hämodialysepatienten (2012–2021) zur Mortalität nach Vascular-Access-Typ, stratifiziert nach Alter (inkl. Patienten über 80 Jahren).",
+    result:"Zentrale venöse Katheter (CVC) assoziiert mit höchster Mortalität. Vs. arteriovenöse Fistel (AVF): aHR 3,54 (95%-KI 3,43–3,65). Auch bei Patienten über 80 Jahren und über 90 Jahren erhöht (aHR 3,30; 95%-KI 3,14–3,47 bzw. 3,18; 95%-KI 2,65–3,82). CVC vs. Graft ebenfalls erhöhtes Risiko über alle Altersgruppen. Hohes Alter sollte keine Kontraindikation für AVF sein – individualisierte Entscheidungen erforderlich.",
+    transfer:"Südkorea, Routineversorgungsdaten, Altersdemographie vergleichbar"
   },
   {
-    journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"42751338",
-    author:"Chen Y et al.", pubdate:"12.09.2026",
-    added:"17.09.2026",
-    title:"Grünflächen verringerten COPD-Risiko um 13–17 Prozent",
-    sum:"Prospektive Kohortenstudie mit 385.502 UK-Biobank-Teilnehmern untersuchte, ob Wohngebiete mit Grün- und Blauflächen das COPD-Inzidenzrisiko senken.",
-    result:"Höhere Exposition gegenüber Grünflächen (HR 0,87; 95%-KI 0,83–0,92) und natürlicher Umgebung (HR 0,83; 95%-KI 0,78–0,87) waren mit niedrigerem COPD-Risiko verbunden, unabhängig von genetischer Anfälligkeit. Die Assoziation deutet auf präventives Potenzial von Umweltmaßnahmen hin.",
-    transfer:"UK-Kohortenstudie; Umweltfaktoren gelten international, Transfer auf Präventionsinfrastruktur hängt von Planung ab."
-  },
-  {
-    journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"42751152",
-    author:"Tu X et al.", pubdate:"11.09.2026",
-    added:"17.09.2026",
-    title:"Höhere Ballaststoffaufnahme senkte COPD-Prävalenz und Entzündungsmarker",
-    sum:"Zweistufige epidemiologische und klinische Kohortenstudie (NHANES 2013–2018 und 331 klinische Teilnehmer) untersuchte Assoziation zwischen Ballaststoffaufnahme und COPD sowie Entzündungsmarkern und zirkulierendem Lipopolysaccharid.",
-    result:"NHANES: höhere energieadjustierte Ballaststoffaufnahme war mit niedrigerer COPD-Prävalenz assoziiert. Klinische Kohorte: höhere Ballaststoffaufnahme bei COPD-Patienten korrelierte mit niedrigeren Entzündungsmarkern und zirkulierendem LPS. WBC und Neutrophile zeigten statistische Signifikanz mit jeweils 1,36 % und 4,22 % indirektem Effekt.",
-    transfer:"USA (NHANES) und klinische Kohortendaten; Ernährungsintervention ist übertragbar, prospektive Studien erforderlich."
-  },
-  {
-    journal:"Nephrology (Carlton)", year:"2026", pmid:"42754360",
-    author:"Miyauchi H et al.", pubdate:"Sept. 2026",
-    added:"17.09.2026",
-    title:"Salzrestriktion senkte Nierenkomplikationen nur in frühem CKD-Stadium",
-    sum:"Retrospektive Kohortenstudie mit 462 älteren Patienten (≥75 Jahre) untersuchte Zusammenhang zwischen Salzaufnahme und nierenspezifischen Outcomes nach CKD-Stadium stratifiziert.",
-    result:"In CKD-Stadium 3: höhere Salzaufnahme mit erhöhtem Risiko assoziiert (aHR 2,70; 95%-KI 1,02–7,12). In Stadien 4–5: keine signifikante Assoziation. Salzrestriktion scheint in frühen CKD-Stadien bei älteren Erwachsenen nutzbringend zu sein.",
-    transfer:"Japan; ältere Population, Stadium-spezifische Empfehlung relevant für Deutsche Praxis."
-  },
-  {
-    journal:"Trials", year:"2026", pmid:"42665834",
-    author:"Jobst-Schwan T et al.", pubdate:"28.08.2026",
-    added:"28.08.2026",
-    title:"SP16-Behandlung könnte Akute-Nierenschädigung bei Herzoperation verhindern",
-    sum:"Phase-IIa-Studie prüft Sicherheit und Wirksamkeit von SP16 (LRP1-Agonist) zur Prävention akuter Nierenschädigung bei 120 Hochrisiko-Patienten mit chronischer Nierenkrankheit unter Herzoperation.",
-    result:"Geplante Primärendpunkte: Inzidenz akuter Nierenschädigung innerhalb 7 Tage postoperativ und Häufigkeit von Nebenwirkungen in 72 h. Rekrutierung geplant ab August 2026; Phase-IIa-Ergebnisse ausstehend. Frühe Phase-I-Sicherheit war gegeben.",
-    transfer:"Deutsches Zentrum (Erlangen); experimentelles Stadium, externe Validierung erforderlich."
-  },
-  {
-    journal:"BMC Infect Dis", year:"2026", pmid:"42750015",
-    author:"Okeke E et al.", pubdate:"07.08.2026",
-    added:"16.09.2026",
-    title:"HIV/Hepatitis-B-Koinfektion verschlechterte Lebensqualität erheblich",
-    sum:"Querschnittsanalyse von 884 Erwachsenen mit chronischer Hepatitis B in West- und Zentralafrika untersuchte gesundheitsbezogene Lebensqualität (SF-36) stratifiziert nach Behandlungsstatus und HIV-Status.",
-    result:"Mittlere Lebensqualität 77,8 (SD 16,9) insgesamt, aber signifikant niedriger bei HIV/HBV-Koinfektion unbehandelt (59,38 vs. 80,56 bei HBV-monoinfiziert; p&lt;0,01). Erhöhte Fibrosescores, Komorbiditäten und höheres Alter waren mit schlechterer Lebensqualität assoziiert; Energie war am meisten beeinträchtigt.",
-    transfer:"Subsaharische Länder mit hoher HBV/HIV-Prävalenz; zeigt Bedarf für integrierte Versorgung auch bei deutscher Mehrfacherkrankung."
-  },
-  {
-    journal:"Western Pac Surveill Response J", year:"2026", pmid:"42746034",
-    author:"", pubdate:"15.07.2026",
-    added:"16.09.2026",
-    title:"Gemeindevolontäre steigerten Hepatitis-B-Therapietreue um 25 Prozentpunkte",
-    sum:"Pilotstudie in Kiribati testete Gemeindevolontäre zur Verbesserung der Adhärenz zur Hepatitis-B-Antivirentherapie bei schwangeren Frauen und Patienten mit Zirrhose von Januar bis August 2025.",
-    result:"Therapietreue war 77,4 % in der Interventionsgruppe vs. 52,5 % in der Kontrollgruppe (p&lt;0,001); bei schwangeren Frauen 89,7 %; Adhärenz &gt;80 % erreichten 58,8 % der Intervention vs. 34,1 % der Kontrollen (p=0,0012). Die Strategie ist vielversprechend, aber vorläufig ohne Matching zwischen Gruppen.",
-    transfer:"Pazifikischer Inselstaat mit hoher Prävalenz; Modell könnte auch andere chronische Erkrankungen erreichen, Transfer hängt von lokalen Ressourcen ab."
+    journal:"Can Respir J", year:"2026", pmid:"42757565",
+    author:"Li Q et al.", pubdate:"2026",
+    added:"18.09.2026",
+    title:"Hochfrequente Thoraxoszillation + Kurzwelle verbessert COPD-Exazerbationen mehr als Einzeltherapie",
+    sum:"Randomisierte kontrollierte Dreigruppen-Studie mit 89 COPD-Exazerbationspatienten zu Kombination von Kurzwellentherapie (SWD) mit hochfrequenter Thoraxoszillation (HFCWO) vs. HFCWO allein vs. Standardbehandlung über 72 Stunden.",
+    result:"Nach 72 h: Kombinierte Therapie zeigte signifikant größere Reduktion CAT- und BCSS-Scores vs. HFCWO allein und Kontrolle (p&lt;0,05). Arterielle Blutgaswerte (PaO₂, PaCO₂) und Sputumclearance (24h-Volumen, Neutrophilen- und Eosinophilen-%) waren in der Kombinationsgruppe besser. Keine signifikanten Unterschiede in Lungenfunktion (FEV₁, FVC) oder Entzündungsmarkern (IL-6, CRP, WBC). Thermotherapie als adjuvante Strategie wirksam.",
+    transfer:"China-Daten, aber Technik und Outcome-Parameter universell"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1611,18 +1611,18 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-09-22"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "18.09.2026";
+const NEWS_STAND = "19.09.2026";
 const NEWS = [
-  {titel:"Neue Studie zeigt geringe Teilnahmeraten an Krebs-Screenings von Menschen mit Behinderungen", datum:"2026-08-20", url:"https://www.monitor-versorgungsforschung.de/news/neue-studie-zeigt-geringe-teilnahmeraten-an-krebs-screenings-von-menschen-mit-behinderungen/"},
-  {titel:"Lancet-Studie: Behandlungsqualität von COPD-Patienten steigt nach Klinikaufenthalt auf rund 80 Prozent", datum:"2026-07-23", url:"https://www.monitor-versorgungsforschung.de/news/lancet-studie-behandlungsqualitaet-von-copd-patienten-steigt-nach-klinikaufenthalt-auf-rund-80-prozent/"},
+  {titel:"Versorgung chronisch kranker Kinder: DGKJCH und BNKD fordern Kontinuität", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/versorgung-chronisch-kranker-kinder-dgkjch-und-bnkd-fordern-kontinuitaet/"},
+  {titel:"Interatrialer Shunt bei Herzschwäche: G-BA beschließt neue Leistung", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/interatrialer-shunt-bei-herzschwaeche-g-ba-beschliesst-neue-leistung/"},
 ];
 // === NEWS-BLOCK-ENDE ===
 
 // Fremde Pressemeldungen zum Thema — taeglich von scripts/newsfeed.py
 // === PRESSE-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const PRESSE = [
+  {titel:"Hautkrankheit HS besser verstehen & Rückfälle verhindern: Würzburger Forschung kombiniert Immunologie & App-Technologie", datum:"2026-09-18", url:"http://idw-online.de/de/news877632", quelle:"idw"},
   {titel:"Personalisierte Medizin: Die Aussicht auf eine frühere Asthmadiagnose lässt aufatmen", datum:"2026-09-17", url:"http://idw-online.de/de/news877517", quelle:"idw"},
-  {titel:"Alt werden mit Rheuma: nicht weniger, sondern präziser behandeln", datum:"2026-09-14", url:"http://idw-online.de/de/news877316", quelle:"idw"},
 ];
 // === PRESSE-BLOCK-ENDE ===
 
