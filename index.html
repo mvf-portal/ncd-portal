@@ -1531,71 +1531,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "19. Sept. 2026, 06:21 Uhr";
+const SNAP_DATE = "20. Sept. 2026, 06:20 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Liver Int", year:"2026", pmid:"42757681",
-    author:"Marcellin F et al.", pubdate:"Okt. 2026",
+    journal:"BMC Nephrol", year:"2026", pmid:"42760520",
+    author:"Huish S et al.", pubdate:"18.09.2026",
     added:"18.09.2026",
-    title:"Universeller DAA-Zugang in Frankreich hob Geschlechtsunterschiede in Hepatitis-C-Therapie auf",
-    sum:"Französische Kohorte mit 97.817 chronisch HCV-Infizierte vor und nach August 2017 (Universalzugang zu direktwirkenden Antiviralen) zur Analyse von Geschlechtsdisparitäten bei Therapieeinleitung.",
-    result:"Vor Universalzugang: Frauen hatten niedrigere DAA-Initiierungsrate (24,5 vs. 26,1/100 Personenjahre, p&lt;0,001). Nach Universalzugang (2017–2022): Frauen zeigten höhere Rate (22,3 vs. 18,5/100 PY, p&lt;0,001). Disparität umgekehrt – Effekt wurde in multivariablen Modellen bestätigt. Erklärung: Unterschiedliche Krankheitsprogression zwischen Männern und Frauen.",
-    transfer:"Frankreich, vergleichbare Sozialversicherung, Versorgungspolitik-Lesson"
+    title:"Hämodialyse-Versorgung: Forschungslücken und Innovationsbedarf",
+    sum:"UK-Konsenstreffen von 56 Akteuren (Ärzte, Pflege, Patienten) zur Hämodialyse-Versorgung; kritische Bewertung von Studien und Technologien mit Fokus auf Patientenergebnisse.",
+    result:"NightLife-Studie zu erweiterten nächtlichen Hämodialyseschichten zeigte schlecht enrolliert und unkares primäres Lebensqualitäts-Ergebnis (MD 3,00 Punkte, 95%CI -12,4–18,3). PISCES: 4 g/Tag n-3-PUFA vs. Placebo reduzierte schwere kardiovaskuläre Ereignisse (0,31 vs. 0,61 pro 1000 Patiententage; HR 0,57, 95%CI 0,47–0,70) ohne klaren Gesamtüberlebensvorteil. Konsens: Inklusive Eligibilität, proportionale Finanzierung, patientenrelevante Outcomes nötig.",
+    transfer:"UK-System mit NHS; teilweise übertragbar auf Versorgungsforschungsmethoden"
   },
   {
-    journal:"BMJ", year:"2026", pmid:"42759976",
-    author:"Hellemans R et al.", pubdate:"18.09.2026",
+    journal:"Cochrane Database Syst Rev", year:"2026", pmid:"42757634",
+    author:"Beresford L et al.", pubdate:"18.09.2026",
     added:"18.09.2026",
-    title:"Nierentransplantation senkt Fünf-Jahres-Sterblichkeit bei älteren dialysepflichtigen Patienten",
-    sum:"Europäische Kohortenstudie zur Überlebensfähigkeit von Nieren-Nierentransplantation vs. fortlaufende Dialyse bei 39.244 transplantierten und 64.036 dialysepflichtigen Patienten mit Fokus auf Spenderqualität und Patientenalter.",
-    result:"Standardkriterium-Spendernieren zeigten unabhängig vom Alter konsistent bessere Fünf-Jahres-Überlebensraten als Dialyse. Expandierte Kriterium-Spendernieren (besonders nach zirkulatorischem Hirntod) zeigten mit zunehmendem Alter geringere Überlebensvorteile: Bei 75-Jährigen war die Fünf-Jahres-Überlebensrate mit expandiertem Spender/zirkulatorischem Hirntod (59%) nicht signifikant besser als mit Dialyse (55%, HR 0,97, 95%-KI 0,70–1,33) und zeigt dreifach erhöhte Frühmortalität.",
-    transfer:"Europäische Registerdaten, vergleichbare Gesundheitssysteme DACH und weitere"
+    title:"Neuromuskuläre Elektrostimulation bei Hämodialyse: Evidenz sehr unsicher",
+    sum:"Cochrane-Übersicht zu NMES bei Nierenversagen unter Dialyse (12 RCTs, 299 Teilnehmer); Fokus auf Muskelabbau, physikalische Leistung und kardiovaskuläre Outcomes.",
+    result:"Evidenzqualität von sehr niedrig bis niedrig. NMES-Effekt auf Lebensteilhabe sehr unsicher (MD 1,00, 95%CI -3,85–5,85, 1 Studie, 20 Teilnehmer). Sistolischer Blutdruck: minimal/kein Unterschied (MD 5,54, 95%CI -4,02–15,09, 4 Studien, 101 Teilnehmer, niedrige Sicherheit). Diastolischer Blutdruck: minimal/kein Unterschied (MD 2,72, 95%CI -2,85–8,29). Keine Studien zu Fatigue, Schmerz, Infektionen oder Gefäßzugang. Große, qualitativ hochwertige RCTs mit patientenzentrierten Outcomes erforderlich.",
+    transfer:"Internationale Evidenzsynthese; Übertragbarkeit hängt von lokalen Dialyse-Ressourcen ab"
   },
   {
-    journal:"Ren Fail", year:"2026", pmid:"42755292",
-    author:"Huang H et al.", pubdate:"18.09.2026",
-    added:"18.09.2026",
-    title:"Erhöhtes TSH und Schilddrüsenhormonresistenz erhöhen CKD-Risiko bei Diabetes",
-    sum:"Querschnittstudie bei 2.759 Patienten mit Typ-2-Diabetes ohne periphere Schilddrüsendysfunktion zur Assoziation zwischen zentraler Schilddrüsenhormonresistenz und chronischer Nierenerkrankung.",
-    result:"Erhöhtes TSH (oberstes Quartil) und erhöhte zentrale Schilddrüsenhormonresistenz (TFQI, TT4RI, TSHI) waren unabhängig mit erhöhtem CKD-Risiko assoziiert. TSH-Quartil 4: OR 1,50 (95%-KI 1,08–2,07). Nicht-lineare Assoziation nachgewiesen. Nach Propensity-Score-Matching (n=684 Paare): OR 1,66 (95%-KI 1,21–2,27). Leicht verfügbare Indizes könnten für Früh-Risikostratifikation nützlich sein.",
-    transfer:"China-Daten, aber Endokrinologie-Nierenpathologie universell gültig"
+    journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"42761905",
+    author:"Zhang R et al.", pubdate:"14.09.2026",
+    added:"19.09.2026",
+    title:"COPD-Interventionen: Lastenreduktion und Kosteneffektivität integrieren",
+    sum:"Narrative Übersicht integrierte Krankheitslast (DALYs) und Kosteneffektivität (ICER) zur Priorisierung von COPD-Maßnahmen anhand von Gesundheitsauswirkung und ökonomischem Wert.",
+    result:"Tabakentwöhnung und Pulmonale Rehabilitation zeigten die günstigste Kombination aus Lastenreduktion und ökonomischem Wert. Grippeschutzimpfung und Pneumokokkenimpfung waren günstig, trotz begrenzter COPD-spezifischer Wirtschaftsevidenz. Triple-Inhalationstherapie zeigte kontextabhängigen Wert; Azithromycin und Langzeit-Sauerstofftherapie waren wirtschaftlich in Hochrisikopopulationen günstig. Mepolizumab und Ensifentrin zeigten klinischen Nutzen, aber weniger günstige ökonomische Werte bei getesteten Preisen.",
+    transfer:"Deutschland: Unterschiedliche Systematik von DMP und Kostenübernahme"
   },
   {
-    journal:"Chron Respir Dis", year:"2026", pmid:"42757587",
-    author:"Ais-Daza A et al.", pubdate:"18.09.2026",
-    added:"18.09.2026",
-    title:"Insomnie bei COPD-Patienten korreliert mit schlechterer Gesundheit und mehr Exazerbationen",
-    sum:"Querschnittstudie mit 103 COPD-Patienten (77 Männer, 26 Frauen) zur Prävalenz und Auswirkungen von Insomnie auf Gesundheitsstatus, Lungenfunktion, Angst/Depression und Exazerbationen.",
-    result:"Insomnien prävalent bei 38,8% (32,5% mild, 55,0% moderat, 12,5% schwer). Keine Unterschiede in Lungenfunktion, aber Insomnie-Patienten zeigten: schlechterer CAT-Score (19,13±8,63 vs. 11,32±8,13; p&lt;0,001), höhere Tagesmüdigkeit (5,23±3,10 vs. 3,84±2,31; p=0,011), mehr Angst (61,5% vs. 31,2%; OR 3,533) und mehr Exazerbationen (50% vs. 28,6%; OR 2,5; p=0,037). CAT-Score war unabhängiger Prädiktor (OR 1,083; 95%-KI 1,011–1,160; p=0,023).",
-    transfer:"Spanien, Primärversorgung, übertragbar auf deutsches COPD-Management"
+    journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"42761771",
+    author:"Alcázar-Navarrete B et al.", pubdate:"13.09.2026",
+    added:"19.09.2026",
+    title:"COPD-Versorgung in Spanien: Klinische Pfade und Koordination",
+    sum:"Delphi-Konsens zu Nachsorge von COPD-Patienten in der täglichen Praxis: 155 spanische Pneumologen einigten sich auf strukturierte Versorgungswege mit Differenzierung nach Risiko.",
+    result:"Über 80 % der Teilnehmer forderten explizitere Leitlinienempfehlungen zur Nachsorge. Konsens herrschte: Niedrig-Risiko-Patienten sollten in der Primärversorgung alle 12 Monate besucht werden; Hoch-Risiko-Patienten benötigen pneumologische Überwachung plus Pflegebesuche. Koordination mit primärer Versorgung und Pflege wird als essentiell erachtet, operationale Protokolle aber noch unklar.",
+    transfer:"Spanien, vergleichbares System; DMP-Äquivalent fehlt"
   },
   {
-    journal:"Front Public Health", year:"2026", pmid:"42756024",
-    author:"Schaller A et al.", pubdate:"03.09.2026",
-    added:"18.09.2026",
-    title:"Chronisch Kranke brauchen maßgeschneiderte Betriebliche Gesundheitsförderung",
-    sum:"Qualitative Interviewstudie mit 15 beschäftigten Patienten mit chronischen Erkrankungen zu ihren Bedürfnissen bezüglich bewegungsförderlicher betrieblicher Gesundheitsprogramme.",
-    result:"Vier Themenkomplexe identifiziert: Subjektives Gesundheitsverständnis, arbeitsplatzbedingte Herausforderungen (physisch und psychisch) mit Bewältigungsstrategien (Bewegung, Ernährung, soziales Umfeld, Entspannung), WHP-Erfahrungen und konkrete Wünsche. Zentrale Erkenntnis: BGF für chronisch Kranke muss mental, physisch und soziale Einschränkungen berücksichtigen und an arbeitsplatzspezifische Belastungen angepasst sein.",
-    transfer:"Deutschland, Bundeswehr-Universität München, direkt übertragbar"
+    journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"42741717",
+    author:"Brightling CE et al.", pubdate:"10.09.2026",
+    added:"15.09.2026",
+    title:"Biologika bei Eosinophilie: Variable Wirksamkeit je nach Blut-Eosinophil-Schwelle",
+    sum:"Systematische Übersicht zu Biologika in moderater bis sehr schwerer COPD (Phase-2/3-Studien), Fokus auf Exazerbationen, Lungenfunktion und Lebensqualität je nach Blut-Eosinophil-Baseline.",
+    result:"Astegolimab, Benralizumab, Itepekimab, Tezepelumab reduzierten Exazerbationen nicht in der Gesamtpopulation. Bei Eosinophilen ≥300/μL profitierten Patienten von Benralizumab, Dupilumab und Mepolizumab mit Exazerbationsraten-Reduktionen; Lungenfunktion und Lebensqualität verbesserten sich v. a. bei höherer Eosinophilie. Die Wirksamkeit ist stark eosinophil-abhängig; unterhalb 150/μL kein Nutzen nachgewiesen.",
+    transfer:"Internationale Studien, Ergebnisse populationsunabhängig"
   },
   {
-    journal:"Korean J Intern Med", year:"2026", pmid:"42754529",
-    author:"Park JU et al.", pubdate:"01.09.2026",
-    added:"17.09.2026",
-    title:"Zentralvenöse Katheter bei Dialyse über 80 Jahren erhöhen Sterblichkeit gegenüber arteriovenösen Fisteln um den Faktor 3",
-    sum:"Koreanische nationale Kohortenstudie mit 79.286 Hämodialysepatienten (2012–2021) zur Mortalität nach Vascular-Access-Typ, stratifiziert nach Alter (inkl. Patienten über 80 Jahren).",
-    result:"Zentrale venöse Katheter (CVC) assoziiert mit höchster Mortalität. Vs. arteriovenöse Fistel (AVF): aHR 3,54 (95%-KI 3,43–3,65). Auch bei Patienten über 80 Jahren und über 90 Jahren erhöht (aHR 3,30; 95%-KI 3,14–3,47 bzw. 3,18; 95%-KI 2,65–3,82). CVC vs. Graft ebenfalls erhöhtes Risiko über alle Altersgruppen. Hohes Alter sollte keine Kontraindikation für AVF sein – individualisierte Entscheidungen erforderlich.",
-    transfer:"Südkorea, Routineversorgungsdaten, Altersdemographie vergleichbar"
-  },
-  {
-    journal:"Can Respir J", year:"2026", pmid:"42757565",
-    author:"Li Q et al.", pubdate:"2026",
-    added:"18.09.2026",
-    title:"Hochfrequente Thoraxoszillation + Kurzwelle verbessert COPD-Exazerbationen mehr als Einzeltherapie",
-    sum:"Randomisierte kontrollierte Dreigruppen-Studie mit 89 COPD-Exazerbationspatienten zu Kombination von Kurzwellentherapie (SWD) mit hochfrequenter Thoraxoszillation (HFCWO) vs. HFCWO allein vs. Standardbehandlung über 72 Stunden.",
-    result:"Nach 72 h: Kombinierte Therapie zeigte signifikant größere Reduktion CAT- und BCSS-Scores vs. HFCWO allein und Kontrolle (p&lt;0,05). Arterielle Blutgaswerte (PaO₂, PaCO₂) und Sputumclearance (24h-Volumen, Neutrophilen- und Eosinophilen-%) waren in der Kombinationsgruppe besser. Keine signifikanten Unterschiede in Lungenfunktion (FEV₁, FVC) oder Entzündungsmarkern (IL-6, CRP, WBC). Thermotherapie als adjuvante Strategie wirksam.",
-    transfer:"China-Daten, aber Technik und Outcome-Parameter universell"
+    journal:"Nefrologia (Engl Ed)", year:"2026", pmid:"42618196",
+    author:"Ortiz A et al.", pubdate:"Aug. 2026",
+    added:"19.08.2026",
+    title:"CKD-Prävention: Albuminurie-Screening senkt Dialysebedarf deutlich",
+    sum:"Spanischer Bericht der Nephrologiegesellschaft zeigt Heterogenität in KRT-Indikation über Regionen und fordert präventiven Fokus auf Albuminurie als Screeningkriterium.",
+    result:"CKD-Prävention durch Albuminurie-Screening kann KRT-Bedarf um fast drei Jahrzehnte verschieben. Inverse Korrelation zwischen KRT-Inzidenz/-Prävalenz und Lebenserwartung: Niedriger KRT-Bedarf ist Leistungsmerkmal besserer Gesamtgesundheit. Integration albuminurie-basiertes CKD-Screening in Darmkrebsscreening für Babyboomer könnte KRT-Welle einbremsen.",
+    transfer:"Spanien, ähnliches Sozialversicherungssystem"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1611,7 +1602,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-09-22"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "19.09.2026";
+const NEWS_STAND = "20.09.2026";
 const NEWS = [
   {titel:"Versorgung chronisch kranker Kinder: DGKJCH und BNKD fordern Kontinuität", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/versorgung-chronisch-kranker-kinder-dgkjch-und-bnkd-fordern-kontinuitaet/"},
   {titel:"Interatrialer Shunt bei Herzschwäche: G-BA beschließt neue Leistung", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/interatrialer-shunt-bei-herzschwaeche-g-ba-beschliesst-neue-leistung/"},
