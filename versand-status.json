@@ -1,12 +1,18 @@
 {
  "hub": "Knowledge-Hub Chronische Erkrankungen",
  "domain": "ncd.m-vf.de",
- "datum": "2026-09-22",
+ "datum": "2026-09-23",
  "stand": "terminiert",
- "titel": "MVF NCD-Newsletter 22.09.2026",
- "betreff": "Neueste Studien - Nicht uebertragbare Krankheiten – 22. September 2026",
- "anzahl": 6,
+ "titel": "MVF NCD-Newsletter 23.09.2026",
+ "betreff": "Neueste Studien - Nicht uebertragbare Krankheiten – 22. September 2026 bis 23. September 2026",
+ "anzahl": 12,
  "pmids": [
+  "42773062",
+  "42772855",
+  "42771780",
+  "42770942",
+  "42770200",
+  "42769539",
   "42767802",
   "42766847",
   "42766845",
@@ -14,13 +20,19 @@
   "42763189",
   "42501341"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099028",
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099043",
  "termin_utc": "2026-09-23T08:00:00+00:00",
  "empfaenger": 12,
  "listengroesse": 5896,
  "beanstandungen": [],
  "aussortiert": [],
- "pool": {},
+ "pool": {
+  "geholt": 220,
+  "bekannt": 124,
+  "pool": 48,
+  "gewaehlt": 6,
+  "neu": 6
+ },
  "rubriken": {
   "radar": "14538de923c95cbd",
   "news": "62b3e3016ef641de"
