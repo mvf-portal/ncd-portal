@@ -1531,62 +1531,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "24. Sept. 2026, 06:01 Uhr";
+const SNAP_DATE = "25. Sept. 2026, 06:23 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"RMD Open", year:"2026", pmid:"42778333",
-    author:"Nikoloudaki M et al.", pubdate:"23.09.2026",
+    journal:"Ren Fail", year:"2026", pmid:"42785974",
+    author:"Zhu B et al.", pubdate:"24.09.2026",
+    added:"24.09.2026",
+    title:"Neutrophile und Lymphozyten vorhersagen Adipositas-assoziierte CKD bei Älteren",
+    sum:"Querschnittsanalyse von 15.000+ älteren Erwachsenen (65–85 J.) in Shanghai: Erhöhte Neutrophile und Lymphozyten sowie niedrigeres Verhältnis Thrombozyt-zu-Lymphozyt wurden unabhängig mit CKD bei Adipösen assoziiert.",
+    result:"Bei adipösen Teilnehmern: erhöhte Neutrophile aOR 1,42 (95% CI 1,07–1,90) für höchstes vs. niedriges Tertil, erhöhte Lymphozyten aOR 1,53 (95% CI 1,16–2,01); Thrombozyten-Lymphozyten-Verhältnis aOR 0,70 (95% CI 0,53–0,92) – diese Routineblutuntersuchungen könnten frühe Risikoschichtung adipositas-assoziierter CKD ermöglichen.",
+    transfer:"China, vergleichbar mit Sozialversicherungssystemen; Blutungsparameter sind Routinemarkierungen"
+  },
+  {
+    journal:"Qual Life Res", year:"2026", pmid:"42782549",
+    author:"Botdorf M et al.", pubdate:"24.09.2026",
+    added:"24.09.2026",
+    title:"Antihypertensive Medikation zeigt minimale Assoziation mit Lebensqualität bei CKD-Jugendlichen",
+    sum:"Querschnittsanalyse von 395 Jugendlichen (8–21 J.) mit CKD und Hypertonie an 15 US-Zentren: Über 95 % berichten positive Versorgungserfahrungen; antihypertensive Medikamentenlast zeigte nur schwache Assoziation mit Lebensqualität, während körperliche Symptombelastung hoch ist.",
+    result:"Mehrere Medikamente (23 % der Kohorte) assoziiert mit leicht niedrigerem globalen Gesundheitswert (B –2,6; 95% CI –4,9 bis –0,3); keine Assoziationen mit anderen Lebensqualitätsdimensionen. Jugendliche berichten gesamthaft niedrigere QoL als allgemeine Bevölkerung, besonders in globalem Gesundheitswert und Müdigkeit.",
+    transfer:"USA, spezialisierte Pädiatrie; Lebensqualitätsmessung übertragbar, Medikamentenlasten können variieren"
+  },
+  {
+    journal:"Front Public Health", year:"2026", pmid:"42780304",
+    author:"Zhou MM et al.", pubdate:"09.09.2026",
+    added:"24.09.2026",
+    title:"Mehrdimensionales Risiko-Screening identifiziert High-Risk-Gruppe mit 41 % aller Adverse Events bei älteren Patienten mit Mehrfacherkrankung",
+    sum:"Retrospektive Entwicklung und interne Validierung eines nomographischen Vorhersagemodells für 12-Monatsereignisse (ungeplante Hospitalisierung, ≥2 Notfallbesuche, funktionaler Niedergang, Mortalität) bei 690 älteren Erwachsenen (≥60 J.) mit Mehrfacherkrankung in China; 7 Prädiktoren identifiziert.",
+    result:"Modell zeigte gute Diskriminierung (AUC 0,847 Derivation, 0,831 bootstrap-validiert, 0,819 temporal); 41,2 % niedrig-, 42,0 % intermediär-, 16,8 % hochrisiko. Die hochrisiko-Gruppe (16,8 %) machte 41,1 % aller Ereignisse aus. Szenaroanalyse: modellgesteuerte Stratifizierung könnte Adverse Events um 25,3 % reduzieren.",
+    transfer:"China, tertiäre Klinik; externe Validierung in primärer/sekundärer Versorgung erforderlich; Risiko-Alert und Monitoring-Stratifizierung übertragbar"
+  },
+  {
+    journal:"Appl Nurs Res", year:"2026", pmid:"42785824",
+    author:"Hsu JR et al.", pubdate:"27.08.2026",
+    added:"24.09.2026",
+    title:"Patient-Provider-Partnerschaft erhöht Advance-Care-Planning-Bereitschaft bei CKD-Patienten",
+    sum:"Querschnittsstudie an 218 nichtdialysepflichtigen CKD-Patienten: Patient-Provider-Partnerschaft war stärkster unabhängiger Prädiktor der Bereitschaft zu Advance Care Planning (ACP), nicht aber Krankheitsstadium oder Nierenfunktion.",
+    result:"Patient-Provider-Partnerschaft erklärte 12,7 % der Varianz in ACP-Bereitschaft (vs. 6,1 % bei Demografie allein); höheres Alter und stärkere Partnerschaft waren assoziiert mit erhöhter Bereitschaft. ACP-Bereitschaft insgesamt niedrig bis moderat, besonders beim initialen Gespräch mit Fachkräften.",
+    transfer:"Taiwan, ambulante Nephrologie; Übertragbarkeit auf Deutschland hängt von Arzt-Patient-Kommunikation ab"
+  },
+  {
+    journal:"Cardiovasc Diabetol", year:"2026", pmid:"42778926",
+    author:"Shao Z et al.", pubdate:"24.08.2026",
     added:"23.09.2026",
-    title:"Früher systemischer Lupus erythematosus: Fast-Track zu Mehrfacherkrankung bei hoher Flareaktivität",
-    sum:"Inception-Kohorte von 311 SLE-Patienten mit ≤2 Jahren Erkrankungsdauer und 5-jähriger Nachbeobachtung untersuchte Trajektorien der Mehrfacherkrankungsentwicklung und deren Prädiktoren.",
-    result:"45% der Patienten zeigte accelerierte Mehrfacherkrankungszunahme mit drei Phänotypen: metabolisch-psychiatrisch (65,7% mit ≥2 Erkrankungen) und kardiopulmonal-muskuloskelettal (100%). Schwere Flares (≥20% der Zeit; OR 2,10) und Glukokortikoidexposition (OR 1,06 pro 10 mg/Tag) während der ersten 24 Monate waren unabhängig mit schneller Progression assoziiert. Fast-accruer zeigten weniger Remission und mehr Schäden (IRR 2,28–3,27).",
-    transfer:"Griechenland und Italien, europäische Universitätskliniken, vergleichbare SLE-Versorgungsstandards"
+    title:"Triglycerid-Glucose-Waist-to-Height-Ratio vorhersagt neu auftretende Mehrfacherkrankung",
+    sum:"Prospektive Kohortenanalyse von 4 nationalen Studien (CHARLS, ELSA, HRS, NHANES): TyG-WHtR (kombiniert Insulinresistenz und zentrale Adipositas) zeigte nichtlineare Dosis-Wirkungs-Assoziationen mit neuer Mehrfacherkrankung; Inflexionspunkte bei 5,92–6,69 je Kohorte.",
+    result:"Höchste vs. niedrigste TyG-WHtR-Quartile assoziiert mit incident multimorbidity: HR 1,87 (95% CI 1,59–2,21) in CHARLS, 1,67 (1,30–2,15) in ELSA, 1,57 (1,08–2,29) in HRS; TyG-WHtR hatte größte AUC in beiden Querschnittsstichproben und zwei Längsschnittkohorten.",
+    transfer:"China, England, USA; Mehrfacherkrankung ist Regelfall; provisorischer Risiko-Alert ca. 5–7 benötigt externe Validierung"
   },
   {
-    journal:"Acta Derm Venereol", year:"2026", pmid:"42770913",
-    author:"Sinikumpu SP et al.", pubdate:"22.09.2026",
-    added:"22.09.2026",
-    title:"Chronische spontane Urtikaria in Finnland: Versorgungslücken in Behandlung und Monitoring",
-    sum:"Landesweite Registerstudie analysierte Epidemiologie und Behandlungsmuster von chronischer spontaner Urtikaria in finnischen Fachkliniken 2001–2023.",
-    result:"Unter 8.784 Patienten erhielten 85,8% Antihistaminika und 36,1% benötigten gleichzeitig Kortikosteroide, was auf suboptimale Kontrolle hindeutet. Nur 8,5% erhielten Omalizumab, Median 9 Monate nach Antihistamininitiation. Hochkomorbidität mit Asthma, Hypertonie und Depression. Die Befunde deuten auf Verzögerungen in der Eskalation zur biologischen Therapie und mangelnde Krankheitskontrolle hin.",
-    transfer:"Finnland, nordisches Gesundheitssystem, vergleichbare Vergütungsstrukturen"
-  },
-  {
-    journal:"Front Public Health", year:"2026", pmid:"42774187",
-    author:"Zhou T et al.", pubdate:"08.09.2026",
+    journal:"Ig Sanita Pubbl", year:"2026", pmid:"42776156",
+    author:"Piacenza A et al.", pubdate:"Juli 2026",
     added:"23.09.2026",
-    title:"Kindheitliche Benachteiligung erhöht Risiko für Behinderung und Mehrfacherkrankung im Alter",
-    sum:"Prospektive Analyse von Daten aus ELSA und SHARE-Kohorten untersuchte, ob Armut und gesundheitliche Belastungen in der Kindheit das Risiko für Behinderung und Mehrfacherkrankung im späteren Leben vorhersagen.",
-    result:"Höchste Kindheitsadversität war mit erhöhtem Risiko für Aktivitätsbeschränkungen (HR 1,43; 95%-KI 1,09–1,87) und Mehrfacherkrankung (HR 1,35; 95%-KI 1,02–1,80) assoziiert. In SHARE erhöhte sich das Risiko für Aktivitätsbeschränkungen und Mehrfacherkrankung ebenfalls signifikant. Die Befunde zeigen anhaltende Auswirkungen früher Nachteiligung auf die Gesundheit im Alter.",
-    transfer:"Großbritannien und Europa, vergleichbare Langzeitkohortendesigns"
+    title:"Physiotherapie in der Territorialversorgung verbessert Kontinuität chronischer Erkrankungen",
+    sum:"Narrative Analyse zur Neugestaltung italienischer Rehabilitationspfade: Das Ministerialekret 77/2022 verlangt mehr direkte Verantwortung von Physiotherapeuten für Kontinuität, während bisherige Vorschriften fragmentierte Übergänge erzwingen; Pilotprojekte zeigen Machbarkeit und positive Effekte auf funktionelle Erholung und Ressourcennutzung.",
+    result:"Internationale Modelle und italienische Pilotprojekte belegen, dass physiotherapeutengeleitete Bewertung und Monitoring sowie einheitliche, zeitlich aktualisierte Rehabilitationsprojekte die Patientenzufriedenheit erhöhen und die Ressourcenallokation verbessern – die fragmentierte Regelpraxis führt zu verzögertem Therapiestart und unzureichender Physiotherapie-Integration.",
+    transfer:"Italien, vergleichbares Sozialversicherungssystem; Implementierung an Versorgungsstruktur und Regulierung gebunden"
   },
   {
-    journal:"Front Endocrinol (Lausanne)", year:"2026", pmid:"42775225",
-    author:"Chen H et al.", pubdate:"08.09.2026",
+    journal:"Prev Med", year:"2025", pmid:"42777124",
+    author:"Higgins ST", pubdate:"25.10.2025",
     added:"23.09.2026",
-    title:"Netzwerk-Metaanalyse: GLP-1RA, SGLT2i und nsMRA für kardiorenale Outcomes bei Typ-2-Diabetes mit CKD",
-    sum:"Systematische Übersicht und frequentistische Netzwerk-Metaanalyse von 21 RCTs mit 51.899 Patienten verglich kardiorenale Effektivität und Sicherheit von GLP-1RAs, SGLT2i und nsMRAs.",
-    result:"Versus Placebo: SGLT2i reduzierten Risiko von MACE, majorem Nieren-Komposit und Herzinsuffizienz-Hospitalisierung; GLP-1RAs reduzierten MACE, Nieren-Komposit, Herzinsuffizienz, Mortalität und kardiovaskulärer Tod; nsMRA reduzierten Nieren-Komposit und Herzinsuffizienz. Indirekte Vergleiche: SGLT2i günstiger für Nieren (RR 0,77 vs GLP-1RA), SGLT2i günstiger für Herzinsuffizienz versus nsMRA. Hyperkalämie mit nsMRA häufiger.",
-    transfer:"Globale RCT-Evidenz, aber keine deutschen Subgruppen; Übertragbarkeit für DMP-Strukturen hoch"
-  },
-  {
-    journal:"Adv Respir Med", year:"2026", pmid:"42776698",
-    author:"Aljama C et al.", pubdate:"07.09.2026",
-    added:"23.09.2026",
-    title:"CAT-Score-Variabilität vorhersagt COPD-Exazerbationen in virtueller Assistenz-Überwachung",
-    sum:"Prospektive Beobachtungsstudie mit 106 COPD-Patienten mit Exazerbator-Phänotyp nutzte wöchentliche CAT-Messungen durch virtuellen Assistenten zur Vorhersage von Exazerbationen über ein Jahr.",
-    result:"73 von 106 Patienten (69%) erlitten ≥1 Exazerbation (192 Episoden, 26% mit Hospitalisierung). Jeder 1-Punkt-Anstieg im CAT-Score war mit 11,1% erhöhtem Exazerbationsrisiko assoziiert (OR 1,11; 95%-KI 1,08–1,13). Wöchentliche Variabilität ≥2 Punkte (MCID) war mit sechsfach erhöhtem Risiko verbunden (OR 6,30; 95%-KI 4,28–9,27). Optimaler Cut-off für CAT-Änderung: 3 Punkte (ROC 0,773).",
-    transfer:"Spanien/Brasilien, aber App-basiert; Übertragbarkeit auf deutsche Telemedizin-Strukturen bedingt"
-  },
-  {
-    journal:"Georgian Med News", year:"2026", pmid:"42600600",
-    author:"Zhorobekova M et al.", pubdate:"Mai 2026",
-    added:"14.08.2026",
-    title:"Rehabilitation bei älteren Patienten mit COPD und Post-COVID-Syndrom in Kirgistan zeigte Unterschiede nach Region",
-    sum:"Gemischte Methoden-Studie untersuchte medizinische und soziale Rehabilitation von älteren Patienten mit COPD und/oder Post-COVID-Syndrom in urbanen versus hochalpinen Regionen Kirgistans.",
-    result:"Patienten mit beiden Erkrankungen zeigten höchste Inflammationsmarker und stärkste Lungenfunktionseinschränkung (FEV1 48,5% Soll). In hochalpinen Gebieten niedrigere Sauerstoffsättigung und höhere Fatigue durch chronische Hypoxie. Rehabilitationsergebnisse besser in urbanen Gebieten mit besserer Infrastruktur und Sauerstofftherapie-Zugang. Die Studie unterstreicht Bedeutung adaptierter, regionalisierter Rehabilitationsstrategien.",
-    transfer:"Zentralasien, limitierte Ressourcenlage, zeigt Notwendigkeit dezentraler Versorgungsmodelle"
+    title:"Rauchen und chronische Erkrankungen: Versorgungsungleichheit bei vulnerablen Populationen",
+    sum:"Editorischer Überblick zu 13 Fachabhandlungen einer US-Konferenz 2024 über Schnittstellen zwischen Tabakgebrauch, anderen Süchten, chronischen Krankheiten und Gesundheitsungleichheiten; Rauchen bleibt führende vermeidbare Todesursache in den USA (ca. 450.000 Tote/Jahr).",
+    result:"Die Sonderausgabe zeigt überproportionale Auswirkungen von Rauchen in vulnerablen Populationen, Verflechtungen mit weiteren Abhängigkeiten, Mehrfacherkrankungen und Gesundheitsungleichheiten; dokumentiert klinische und regulatorische Interventionen zur Reduktion und Prävention assoziierter Gesundheitsschäden.",
+    transfer:"USA; regulatorische und klinische Strategien sind teilweise übertragbar, strukturelle Unterschiede erheblich"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1602,7 +1611,7 @@ const RADAR_FRISTEN = [["2026-10-19", "2026-10-06", "2026-10-15"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "24.09.2026";
+const NEWS_STAND = "25.09.2026";
 const NEWS = [
   {titel:"Krebsfrüherkennung am Arbeitsplatz: Krebspräventionswoche gestartet", datum:"2026-09-21", url:"https://www.monitor-versorgungsforschung.de/news/krebsfrueherkennung-am-arbeitsplatz-krebspraeventionswoche-gestartet/"},
   {titel:"Versorgung chronisch kranker Kinder: DGKJCH und BNKD fordern Kontinuität", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/versorgung-chronisch-kranker-kinder-dgkjch-und-bnkd-fordern-kontinuitaet/"},
@@ -1612,8 +1621,8 @@ const NEWS = [
 // Fremde Pressemeldungen zum Thema — taeglich von scripts/newsfeed.py
 // === PRESSE-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const PRESSE = [
-  {titel:"Nach Präeklampsie die Nieren dauerhaft im Blick behalten", datum:"2026-09-22", url:"http://idw-online.de/de/news877754", quelle:"idw"},
-  {titel:"Wenn die „Putzkolonne“ der Lunge streikt: Forschungsteam entdeckt neue Ursache für PCD", datum:"2026-09-21", url:"http://idw-online.de/de/news877674", quelle:"idw"},
+  {titel:"Soziale Lage prägt Herzgesundheit: Herzinsuffizienz in Deutschland ungleich verteilt", datum:"2026-09-24", url:"http://idw-online.de/de/news877970", quelle:"idw"},
+  {titel:"Zum Weltherztag am 29. September 2026: Herzfrequenzdaten können Einblicke in Long-COVID-Verläufe geben", datum:"2026-09-24", url:"http://idw-online.de/de/news877927", quelle:"idw"},
 ];
 // === PRESSE-BLOCK-ENDE ===
 
