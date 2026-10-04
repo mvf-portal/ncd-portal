@@ -1575,71 +1575,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "3. Okt. 2026, 09:12 Uhr";
+const SNAP_DATE = "4. Okt. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"J Ren Care", year:"2026", pmid:"42820648",
-    author:"Faravan A et al.", pubdate:"Dez. 2026",
+    journal:"Ann Med", year:"2026", pmid:"42817919",
+    author:"Yang Z et al.", pubdate:"01.10.2026",
     added:"01.10.2026",
-    title:"Peer-Support-Programme für chronische Nierenerkrankung: Systemische Unterstützung und Engagement zentral",
-    sum:"Qualitative Metasynthese von 15 Studien zu Facilitators von Peer-Support-Programmen für Patienten mit chronischer Nierenerkrankung.",
-    result:"Drei Hauptfacilitators identifiziert: (1) supportive Organisationskultur im Gesundheitssystem, (2) tiefe peer-Verbindungen und gutes rapport, (3) engagierte und motivierte Peer-Supporter und -Empfänger. Erfolgreiche Programme erfordern Interaktion zwischen organisationaler Unterstützung, sinnvoller Peer-Beziehung und aktiver Partizipation.",
-    transfer:"Überwiegend europäische und englischsprachige Studien; Peer-Support-Ansätze in Deutschland (Selbsthilfe, DMP-Strukturen) unmittelbar anwendbar"
+    title:"Klinische Phänotypisierung identifiziert Hochrisiko-COPD-Patienten mit raschem FEV1-Verlust",
+    sum:"Chinesische Kohortenstudie (38.863 COPD-Patienten, 1.215 mit Verlaufsparametern): Latent-Class-Analyse zur Identifikation klinischer Phänotypen; Machine Learning-Modell zur Vorhersage raschen Lungenfunktionsabbaus (FEV1-Abfall ≥40 mL/Jahr oder &gt;1,5% predicted).",
+    result:"Drei Phänotypen identifiziert: Phänotyp 1 (25,8 %, GOLD Stadium 2, nicht-rauchende Frauen), Phänotyp 2 (44,8 %, GOLD Stadium 1, rauchende Männer), Phänotyp 3 (29,4 %, GOLD Stadium 3, intensive Raucher). Phänotyp 2 zeigte höchste Verfall-Rate (55,8 %). Das CatBoost-Modell erreichte AUC 0,712; bei Schwellenwert 0,365: Sensitivität 95,5 %, negativer Vorhersagewert 86,4 %. Sechs einfache Prädiktoren: Region, Brennstofftyp, Einkommensstufe, Pfeifen, Hüftumfang, Basis-FEV1.",
+    transfer:"China, großes Register; Phänotypisierung für Zielgruppendefinition relevant, Übertragbarkeit auf deutsche Phänotypen unklar"
   },
   {
-    journal:"Clin Sci (Lond)", year:"2026", pmid:"42820470",
-    author:"Boeckhaus J et al.", pubdate:"14.10.2026",
-    added:"01.10.2026",
-    title:"GLP-1-Rezeptor-Agonisten schützen die Niere bei chronischer Nierenerkrankung und Diabetes",
-    sum:"Übersichtsarbeit zur Evidenz für Nephroprotektivität von GLP-1 Agonisten bei Patienten mit Typ-2-Diabetes und chronischer Nierenerkrankung jenseits von Glukosekontrolle.",
-    result:"GLP-1-RA reduzieren eGFR-Abfall, albuminurie und kardiovaskuläre Ereignisse durch anti-inflammatorische und anti-fibrotische Mechanismen. Effekte teilweise unabhängig von Gewichtsreduktion. Sicherheitsprofil vergleichbar mit Standard; potenzielle neue Indikation auch ohne Diabetes bei CKD.",
-    transfer:"Wirkmechanismus-Review ohne Versorgungsdaten; Evidenz aus RCTs übertragbar auf deutsches System"
+    journal:"Rev Esp Quimioter", year:"2026", pmid:"42768888",
+    author:"Perales-Muñoz R et al.", pubdate:"21.09.2026",
+    added:"22.09.2026",
+    title:"Leitliniengerechte Antibiotika senken 30-Tage-Komplikationen bei COPD-Exazerbationen",
+    sum:"Spanische Notaufnahme-Registerstudie an 4.136 COPD-Exazerbations-Episoden: Antibiotika-Auswahl nach nationalen Empfehlungen vs. Fehlauswahl und deren Assoziation mit Mortalität, Rehospitalisierung, Rezidiiv und Notfall-Revisiten.",
+    result:"Von 1.736 Patienten mit Entlassung aus der Notaufnahme erhielten 987 (56,9 %) Antibiotika; 158 (16,0 %) bekamen inadäquate Therapie. Inadäquate Behandlung korrelierte mit höherer 30-Tage-Morbidität (20,9 % vs. 13,3 %, p=0,019). In der multivariablen Analyse war leitliniengerechte Therapie der einzige modifizierbare Faktor mit signifikant reduziertem Ereignisrisiko (adjustierte RR 0,59; 95%-KI 0,41–0,85; p=0,004). Zugleich waren vorherige Exazerbationen (RR 1,80) und mittelschwere Exazerbationen (RR 1,52) mit höherem Risiko assoziiert.",
+    transfer:"Spanische Notaufnahmedaten, vergleichbare Behandlungsprotokolle europäischer Systeme"
   },
   {
-    journal:"J Glob Health", year:"2026", pmid:"42825401",
-    author:"Yao M et al.", pubdate:"02.10.2026",
+    journal:"Front Public Health", year:"2026", pmid:"42824930",
+    author:"Jithoo N et al.", pubdate:"17.09.2026",
     added:"02.10.2026",
-    title:"Depression senkte das Risiko für Mehrfacherkrankung: Remission assoziiert mit niedrigerem Kardiometabolen-Risiko",
-    sum:"Prospektive Kohortenstudie mit 51.416 Teilnehmern aus China, USA und Europa untersuchte, ob langfristige depressive Belastung (gemessen durch Verlauf und kumulative Scores) mit neuaufgetretener Mehrfacherkrankung (Herz-Kreislauf und Diabetes) assoziiert ist.",
-    result:"Depressionsfortschritt erhöhte CMM-Risiko: China HR 1,47 (95%-CI 1,00–2,17), USA HR 1,33 (1,01–1,74), Europa HR 1,46 (1,26–1,69). Depressionsremission reduzierte Risiko: China HR 0,56 (0,36–0,87), Europa HR 0,76 (0,63–0,92). Frauen stärker betroffen in USA und Europa.",
-    transfer:"Internationale Kohorte mit vergleichbarem Design; deutsches System ohne direkte Abbildung, aber Mehrfacherkrankungen-Prävention zentral für DMPs"
+    title:"Integriertes NCD-Screening in HIV- und COVID-Kliniken verbessert Früherkennung um 74 %",
+    sum:"Südafrika: Pilotprojekt zur Integration von Screening auf chronische Erkrankungen (Nierenerkrankung, Übergewicht, Dyslipidämie) in bestehende HIV- und COVID-19-Impfkliniken bei 461 Teilnehmern; Prävalenz neuer Diagnosen und Versorgungsgaps untersucht.",
+    result:"73,9 % der Teilnehmer erhielten neue NCD-Diagnosen: Nierenerkrankung (31,7 %), Adipositas (28,9 %), Dyslipidämie (25,8 %). Modifizierbare kardiovaskuläre Risikofaktoren waren weit verbreitet: Adipositas (63,9 %), Alkoholkonsum (50 %). Integriertes Screening erwies sich als machbar und bot Gelegenheit für frühe Intervention.",
+    transfer:"Ressourcenbegrenzte Länder, ähnliche Gesundheitssystem-Herausforderungen wie LMIC"
   },
   {
-    journal:"Eur J Pediatr", year:"2026", pmid:"42763313",
-    author:"Ravichandran N et al.", pubdate:"19.09.2026",
-    added:"19.09.2026",
-    title:"Krankenhausinfektionen bei Kindern mit Sepsis zeigten höhere Sterblichkeit als ambulant erworbene Infektionen",
-    sum:"Retrospektive nationale Kohortenstudie zur Epidemiologie pädiatrischer Sepsis in Irland 2020–2025 mit Analyse von Krankheitsverlauf, Multimorbidität und Outcomes.",
-    result:"4.442 Sepsis-Aufnahmen: 30,7% nosokomial, 69,3% ambulant. Nosokomiale Sepsis: 84,0% Intensivaufnahmen vs. 32,3%, Sterblichkeit 7,6% vs. 1,8% (p&lt;0,001). Komorbidität assoziiert mit kritischem Verlauf (aOR neonatal 2,66; nicht-neonatal 4,88), aber schwere Verläufe auch ohne dokumentierte Komorbiditäten.",
-    transfer:"Europäische Klinikdaten; vergleichbar mit deutschem Krankenhausmanagementsystem für Infektionsprävention"
+    journal:"Front Endocrinol (Lausanne)", year:"2026", pmid:"42823990",
+    author:"Chung SM et al.", pubdate:"17.09.2026",
+    added:"02.10.2026",
+    title:"Untergewicht vorhersagt Nierenerkrankung bei Typ-2-Diabetes besser als Adipositas",
+    sum:"Südkorea: Nationale Kohortenstudie (1.824.317 Erwachsene ≥40 Jahre mit Typ-2-Diabetes): Assoziation zwischen BMI, Taillenumfang und Inzidenz von Nierenerkrankung (definiert nach altersgerechten eGFR-Schwellwerten) über 4 Jahre Follow-up, stratifiziert nach Alter und Geschlecht.",
+    result:"CKD-Inzidenz: 2,8 % (Untergewicht), 2,3 % (keine Adipositas), 2,9 % (Übergewicht). Untergewicht mit höherem CKD-Risiko als Übergewicht assoziiert (OR 1,41 [95%-KI 1,29–1,54] vs. OR 1,03 [1,01–1,05]). Alters-/Geschlechts-stratifiziert: Untergewicht durchgängig erhöhtes Risiko, bes. mittelalte Männer; Übergewicht nur bei Frauen mit erhöhtem Risiko. Befund erklärt bisherige Inkonsistenzen in Adipositas-CKD-Assoziationen.",
+    transfer:"Südkorea, großes Register; Adipositas-Paradoxon relevant für stratifizierte Prävention, aber regionales Modell unklar"
   },
   {
-    journal:"Ann Epidemiol", year:"2026", pmid:"42744417",
-    author:"Jones J", pubdate:"15.09.2026",
-    added:"15.09.2026",
-    title:"Sterblichkeitsüberwachung mit multiplen Todesursachen zur Verfolgung chronischer Erkrankungen in der COVID-19-Ära",
-    sum:"Educational Module zu Mortalitäts-Surveillance-Methoden, das sich auf einen bereits publizierten Artikel zur Nutzung von Mehrfach-Todesursachen-Daten konzentriert (Referenz: Durán et al., Ann Epidemiol 2026;113:23-29).",
-    result:"Modul demonstriert Nutzen von Mehrfach-Todesursachen-Kodierung zur Erfassung von Trends chronischer Erkrankungen; Fallbeispiel Schweiz COVID-19-Pandemie zeigt, wie Überwachungsmethoden Versorgungsmuster offenbaren.",
-    transfer:"Schweiz mit ähnlichem System wie Deutschland; Mortalitäts-Surveillance-Design direkt auf deutsches Todesbescheinigungssystem übertragbar"
+    journal:"J Clin Oncol", year:"2026", pmid:"42659576",
+    author:"Al-Sawaf O et al.", pubdate:"27.08.2026",
+    added:"27.08.2026",
+    title:"Dynamisches Risiko-Scoring vorhersagt CLL-Progression nach Limited-Duration-Therapie besser",
+    sum:"Deutsche multizentrische Kohortenstudie zu chronisch-lymphatischer Leukämie: Entwicklung und Validierung eines verfeinerten kontinuierlichen Risikoindex (CIRI2-CLL) mit messbaren Resterkrankungen (MRD) zur Vorhersage von progressionsfreiem Überleben nach zeitlich begrenzter Targetted Therapy.",
+    result:"CIRI2-CLL zeigte gute Kalibrierung (ca. 5 % Unterschied zwischen beobachteter und vorhergesagter Progressionswahrscheinlichkeit). Überlegene Performance vs. einzelne Indizes (C-Statistiken 0,82–0,98 an allen Zeitpunkten), FEV-Vorhersage um 14–37 % verbessert. Risk-Stratifikation in drei Gruppen: 3-Jahres-PFS von 100,0 % (niedrig), 70,2 % (mittel), 10,8 % (hoch). Performance für Gesamtüberleben bestätigt.",
+    transfer:"Deutschland/DACH, multizentrisch; CLL-spezifisch, aber Methode der MRD-Integration für andere Chroniker relevant"
   },
   {
-    journal:"Bull World Health Organ", year:"2026", pmid:"42820175",
-    author:"Rendell N et al.", pubdate:"01.10.2026",
-    added:"01.10.2026",
-    title:"Actualisiertes WHO-Modul für Mundgesundheit in Überwachungssystemen für nicht übertragbare Erkrankungen",
-    sum:"WHO präsentiert überarbeitetes Modul für STEPS-Surveillance (Überwachung von Risikofaktoren) mit klinischer Untersuchungskomponente für Mundgesundheit, die von geschultem Nicht-Zahnarzt-Personal durchführbar ist.",
-    result:"Neues Modul integriert aktualisierte Selbstangaben und klinische Bewertung statt nur Wahrnehmungsangaben. Praktisch und skalierbar für Länder ohne zahnärztliche Kapazität, unterstützt Integration von Mundgesundheit in Strategien zur universellen Gesundheitsversorgung.",
-    transfer:"WHO-Standard für alle Länder; direkt auf deutsches RKI-Surveillance-System übertragbar"
-  },
-  {
-    journal:"Lung", year:"2026", pmid:"42536190",
-    author:"Cazzola M et al.", pubdate:"31.07.2026",
-    added:"31.07.2026",
-    title:"COPD ist zu heterogen für Single-Trial-Zulassungen: Mehrfach-Studien-Evidenz erforderlich",
-    sum:"Expertenpapier zur FDA-Proposal, einzelne RCTs als Standard für COPD-Medikamentenzulassung zu akzeptieren; erörtert Heterogenität, Effektgrößen und Generalisierbarkeit.",
-    result:"COPD zeigt variable Trajektorien, modest treatment effects, limitierte validierte Biomarker. Single RCTs risikieren Type-I-Fehler und begrenzte Übertragbarkeit durch restriktive Einschlusskriterien. Empfehlung: mindestens zwei unabhängige Studien bei CKD oder äquivalente Post-Marketing-Validierung erforderlich.",
-    transfer:"COPD-Versorgung international vergleichbar; Argument für robuste Evidenzstandards in allen Gesundheitssystemen relevant"
+    journal:"Aliment Pharmacol Ther", year:"2026", pmid:"42558028",
+    author:"Asmamaw A et al.", pubdate:"06.08.2026",
+    added:"06.08.2026",
+    title:"HBsAg-Schnelltest-Positivierungszeit schätzt Viruslast und erleichtert POC-Diagnostik",
+    sum:"Multizentrische Proof-of-Concept-Studie (Spanien, Äthiopien): Prüfung, ob die Positivierungszeit eines Schnelltests für Hepatitis-B-Oberflächenantigen (HBsAg) ein Surrogat für quantitatives HBsAg und HBV-DNA-Aktivität ist; Paarvergleiche Kapillar- vs. Venöses Blut mit qHBsAg und PCR.",
+    result:"513 HBsAg-positive Personen analysiert. Positivierungszeit korrelierte invers mit qHBsAg (Spanien r=−0,749, Äthiopien r=−0,374; p&lt;0,001 beide). Keine Assoziation mit HBV-DNA. Diskriminationsfähigkeit für HBsAg &lt;1000 IU/mL: Spanien AUROC 0,86, Äthiopien AUROC 0,65; für &lt;100 IU/mL: AUROC 0,96 und 0,77. Gesunde und mit ausgeheilter Infektion: durchweg negativ.",
+    transfer:"Spanien/Äthiopien; POC-Test für ressourcenlimitierte Länder, Relevanz für deutsche POC-Diagnostik begrenzt"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1655,7 +1646,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20"], [], ["2026-10-28", "2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "03.10.2026";
+const NEWS_STAND = "04.10.2026";
 const NEWS = [
   {titel:"Herzfrequenzdaten zu Long Covid: TMF-Projekt nutzt Wearable-Daten", datum:"2026-09-29", url:"https://www.monitor-versorgungsforschung.de/news/herzfrequenzdaten-zu-long-covid-tmf-projekt-nutzt-wearable-daten/"},
   {titel:"Gesprächskarten für Herzinsuffizienz-Patienten: Abbott stellt Set vor", datum:"2026-09-28", url:"https://www.monitor-versorgungsforschung.de/news/gespraechskarten-fuer-herzinsuffizienz-patienten-abbott-stellt-set-vor/"},
