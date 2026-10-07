@@ -1532,62 +1532,53 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "6. Okt. 2026, 06:01 Uhr";
+const SNAP_DATE = "7. Okt. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"J Viral Hepat", year:"2026", pmid:"42830566",
-    author:"Song BG et al.", pubdate:"Nov. 2026",
+    journal:"J Viral Hepat", year:"2026", pmid:"42834661",
+    author:"Gomez DP et al.", pubdate:"Nov. 2026",
+    added:"06.10.2026",
+    title:"Begrenzte antivirale Therapie der chronischen Hepatitis B: Mehr HBsAg-Verlust, aber häufige Rückfälle",
+    sum:"Meta-Analyse von 4 randomisierten Studien (n=357) zu endlicher versus unbegrenzter Nukleosid(t)id-Therapie bei HBeAg-negativer chronischer Hepatitis B ohne Zirrhose.",
+    result:"Therapiebeendigung erhöhte HBsAg-Verlust (RR 5,02; KI 0,47–53,47, niedrige Evidenzsicherheit), aber markant virales Rezidiv (RR 23,09) und Therapierückfall (RR 21,94). Keine hepatische Dekompensation oder schwere unerwünschte Ereignisse. Strategie für selektierte, gut überwachte Patienten in Expertenzentren.",
+    transfer:"Internationale RCT-Daten; Übertragbarkeit auf deutsches Versicherungssystem hoch"
+  },
+  {
+    journal:"J Viral Hepat", year:"2026", pmid:"42834589",
+    author:"Sato S et al.", pubdate:"Nov. 2026",
+    added:"06.10.2026",
+    title:"Direktwirkende Antivirale bei Hepatitis C und Leberkrebs: Hohe Heilungsraten, erhaltene Leberfunktion",
+    sum:"Retrospektive Kohortenstudie (n=690) zu Wirksamkeit und Leberfunktion nach direktwirkender antiviraler Therapie bei Hepatitis-C-Patienten mit und ohne Leberkrebs (HCC)-Vorgeschichte.",
+    result:"Gesamte SVR12-Rate 96,1 % über alle Gruppen, unabhängig von HCC-Vorgeschichte. ALBI-Score (Leberfunktion) verbesserte sich bei kurativer HCC-Behandlung (−2,35 zu −2,58, p&lt;0,001), blieb unter nicht-kurativer Behandlung stabil. Bei HCC-Rezidiv ALBI-Score verbessert (−2,31 zu −2,57, p&lt;0,001); &gt;90 % blieben Child-Pugh A.",
+    transfer:"Japanisches Zentrum; Leberfunktionsergebnisse international vergleichbar"
+  },
+  {
+    journal:"BMJ Open", year:"2026", pmid:"42838586",
+    author:"Zahradka I et al.", pubdate:"06.10.2026",
+    added:"06.10.2026",
+    title:"Chronische Nierenkrankheit in der Tertiärversorgung: Screening deckt Unterbehandlung auf",
+    sum:"Querschnittstudie an 2.903 Patienten in Tertiärkliniken Mitteleuropas zur Prävalenz chronischer Nierenkrankheit (CKD) und Nutzung renoprotek­tiver Therapien.",
+    result:"CKD-Prävalenz 32,5 %; eine neue Diagnose pro 5,2 Gescreente. Renoprotek­tive Therapie stark untergenutzt: SGLT2-Inhibitoren 42 %, GLP-1-Rezeptoragonisten 41,7 %, nichtsteroidale Mineralokortikoidrezeptorantagonisten 6,7 % der Berechtigten. Modellierte Gewinnchancen dialysefreier Zeit durch Therapieeinleitung: 11,13 Monate pro Patient im Durchschnitt.",
+    transfer:"Tertiärzentrumsdaten; Übertragbarkeit auf spezialisierte Versorgung in Deutschland eingeschränkt"
+  },
+  {
+    journal:"BMJ Open", year:"2026", pmid:"42833721",
+    author:"Akter F et al.", pubdate:"05.10.2026",
     added:"05.10.2026",
-    title:"Bewegung reduzierte Mortalität und Leberversagen bei chronischer Hepatitis B um 11 Prozent",
-    sum:"Südkoreanische Kohortenstudie mit 318.131 CHB-Patienten: Wer körperliche Aktivität aufnahm, hatte niedrigere Risiken für Tod und Komplikationen als körperlich Inaktive.",
-    result:"Hazard Ratio für Mortalität 0,89 (95%-KI 0,84-0,94) bei Aufnahme von Ausdaueraktivität; für Leberversagen subdistribution HR 0,94 (95%-KI 0,92-0,97) über 7,9 Jahre Nachfolge. Der Effekt war stärker in älteren, weiblichen und nicht-rauchenden Patienten.",
-    transfer:"Südkorea - vergleichbares Gesundheitssystem, Versicherungsdaten hochwertig"
+    title:"Lebensqualität bei chronischer Nierenkrankheit: Bildungsstand und Einkommen entscheidend",
+    sum:"Querschnittstudie (n=315) in Bangladesch zur Identifikation von Profilen der gesundheitsbezogenen Lebensqualität bei CKD mittels latenter Profilanalyse und deren Prädiktoren.",
+    result:"Drei Qualitäts-Profile: niedrig (20,95 %), mittel (34,29 %), hoch (44,76 %). Höheres Einkommen und Bildung senken Risiko niedriger Lebensqualität; verheiratet und weniger Komorbiditäten erhöhen Wahrscheinlichkeit hoher Lebensqualität. Signifikante Prädiktoren: Einkommen, Bildung, Familienstand, Komorbiditätenanzahl (alle p&lt;0,05).",
+    transfer:"Low-Resource-Setting; Patient-reported Outcomes-Methodik international anwendbar"
   },
   {
-    journal:"J Viral Hepat", year:"2026", pmid:"42830592",
-    author:"Chabala FW et al.", pubdate:"Nov. 2026",
-    added:"05.10.2026",
-    title:"Schwere Fettleber assoziiert mit Fibrose bei chronischer Hepatitis B in Afrika",
-    sum:"Multiländer-Studie (HEPSANET) mit 1.601 CHB-Patienten in sechs afrikanischen Ländern: Transiente Elastographie zeigte, dass schwere Steatose unabhängig mit erhöhtem Fibrose-Risiko verbunden war.",
-    result:"Schwere Steatose (CAP ≥280 dB/m) war mit 8,4% erhöhter Fibrose-Wahrscheinlichkeit assoziiert (95%-KI 1,9-14,9%). Milde und moderate Steatose zeigten diese Assoziation nicht. Prävalenz von Fettleber: 26,3%, davon 13,7% schwer.",
-    transfer:"Afrika, andere Soziostruktur - Screening-Implikation übertragbar"
-  },
-  {
-    journal:"Aust J Prim Health", year:"2026", pmid:"42833621",
-    author:"Fakhouri A et al.", pubdate:"20.10.2026",
-    added:"05.10.2026",
-    title:"Hausarztpraxen für Flüchtlinge mit Hepatitis B besser geeignet als Spezialkliniken",
-    sum:"Qualitative australische Studie (15 semi-strukturierte Interviews): Erkundung, wie Hausarztpraxen für Flüchtlinge chronische Hepatitis-B-Versorgung gestalten und wo Verbesserungen nötig sind.",
-    result:"Hausarztpraxen bieten Vorteile: Comunity-Integration, Rapport, Dolmetscher-Services. Barrieren sind Gesundheitskompetenz und Kosten. Empfehlung: Finanzierung und Schulung von Hausarztpraxen zur HBV-Versorgung würden bessere Ergebnisse für vulnerable Bevölkerung bringen.",
-    transfer:"Australien - hohes Einkommen, andere Struktur, aber Ungleichheitsfrage universell"
-  },
-  {
-    journal:"Eur J Pediatr", year:"2026", pmid:"42828548",
-    author:"Andersen A et al.", pubdate:"03.10.2026",
-    added:"03.10.2026",
-    title:"Chronische Erkrankungen bei Kindern: Register unterschätzen Prävalenz um mindestens 10 Prozent",
-    sum:"Dänische Studie: Verglich nationale Register mit Selbstberichten auf Prävalenz chronischer Erkrankungen bei Kindern und Jugendlichen; Registerbasierte Methode erfasst nur einen Teil.",
-    result:"Register zeigten Prävalenz 9,3–22,0% je nach Alter und Geschlecht; Selbstberichte 28,4–34,2%. 14,6–15,3% der Jugendlichen mit selbstberichteter chronischer Erkrankung waren im Alltag beeinträchtigt – im Register nicht sichtbar.",
-    transfer:"Dänemark - skandinavisches System, enge Datenbankqualität wie in Deutschland, Methodenfrage universal"
-  },
-  {
-    journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"42831088",
-    author:"Radovanovic D et al.", pubdate:"30.09.2026",
-    added:"05.10.2026",
-    title:"Ein Viertel der COPD-Patienten hat Exazerbationen trotz Doppel- oder Tripeltherapie",
-    sum:"Italienische GULP-Kohorte (1.111 COPD-Patienten): Exploratorische Analyse zur Häufigkeit anhaltender Symptome unter optimaler Erhaltungstherapie und Identifikation von Kandidaten für Biologika.",
-    result:"Von 1.111 Patienten hatten 286 (25,7%) ≥2 moderate oder ≥1 schwere Exazerbation/Jahr trotz Doppel- oder Tripeltherapie. Davon zeigten 51–75% hohe Symptombelastung (Dyspnoe, Husten, Sputum), nur 7,2% eosinophile COPD. Dupilumab in Italien für eosinophile exazerbierende COPD zugelassen.",
-    transfer:"Italien, europäisches Sozialversicherungssystem, vergleichbare DMP-Struktur"
-  },
-  {
-    journal:"Rev Med Suisse", year:"2026", pmid:"42779315",
-    author:"Salah Manoh JL et al.", pubdate:"23.09.2026",
-    added:"24.09.2026",
-    title:"Biologika spielen zentrale Rolle in schwerem Asthma, COPD-Klassifikation vereinfacht",
-    sum:"Schweizer Reviewartikel (nicht empirisch): Aktuelle GOLD- und globale Guidelines zur COPD und Asthma – Vereinfachung der COPD-Stratifizierung, erweiterte Rolle von Biologika, geänderte Exazerbationsdefinition.",
-    result:"COPD wird nun in nur 3 Gruppen eingeteilt (A, B, E); eine einzelne moderate Exazerbation reicht für Hochrisiko-Kategorie E. Asthma: Biologika zentral in schwerer Form, Salbutamol-Monotherapie nicht mehr empfohlen.",
-    transfer:"Schweiz, vergleichbares Versicherungssystem, Leitlinien gelten auch in Deutschland"
+    journal:"J Intern Med", year:"2026", pmid:"42621849",
+    author:"Kalmbach L et al.", pubdate:"20.08.2026",
+    added:"20.08.2026",
+    title:"Verlängerte Fastenpausen beschleunigen Multimorbidität bei älteren Erwachsenen",
+    sum:"Längskohorte (n=2.981, ≥60 Jahre) mit 15-jähriger Nachverfolgung zum Zusammenhang zwischen habitueller Fastendauer (längste Essenspause in 24h) und Akkumulation chronischer Erkrankungen.",
+    result:"Gegenüber kürzesten Fastenpausen (6–11,5 h) zeigten längste Pausen (14–24 h) steilere jährliche Zunahme Gesamtkrankheiten (β=0,119; KI 0,070–0,167), kardiovaskuläre (0,022; KI 0,006–0,038) und neuropsychiatrische Erkrankungen (0,019; KI 0,005–0,033). Effekt nur bei ≥78 Jahren signifikant (β=0,099; KI 0,031–0,168), nicht bei &lt;78 Jahren.",
+    transfer:"Schwedische Bevölkerungskohorte; Altersgruppen übertragbar auf deutsche Versorgung"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1603,7 +1594,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-12-31", "2026-10-28"],
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "06.10.2026";
+const NEWS_STAND = "07.10.2026";
 const NEWS = [
   {titel:"Herzfrequenzdaten zu Long Covid: TMF-Projekt nutzt Wearable-Daten", datum:"2026-09-29", url:"https://www.monitor-versorgungsforschung.de/news/herzfrequenzdaten-zu-long-covid-tmf-projekt-nutzt-wearable-daten/"},
   {titel:"Gesprächskarten für Herzinsuffizienz-Patienten: Abbott stellt Set vor", datum:"2026-09-28", url:"https://www.monitor-versorgungsforschung.de/news/gespraechskarten-fuer-herzinsuffizienz-patienten-abbott-stellt-set-vor/"},
