@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Projekt
 
-„Knowledge-Hub Chronische Erkrankungen" — ein Rechercheportal zum Themenfeld Nicht übertragbare Krankheiten. Ein Angebot von **Monitor Versorgungsforschung** (Betreiber: eRelation AG – Content in Health, Bonn).
+„Knowledge-Hub NCD/Chronische Krankheiten" — ein Rechercheportal zum Themenfeld NCD/Chronische Krankheiten. Ein Angebot von **Monitor Versorgungsforschung** (Betreiber: eRelation AG – Content in Health, Bonn).
 
 Live: https://ncd.m-vf.de/
 

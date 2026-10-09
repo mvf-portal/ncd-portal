@@ -1,6 +1,6 @@
-# Nicht übertragbare Krankheiten · Rechercheportal
+# NCD/Chronische Krankheiten · Rechercheportal
 
-Ein Rechercheportal zum Themenfeld **Nicht übertragbare Krankheiten**: 101 Datenbanken in 11 Rubriken,
+Ein Rechercheportal zum Themenfeld **NCD/Chronische Krankheiten**: 101 Datenbanken in 11 Rubriken,
 davon 41 mit Live-Suche, dazu eine täglich aus PubMed kuratierte Studienauswahl mit
 deutschen Zusammenfassungen.
 
