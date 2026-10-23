@@ -88,7 +88,7 @@ jobs:
             echo "Keine Änderung – nichts zu committen."
             exit 0
           fi
-          git config user.name  "Chronische Erkrankungen-Portal Bot"
+          git config user.name  "NCD/Chronische Krankheiten-Portal Bot"
           git config user.email "stegmaier@m-vf.de"
           git add $DATEIEN
           git commit -m "Newsletter neu gebaut $(TZ=Europe/Berlin date +%d.%m.%Y)"

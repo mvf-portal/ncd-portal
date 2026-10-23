@@ -141,7 +141,7 @@ jobs:
             echo "Keine Änderung – nichts nachzutragen."
             exit 0
           fi
-          git config user.name  "Chronische Erkrankungen-Portal Bot"
+          git config user.name  "NCD/Chronische Krankheiten-Portal Bot"
           git config user.email "stegmaier@m-vf.de"
           git add studien-archiv.json
           git commit -m "Archiv nachgetragen: $VON bis $BIS"
