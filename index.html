@@ -2102,62 +2102,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "28. Okt. 2026, 05:01 Uhr";
+const SNAP_DATE = "29. Okt. 2026, 05:02 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Pulmonology", year:"2026", pmid:"42944679",
-    author:"Li Y et al.", pubdate:"31.12.2026",
-    added:"27.10.2026",
-    title:"Bildgebung und klinische Faktoren sagen Krankenhaussterblichkeit bei COPD-Exazerbation voraus",
-    sum:"Retrospektive Kohortenstudie (N=465) entwickelte ein Vorhersagemodell für intrahospitale Mortalität bei akuter COPD-Exazerbation durch Kombination von klinischen Variablen und CT-gestützten Metriken.",
-    result:"Fünf unabhängige Prädiktoren identifiziert: Verwirrtheit, Lymphozytenzahl &lt;0,8×10⁹/L, chronische Herzinsuffizienz, Leukozytenzahl ≥10×10⁹/L und reduzierte pulmonale vaskuläre fraktale Dimension. Das logistische Regressionsmodell erreichte AUC 0,852 (95%-KI 0,738–0,965) im Testdatensatz und übertraf etablierte Scores deutlich.",
-    transfer:"China, klinische Klinikdaten; Übertragung auf Deutschland an Dokumentation und Verfügbarkeit von CT-Metriken gebunden"
+    journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"42948330",
+    author:"Kim T et al.", pubdate:"23.10.2026",
+    added:"28.10.2026",
+    title:"14 Lungengewebs-miRNAs assoziiert mit Emphysem-Ausmaß und Lungenfunktion in COPD",
+    sum:"Explorative sekundäre Datenanalyse von 117 COPD-/Emphysem-Patienten aus GSE201121 zur Assoziation von Lungengewebe-miRNA-Expression mit quantitativem Emphysem (CT-Prozentsatz von niedrig-attenuierter Fläche unter -950 HU) mittels linearer Regression mit HC3-robusten Standardfehlern.",
+    result:"14 miRNAs waren assoziiert mit Emphysem-Prozentsatz (BH-FDR &lt;0,05): acht mit positiver Assoziation (miR-144-5p, miR-190a, miR-20b-5p, miR-451a, miR-3912, miR-15a-5p, miR-202-5p, miR-4497), sechs mit negativer (miR-489, miR-181b-5p, miR-378a-5p, miR-3614-5p, miR-197-3p, miR-877-3p). Assoziationen mit Lungenfunktion (FEV1 % vorhergesagt, FEV1/FVC, DLCO) waren konsistent. Enrichment-Analysen identifizierten biologische Prozesse (miRNA-Regulation, Apoptose, Hypoxie-Antworten, Zellzyklusregulation, Gefäßentwicklung). Ergebnisse sind explorativ und erfordern unabhängige Validierung.",
+    transfer:"Südkorea, aber Transkriptomik-Analysen haben begrenzte unmittelbare Versorgungsrelevanz ohne funktionale Validierung und klinische Anwendbarkeit."
   },
   {
-    journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"42936193",
-    author:"Liu X et al.", pubdate:"22.10.2026",
-    added:"27.10.2026",
-    title:"Paarbeziehung formt Bewegungsangst bei COPD – Qualitative Studie zu Copingmustern",
-    sum:"Qualitative Grounded-Theory-Studie (N=21 Paare) untersuchte, wie Patienten mit COPD und ihre Partner gemeinsam mit bewegungsbezogener Angst und Dyspnoe-Vermeidung umgehen.",
-    result:"Kernkategorie: ‚Zusammen gefangen oder zusammen beweglich'. Zwei kontrastierende Beziehungszustände identifiziert: ‚gemeinsam gefangen' durch persistente Vermeidung und Überprotektion versus ‚zusammen beweglich' durch Kommunikation, Rollenanpassung und positive Erfahrungen. Therapeutische Implikation: Paarzentrierte Rehabilitationsmodelle könnten nachhaltiger wirken als einzelnenorientierte Interventionen.",
-    transfer:"China, qualitativ; Konzept der Paarbeziehung übertragbar auf deutsches Rehabilitations-Setting"
+    journal:"J Neurol", year:"2026", pmid:"42918938",
+    author:"Quint P et al.", pubdate:"22.10.2026",
+    added:"23.10.2026",
+    title:"CIDP zeigt vier klinisch distinct Subtypen mit unterschiedlicher Progression und Therapiebedarf",
+    sum:"Multizentrisches retrospektives Kohortenstudium aus 10 deutschen Zentren mit unbiased Clustering zur Entdeckung klinisch bedeutsamer CIDP-Subgruppen; 425 Patienten gescreent, 325 in Entwicklungskohorte, 100 in Validierungskohorte randomisiert.",
+    result:"Vier distinct Cluster identifiziert: Cluster 1 (Frauen, hohe Symptome, ANA-positiv, autoimmune Begleiterkrankungen); Cluster 2 (moderate bis niedrige Symptome, demyelinierungsdominant, weniger Komorbiditäten); Cluster 3 (hohe Symptome, axonal-demyelinierend, kardiovaskuläre Komorbiditäten); Cluster 4 (multifokal, hohe Behinderung, Ataxie). Cluster 1 und 4 zeigen besonders hohe Progressions- und Behinderungsraten. Unterschiedliche Krankheitsverläufe und Therapiestrategien zwischen Clustern, was individualisierte Überwachung und Behandlung nahelegt.",
+    transfer:"Deutsche Klinikdaten und Klassifikation; direkt auf deutsches System übertragbar."
   },
   {
-    journal:"Front Public Health", year:"2026", pmid:"42935717",
-    author:"Pilusa TD et al.", pubdate:"12.10.2026",
-    added:"27.10.2026",
-    title:"Community Health Worker unterschätzen Wissen über Prävention chronischer Erkrankungen",
-    sum:"Qualitative Fokusgruppenstudie (N=20 Community Health Worker) untersuchte das Verständnis von Verhaltensrisikofaktoren für nichtübertragbare Erkrankungen und Versorgungshindernisse.",
-    result:"CHW identifizierten Risikofaktoren richtig (ungesunde Ernährung, Stress, Alkoholmissbrauch), benannten aber systemische Barrieren: finanzielle Engpässe, lange Klinikwarteschlangen, mangelnde Koordination mit Fachpersonal. Implikation: Prävention scheitert nicht an fehlendem Wissen, sondern an strukturellen und ressourcenbezogenen Hindernissen – notwendig sind Zusammenarbeit und Systemreformen.",
-    transfer:"Südafrika; Erkenntnisse zu Versorgungshindernissen relevant für Länder mit ähnlicher Ressourcenlage"
+    journal:"Front Neurol", year:"2026", pmid:"42947862",
+    author:"Signori A et al.", pubdate:"13.10.2026",
+    added:"28.10.2026",
+    title:"Synthetische Daten aus italienischem CIDP-Register reproduzieren analytische Eigenschaften und ermöglichen Datenschutz-sichere Forschung",
+    sum:"Validierungsstudie von KI-generierten synthetischen Daten aus dem italienischen CIDP-Register gegen echte Daten; 195 CIDP-Fälle und 195 Kontrollen wurden analysiert und synthetische Daten mittels konditionaler Modelle generiert, um Fidelity und Distinguishability zu prüfen.",
+    result:"Synthetische Daten zeigten hohe Übereinstimmung mit echten Daten in Randverteilungen; Distinguishability-Analysen zeigten niedrige Trennbarkeit zwischen echten und synthetischen Datensätzen. Univariable Assoziationen mit CIDP-Risiko wurden eng repliziert (einschließlich protektive Effekte von höherer Fisch- und Reisaufnahme). Multivariable Modelle demonstrierten hochgradig übereinstimmende Effektschätzungen zwischen echten und synthetischen Daten. Synthetische Daten ermöglichen reproduzierbare und teilbare CIDP-Forschung bei Wahrung der Patientenprivatsphäre.",
+    transfer:"Italien mit EU-Datenschutzrichtlinien; europäisches System mit DSGVO-Anforderungen direkt vergleichbar."
   },
   {
-    journal:"Medicina (Kaunas)", year:"2026", pmid:"42942488",
-    author:"Karaduru Avcı A et al.", pubdate:"10.10.2026",
-    added:"27.10.2026",
-    title:"Nierenfunktion und Albuminurie vorhersagen Herz-Nieren-Ereignisse bei CKD",
-    sum:"Retrospektive Kohortenstudie (N=263) mit mindestens 5-jähriger Nachverfolgung untersuchte Vorhersagefaktoren für kombinierte Nieren- und Herz-Kreislauf-Ereignisse bei Patienten mit CKD vor Dialysebedarf.",
-    result:"Major Adverse Kidney Events (MAKE) traten bei 36,9% auf (47,8 pro 1.000 Personenjahre), Major Adverse Cardiovascular Events (MACE) bei 20,2% (26,0 pro 1.000 Personenjahre). Makroalbuminurie war mit 7,73-fach erhöhtem MAKE-Risiko assoziiert (95%-KI 4,01–14,90). Niereninsuffizienz und Albuminurie waren unabhängig mit MAKE assoziiert; Alter und Diabetes mit MACE.",
-    transfer:"Türkei, vergleichbares Versicherungssystem wie Deutschland; Therapie-Exposition gering dokumentiert"
+    journal:"N Engl J Med", year:"2026", pmid:"42708515",
+    author:"Sciurba FC et al.", pubdate:"29.10.2026",
+    added:"08.09.2026",
+    title:"Tozorakimab reduziert moderate/schwere COPD-Exazerbationen um 29–34 %",
+    sum:"Zwei Phase-3-Studien (OBERON, TITANIA) prüften die Wirksamkeit des Antikörpers Tozorakimab zur Prävention von COPD-Exazerbationen trotz optimaler Inhalationstherapie bei 1719 Patienten mit Exazerbationen in der Vorgeschichte.",
+    result:"Tozorakimab senkte die annualisierte Rate mittelschwerer oder schwerer Exazerbationen bei ehemaligen Rauchern um 29 % (OBERON: Rate Ratio 0,71, p=0,002) bzw. 34 % (TITANIA: Rate Ratio 0,66, p&lt;0,001). In der Gesamtpopulation: 30 % Reduktion (OBERON) bzw. 29 % (TITANIA), beide p&lt;0,001. Nebenwirkungen traten nicht häufiger als unter Placebo auf. Ein wirksamer Weg zur Exazerbationsreduktion über IL-33-Blockade.",
+    transfer:"Europäische und globale Zentren, vergleichbare Standards; Übertragbarkeit hoch auf deutsche Versorgung."
   },
   {
-    journal:"Medicina (Kaunas)", year:"2026", pmid:"42942442",
-    author:"Usta S et al.", pubdate:"03.10.2026",
-    added:"27.10.2026",
-    title:"Morgenblutdruck ist unabhängig mit Nierenfunktionsverschlechterung assoziiert",
-    sum:"Querschnittstudie (N=132) mit 24-Stunden-Blutdrucküberwachung untersuchte Assoziationen von Blutdruckphänotypen mit Nieren- und Herzschädigung bei CKD-Patienten.",
-    result:"Morgenblutdruck präsent bei 42,4%, nächtliche Hypertonie bei 78%. Patienten mit Morgenblutdruck zeigten signifikant niedrigere eGFR und höhere UACR (beide p&lt;0,001). In multivariater Regression war Morgenblutdruck unabhängig mit niedrigerer eGFR assoziiert (β=–0,26; p=0,002). Nächtliche Hypertonie korrelierte mit kardialer Umstrukturierung.",
-    transfer:"Türkei, ABPM-gestützte Diagnostik; Übertragbarkeit an deutsche Hypertonie-Management-Richtlinien gebunden"
+    journal:"BMC Prim Care", year:"2026", pmid:"42946997",
+    author:"O'Callaghan ME et al.", pubdate:"31.07.2026",
+    added:"28.10.2026",
+    title:"Irisches CDM-Programm verbessert Selbstmanagement und Versorgungsqualität chronischer Erkrankungen",
+    sum:"Querschnittstudie zu Erfahrungen von Patienten und Leistungserbringern mit Irlands neu skaliertem CDM-Programm für strukturierte Versorgung chronischer Erkrankungen in Allgemeinarztpraxen; Befragung von 110 Patienten und 217 Anbietern (Ärzte, Pflegekräfte).",
+    result:"97 % der Patienten berichten positive Wahrnehmung mit Verbesserungen beim Selbstmanagement und Verständnis ihrer Erkrankung. Unter Anbietern: 93 % der GPs und 81 % der Pflegekräfte bewerten das Programm positiv, insbesondere Verbesserungen bei Typ-2-Diabetes-Management. Hauptbarrieren: Personalknappheit, Arbeitsbelastung, IT-Probleme. Das Programm wird als hochwertig wahrgenommen und als nachhaltig bewertet, sofern Kapazität und Systemgrenzen gelöst werden.",
+    transfer:"Irland mit GPs als Koordinatoren; Struktur teilweise vergleichbar mit deutschem Hausarztmodell, aber ohne verbindliche Steuerung."
   },
   {
-    journal:"J Obes", year:"2026", pmid:"42927470",
-    author:"Stannard S et al.", pubdate:"2026",
-    added:"25.10.2026",
-    title:"Frühe Risikofaktoren für Adipositas und Hypertonie im mittleren Alter identifiziert",
-    sum:"Britische Geburtskohortenstudie (N=9.150) untersuchte, welche Kindheitsfaktoren später gemeinsam auftretende Adipositas und Hypertonie vorhersagen.",
-    result:"Sozioökonomische Benachteiligung war der stärkste Prädiktor (OR 1,28; 95%-KI 1,19–1,38). Mit allen Domänen-Risikowerten zusammen erreichte das Modell eine AUC von 0,70 (95%-KI 0,67–0,72). Diese Befunde unterstützen frühe Interventionen bei sozial benachteiligten Kindern.",
-    transfer:"Großbritannien, nationale Kohortendaten mit Verlaufsmessung bis ins Alter 44"
+    journal:"J Transl Med", year:"2026", pmid:"42934697",
+    author:"Strube A", pubdate:"29.07.2026",
+    added:"27.10.2026",
+    title:"Thalamale Hyperkonektivität bei ME/CFS ist reversibel und korreliert mit klinischer Verbesserung nach Hyperbarbehandlung",
+    sum:"Kommentier-Analyse einer Studie zu thalamokortikaler Konnektivität bei Myalgische Enzephalomyelitis/Chronic Fatigue Syndrome (ME/CFS): Baseline-Hyperkonektivität des Thalamus mit sensorimotorischen und visuooccipitalen Kortizes verschiebt sich nach Hyperbarbehandlung in Richtung Muster gesunder Kontrollen, besonders bei klinisch verbesserten Patienten.",
+    result:"Die reversible thalamale Hyperkonektivität bei ME/CFS-Patienten wird durch Hyperbarbehandlung reduziert und korreliert mit klinischer Verbesserung. Dies wird durch die Predictive-Processing-Theorie interpretiert: Der Thalamus reguliert die Präzision aufsteigender körperlicher Signale. Defizitäre Filterung führt zu erhöhter Rauschempfindlichkeit, die mehrere Symptome (sensorische Hypersensitivität, Schmerz, orthostatische Intoleranz, kognitives Nebel) erklärt. Ein hypothetisches Modell mit Testbedarf, da Hyperbarbehandlung eine vaskuläre Intervention ist und die Konnektivität ein indirektes Maß darstellt.",
+    transfer:"USA-basierte Analyse; Hirnbildgebung-Befund ist mechanistisch interessant, aber Versorgungsübertragbarkeit gering ohne prospektive Validierung in praktischer Klinik."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2182,10 +2182,10 @@ const ZUL_DIGA = 1;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "28.10.2026";
+const NEWS_STAND = "29.10.2026";
 const NEWS = [
+  {titel:"Wertbasierte Diabetesversorgung: ICHOM-Webinar am 4. November 2026", datum:"2026-10-28", url:"https://www.monitor-versorgungsforschung.de/news/wertbasierte-diabetesversorgung-ichom-webinar-am-4-november-2026/"},
   {titel:"Chronische Nierenkrankheit früher erkennen: Betriebskrankenkassen starten Pilotprojekt", datum:"2026-10-26", url:"https://www.monitor-versorgungsforschung.de/news/chronische-nierenkrankheit-frueher-erkennen-betriebskrankenkassen-starten-pilotprojekt/"},
-  {titel:"Gesundheitsatlas Herzinsuffizienz: 3,2 Millionen Betroffene", datum:"2026-10-07", url:"https://www.monitor-versorgungsforschung.de/news/gesundheitsatlas-herzinsuffizienz-32-millionen-betroffene/"},
 ];
 // === NEWS-BLOCK-ENDE ===
 
