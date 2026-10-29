@@ -648,8 +648,18 @@
 
 <section id="zahlen">
 <h2>Der Hub in Zahlen</h2>
-<ul class="tq-zahlen"><li><b>102</b><span>Datenbanken</span><span class="info-i" tabindex="0" role="note" aria-label="Kacheln im Hub, eine je Datenbank." data-info="Kacheln im Hub, eine je Datenbank.">i</span></li><li><b>11</b><span>Rubriken</span><span class="info-i" tabindex="0" role="note" aria-label="Gruppen von Datenbanken, die zusammengehören." data-info="Gruppen von Datenbanken, die zusammengehören.">i</span></li><li><b>41</b><span>mit Live-Suche</span><span class="info-i" tabindex="0" role="note" aria-label="Ein Klick öffnet direkt die fertige Trefferliste in der Datenbank." data-info="Ein Klick öffnet direkt die fertige Trefferliste in der Datenbank.">i</span></li><li><b>56</b><span>Portale</span><span class="info-i" tabindex="0" role="note" aria-label="Der Klick öffnet die Startseite; der Hub kopiert Ihren Begriff zum Einfügen." data-info="Der Klick öffnet die Startseite; der Hub kopiert Ihren Begriff zum Einfügen.">i</span></li><li><b>5</b><span>mit Lizenz</span><span class="info-i" tabindex="0" role="note" aria-label="Zugang meist über Ihre Bibliothek oder Einrichtung." data-info="Zugang meist über Ihre Bibliothek oder Einrichtung.">i</span></li><li><b>158</b><span>Glossarbegriffe</span><span class="info-i" tabindex="0" role="note" aria-label="Deutsche Fachbegriffe, die der Hub für internationale Datenbanken ins Englische übersetzt." data-info="Deutsche Fachbegriffe, die der Hub für internationale Datenbanken ins Englische übersetzt.">i</span></li><li><b>395</b><span>Studien ausgewählt</span><span class="info-i" tabindex="0" role="note" aria-label="Alle Studien, die der Hub bisher ausgewählt und zusammengefasst hat." data-info="Alle Studien, die der Hub bisher ausgewählt und zusammengefasst hat.">i</span></li></ul>
-<p class="tq-klein">Stand: 29.10.2026. Die Zahlen werden bei jedem Bau der Seite aus dem Hub selbst gezählt. Ein Klick auf ⓘ erklärt die Zahl.</p>
+<ul class="tq-zahlen"><li><b>102</b><span>Datenbanken</span><span class="info-i" tabindex="0" role="note" aria-label="Kacheln im Hub, eine je Datenbank." data-info="Kacheln im Hub, eine je Datenbank.">i</span></li><li><b>11</b><span>Rubriken</span><span class="info-i" tabindex="0" role="note" aria-label="Gruppen von Datenbanken, die zusammengehören." data-info="Gruppen von Datenbanken, die zusammengehören.">i</span></li><li><b>41</b><span>mit Live-Suche</span><span class="info-i" tabindex="0" role="note" aria-label="Ein Klick öffnet direkt die fertige Trefferliste in der Datenbank." data-info="Ein Klick öffnet direkt die fertige Trefferliste in der Datenbank.">i</span></li><li><b>56</b><span>Portale</span><span class="info-i" tabindex="0" role="note" aria-label="Der Klick öffnet die Startseite; der Hub kopiert Ihren Begriff zum Einfügen." data-info="Der Klick öffnet die Startseite; der Hub kopiert Ihren Begriff zum Einfügen.">i</span></li><li><b>5</b><span>mit Lizenz</span><span class="info-i" tabindex="0" role="note" aria-label="Zugang meist über Ihre Bibliothek oder Einrichtung." data-info="Zugang meist über Ihre Bibliothek oder Einrichtung.">i</span></li><li><b>158</b><span>Glossarbegriffe</span><span class="info-i" tabindex="0" role="note" aria-label="Deutsche Fachbegriffe, die der Hub für internationale Datenbanken ins Englische übersetzt." data-info="Deutsche Fachbegriffe, die der Hub für internationale Datenbanken ins Englische übersetzt.">i</span></li><li><b data-zahl="studien">407</b><span>Studien ausgewählt</span><span class="info-i" tabindex="0" role="note" aria-label="Alle Studien, die der Hub bisher ausgewählt und zusammengefasst hat." data-info="Alle Studien, die der Hub bisher ausgewählt und zusammengefasst hat.">i</span></li></ul>
+<p class="tq-klein">Stand: 29.10.2026. Die Zahl der Studien zählt die Seite beim Öffnen aus dem Archiv des Hubs, das jeden Morgen wächst. Die übrigen Zahlen werden bei jedem Bau aus dem Hub gezählt. Ein Klick auf ⓘ erklärt die Zahl.</p><script>
+(function () {
+  var el = document.querySelector('[data-zahl="studien"]');
+  if (!el || !window.fetch) return;
+  fetch('studien-archiv.json', { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (a) {
+    if (!a) return;
+    var liste = Array.isArray(a) ? a : (a.studien || a.eintraege || []);
+    if (liste.length) el.textContent = liste.length.toLocaleString('de-DE');
+  }).catch(function () {});
+})();
+</script>
 <p><b>So funktioniert der Hub:</b> Ein Suchbegriff öffnet die Suche in allen 102 Datenbanken dieses Hubs, jeden Morgen kommen neue Studien mit deutscher Zusammenfassung dazu. Kostenfrei und ohne Anmeldung. Wie Suche, Glossar und Volltext im Einzelnen funktionieren, steht auf einer Seite für alle Hubs: <a href="https://knowledge-hubs.m-vf.de/ueber-die-hubs.html">Über die Knowledge-Hubs →</a></p>
 </section>
 
@@ -664,7 +674,7 @@
 
 <section id="verwandt">
 <h2>Verwandte Hubs</h2>
-<ul class="tq-verwandt"><li><a href="https://diabetes.m-vf.de/"><b>Diabetes</b></a> &middot; Typ 1 und 2, Folgeerkrankungen, Technik. 1 der 395 hier ausgewählten Studien (0 %) stehen auch dort.</li><li><a href="https://kardio.m-vf.de/"><b>Kardiologie</b></a> &middot; Herz und Kreislauf, starker Europabezug.</li><li><a href="https://adipositas.m-vf.de/"><b>Adipositas</b></a> &middot; Gewichtsmanagement, Therapie, Chirurgie. 7 der 395 hier ausgewählten Studien (2 %) stehen auch dort.</li></ul>
+<ul class="tq-verwandt"><li><a href="https://diabetes.m-vf.de/"><b>Diabetes</b></a> &middot; Typ 1 und 2, Folgeerkrankungen, Technik. 1 der 407 hier ausgewählten Studien (0 %) stehen auch dort.</li><li><a href="https://kardio.m-vf.de/"><b>Kardiologie</b></a> &middot; Herz und Kreislauf, starker Europabezug.</li><li><a href="https://adipositas.m-vf.de/"><b>Adipositas</b></a> &middot; Gewichtsmanagement, Therapie, Chirurgie. 8 der 407 hier ausgewählten Studien (2 %) stehen auch dort.</li></ul>
 </section>
 
 <section id="rubriken">
