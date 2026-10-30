@@ -2102,62 +2102,53 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "29. Okt. 2026, 05:02 Uhr";
+const SNAP_DATE = "30. Okt. 2026, 05:23 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"42948330",
-    author:"Kim T et al.", pubdate:"23.10.2026",
-    added:"28.10.2026",
-    title:"14 Lungengewebs-miRNAs assoziiert mit Emphysem-Ausmaß und Lungenfunktion in COPD",
-    sum:"Explorative sekundäre Datenanalyse von 117 COPD-/Emphysem-Patienten aus GSE201121 zur Assoziation von Lungengewebe-miRNA-Expression mit quantitativem Emphysem (CT-Prozentsatz von niedrig-attenuierter Fläche unter -950 HU) mittels linearer Regression mit HC3-robusten Standardfehlern.",
-    result:"14 miRNAs waren assoziiert mit Emphysem-Prozentsatz (BH-FDR &lt;0,05): acht mit positiver Assoziation (miR-144-5p, miR-190a, miR-20b-5p, miR-451a, miR-3912, miR-15a-5p, miR-202-5p, miR-4497), sechs mit negativer (miR-489, miR-181b-5p, miR-378a-5p, miR-3614-5p, miR-197-3p, miR-877-3p). Assoziationen mit Lungenfunktion (FEV1 % vorhergesagt, FEV1/FVC, DLCO) waren konsistent. Enrichment-Analysen identifizierten biologische Prozesse (miRNA-Regulation, Apoptose, Hypoxie-Antworten, Zellzyklusregulation, Gefäßentwicklung). Ergebnisse sind explorativ und erfordern unabhängige Validierung.",
-    transfer:"Südkorea, aber Transkriptomik-Analysen haben begrenzte unmittelbare Versorgungsrelevanz ohne funktionale Validierung und klinische Anwendbarkeit."
+    journal:"Scand J Prim Health Care", year:"2026", pmid:"42954940",
+    author:"van Bommel HE et al.", pubdate:"29.10.2026",
+    added:"29.10.2026",
+    title:"Patientenzentrierte Versorgung mit visuellen Werkzeugen stärkt Vertrauen bei chronischen Erkrankungen und niedriger Sozialschicht",
+    sum:"Niederländische Qualitativstudie mit 18 Patienten, 2 Ärzten und 12 Praxiskrankenschwestern evaluiert eine neu entwickelte, personenzentrierte Versorgungsstrategie mit visuellen Hilfsmitteln für Menschen mit chronischen Erkrankungen und niedriger Sozialökonomie.",
+    result:"Ärzte und Praxiskrankenschwestern berichten höhere Berufszufriedenheit und wahrgenommenes Vertrauen der Patienten. Das visuelle Werkzeug unterstützte Dialog und Verständnis komplexer sozialer Bedürfnisse. Patienten schätzten, als Individuen wahrgenommen zu werden, aber bemerkten begrenzte Veränderungen in der Versorgung. Bedarf erkannt: stärkere interdisziplinäre Zusammenarbeit mit Sozialhilfe.",
+    transfer:"Niederlande, vergleichbares Hausarztsystem und sozialversicherungssystem; Design übertragbar auf deutsche Praxen."
   },
   {
-    journal:"J Neurol", year:"2026", pmid:"42918938",
-    author:"Quint P et al.", pubdate:"22.10.2026",
-    added:"23.10.2026",
-    title:"CIDP zeigt vier klinisch distinct Subtypen mit unterschiedlicher Progression und Therapiebedarf",
-    sum:"Multizentrisches retrospektives Kohortenstudium aus 10 deutschen Zentren mit unbiased Clustering zur Entdeckung klinisch bedeutsamer CIDP-Subgruppen; 425 Patienten gescreent, 325 in Entwicklungskohorte, 100 in Validierungskohorte randomisiert.",
-    result:"Vier distinct Cluster identifiziert: Cluster 1 (Frauen, hohe Symptome, ANA-positiv, autoimmune Begleiterkrankungen); Cluster 2 (moderate bis niedrige Symptome, demyelinierungsdominant, weniger Komorbiditäten); Cluster 3 (hohe Symptome, axonal-demyelinierend, kardiovaskuläre Komorbiditäten); Cluster 4 (multifokal, hohe Behinderung, Ataxie). Cluster 1 und 4 zeigen besonders hohe Progressions- und Behinderungsraten. Unterschiedliche Krankheitsverläufe und Therapiestrategien zwischen Clustern, was individualisierte Überwachung und Behandlung nahelegt.",
-    transfer:"Deutsche Klinikdaten und Klassifikation; direkt auf deutsches System übertragbar."
+    journal:"Nephrol Ther", year:"2026", pmid:"42954264",
+    author:"David A et al.", pubdate:"29.10.2026",
+    added:"29.10.2026",
+    title:"Klinische Pharmazie senkt Arzneimittelfehler bei Hämodialysepatienten um 75 %",
+    sum:"Französische Studie an 76 Hämodialysepatienten untersucht, wie strukturierte klinisch-pharmazeutische Überprüfung und Medikamentenabstimmung zwischen Krankenhaus und niedergelassener Praxis Verschreibungsunsicherheiten reduziert.",
+    result:"Bei 33 % der 76 Patienten wurden Medikamentendiskrepanzen identifiziert; 75 % dieser Diskrepanzen hatten mindestens geringen klinischen Impact. Nach Intervention: Quote potenziell unangemessener Medikamente sank signifikant (p &lt; 0,05), Nephrologen akzeptierten 93 % der 69 Optimierungsvorschläge. Integration klinischer Pharmazeuten verbesserte Verschreibungsqualität und Arzneimittelsicherheit.",
+    transfer:"Frankreich, vergleichbares Krankenhaus-Praxis-Schnittstellen-Problem; strukturierte Pharmazie-Prozesse sind Versorgungsstandard."
   },
   {
-    journal:"Front Neurol", year:"2026", pmid:"42947862",
-    author:"Signori A et al.", pubdate:"13.10.2026",
-    added:"28.10.2026",
-    title:"Synthetische Daten aus italienischem CIDP-Register reproduzieren analytische Eigenschaften und ermöglichen Datenschutz-sichere Forschung",
-    sum:"Validierungsstudie von KI-generierten synthetischen Daten aus dem italienischen CIDP-Register gegen echte Daten; 195 CIDP-Fälle und 195 Kontrollen wurden analysiert und synthetische Daten mittels konditionaler Modelle generiert, um Fidelity und Distinguishability zu prüfen.",
-    result:"Synthetische Daten zeigten hohe Übereinstimmung mit echten Daten in Randverteilungen; Distinguishability-Analysen zeigten niedrige Trennbarkeit zwischen echten und synthetischen Datensätzen. Univariable Assoziationen mit CIDP-Risiko wurden eng repliziert (einschließlich protektive Effekte von höherer Fisch- und Reisaufnahme). Multivariable Modelle demonstrierten hochgradig übereinstimmende Effektschätzungen zwischen echten und synthetischen Daten. Synthetische Daten ermöglichen reproduzierbare und teilbare CIDP-Forschung bei Wahrung der Patientenprivatsphäre.",
-    transfer:"Italien mit EU-Datenschutzrichtlinien; europäisches System mit DSGVO-Anforderungen direkt vergleichbar."
+    journal:"Endocrine", year:"2026", pmid:"42955528",
+    author:"Jain V et al.", pubdate:"29.10.2026",
+    added:"29.10.2026",
+    title:"SGLT2-Inhibitoren: Formularbehinderungen für Herzinsuffizienz und Niere sind gering, Zugang aber nicht flächendeckend",
+    sum:"US-Analyse von Medicare-Part-D-Formularen 2019–2026 untersucht, ob Versicherungsrestriktionen die Unternutzung von SGLT2-Inhibitoren bei Herzinsuffizienz und Nierenerkrankung erklären.",
+    result:"Prior Authorization &lt;1,6 % über alle Jahre, ≥98 % Formulare boten mind. einen PA-freien SGLT2i. Step-Therapy 2025 auf null, 2026 Rebound auf Empagliflozin (18,18 %), aber nicht bei Dapagliflozin (1,21 %). Canagliflozin-Abdeckung fiel von 58,3 % (2019) auf 5,8 % (2026). Für CKD-Indikation: nur 5,8 % Formulare bieten zwei step-freie Optionen. Formularehinderungen sind nicht die Hauptbarriere; Fokus sollte auf Kliniker- und Systemfaktoren liegen.",
+    transfer:"USA, Medicare-Finanzierung; Formularbehinderungen weniger relevant als Verschreibungsmuster—Befund unabhängig von Versicherungssystem."
   },
   {
-    journal:"N Engl J Med", year:"2026", pmid:"42708515",
-    author:"Sciurba FC et al.", pubdate:"29.10.2026",
-    added:"08.09.2026",
-    title:"Tozorakimab reduziert moderate/schwere COPD-Exazerbationen um 29–34 %",
-    sum:"Zwei Phase-3-Studien (OBERON, TITANIA) prüften die Wirksamkeit des Antikörpers Tozorakimab zur Prävention von COPD-Exazerbationen trotz optimaler Inhalationstherapie bei 1719 Patienten mit Exazerbationen in der Vorgeschichte.",
-    result:"Tozorakimab senkte die annualisierte Rate mittelschwerer oder schwerer Exazerbationen bei ehemaligen Rauchern um 29 % (OBERON: Rate Ratio 0,71, p=0,002) bzw. 34 % (TITANIA: Rate Ratio 0,66, p&lt;0,001). In der Gesamtpopulation: 30 % Reduktion (OBERON) bzw. 29 % (TITANIA), beide p&lt;0,001. Nebenwirkungen traten nicht häufiger als unter Placebo auf. Ein wirksamer Weg zur Exazerbationsreduktion über IL-33-Blockade.",
-    transfer:"Europäische und globale Zentren, vergleichbare Standards; Übertragbarkeit hoch auf deutsche Versorgung."
+    journal:"Cardiorenal Med", year:"2026", pmid:"42879334",
+    author:"Muñoz Ramos P et al.", pubdate:"15.10.2026",
+    added:"15.10.2026",
+    title:"Ultraschall-gestützte Flüssigkeitsoptimierung senkt Blutdruck bei Hämodialysepatienten um 14 mmHg",
+    sum:"Spanische Multizenter-Studie an 72 Hämodialysepatienten untersucht, ob Flüssigkeitsüberlastung mittels modifizierter Venenultraschallskala erkannt und durch protokollgesteuerte Ultrafiltration reduziert werden kann.",
+    result:"23 von 72 klinisch euvolämischen Patienten (32 %) zeigten venöse Stauung im modifizierten VExUS. Nach 4 Wochen: VExUS-Parameter verbesserten sich signifikant (2,1 vs. 1,3; p &lt; 0,001), systolischer Blutdruck sank in der Interventionsgruppe um 14 mmHg vs. +4 mmHg in Kontrolle (p = 0,025). Keine Unterschiede bei Hämodialyseverträglichkeit oder Biomarkern.",
+    transfer:"Spanien, öffentliches Gesundheitssystem; Ultraschall-Methode mit Training umsetzbar in deutschen Dialysezentren."
   },
   {
-    journal:"BMC Prim Care", year:"2026", pmid:"42946997",
-    author:"O'Callaghan ME et al.", pubdate:"31.07.2026",
-    added:"28.10.2026",
-    title:"Irisches CDM-Programm verbessert Selbstmanagement und Versorgungsqualität chronischer Erkrankungen",
-    sum:"Querschnittstudie zu Erfahrungen von Patienten und Leistungserbringern mit Irlands neu skaliertem CDM-Programm für strukturierte Versorgung chronischer Erkrankungen in Allgemeinarztpraxen; Befragung von 110 Patienten und 217 Anbietern (Ärzte, Pflegekräfte).",
-    result:"97 % der Patienten berichten positive Wahrnehmung mit Verbesserungen beim Selbstmanagement und Verständnis ihrer Erkrankung. Unter Anbietern: 93 % der GPs und 81 % der Pflegekräfte bewerten das Programm positiv, insbesondere Verbesserungen bei Typ-2-Diabetes-Management. Hauptbarrieren: Personalknappheit, Arbeitsbelastung, IT-Probleme. Das Programm wird als hochwertig wahrgenommen und als nachhaltig bewertet, sofern Kapazität und Systemgrenzen gelöst werden.",
-    transfer:"Irland mit GPs als Koordinatoren; Struktur teilweise vergleichbar mit deutschem Hausarztmodell, aber ohne verbindliche Steuerung."
-  },
-  {
-    journal:"J Transl Med", year:"2026", pmid:"42934697",
-    author:"Strube A", pubdate:"29.07.2026",
-    added:"27.10.2026",
-    title:"Thalamale Hyperkonektivität bei ME/CFS ist reversibel und korreliert mit klinischer Verbesserung nach Hyperbarbehandlung",
-    sum:"Kommentier-Analyse einer Studie zu thalamokortikaler Konnektivität bei Myalgische Enzephalomyelitis/Chronic Fatigue Syndrome (ME/CFS): Baseline-Hyperkonektivität des Thalamus mit sensorimotorischen und visuooccipitalen Kortizes verschiebt sich nach Hyperbarbehandlung in Richtung Muster gesunder Kontrollen, besonders bei klinisch verbesserten Patienten.",
-    result:"Die reversible thalamale Hyperkonektivität bei ME/CFS-Patienten wird durch Hyperbarbehandlung reduziert und korreliert mit klinischer Verbesserung. Dies wird durch die Predictive-Processing-Theorie interpretiert: Der Thalamus reguliert die Präzision aufsteigender körperlicher Signale. Defizitäre Filterung führt zu erhöhter Rauschempfindlichkeit, die mehrere Symptome (sensorische Hypersensitivität, Schmerz, orthostatische Intoleranz, kognitives Nebel) erklärt. Ein hypothetisches Modell mit Testbedarf, da Hyperbarbehandlung eine vaskuläre Intervention ist und die Konnektivität ein indirektes Maß darstellt.",
-    transfer:"USA-basierte Analyse; Hirnbildgebung-Befund ist mechanistisch interessant, aber Versorgungsübertragbarkeit gering ohne prospektive Validierung in praktischer Klinik."
+    journal:"Heart Lung", year:"2026", pmid:"42727532",
+    author:"Alonso Avilés R et al.", pubdate:"11.09.2026",
+    added:"11.09.2026",
+    title:"Barthel-Index senkt Sterblichkeit bei COPD-Exazerbationen um 72 % in der Notaufnahme",
+    sum:"Spanische Studie an 1.214 Patienten mit akuter COPD-Exazerbation untersucht, welche klinischen Faktoren Krankenhausaufnahme und 30-Tages-Mortalität vorhersagen.",
+    result:"Der Barthel-Index (funktionelle Unabhängigkeit, 2-Minuten-Messung) war stärkster Prädiktor der 30-Tages-Mortalität (OR 0,28; 95%-KI 0,15–0,53 = 72 % Risikoreduktion). Bootstrap-korrigierte AUC 0,787 für Mortalität, 0,806 für Aufnahme. Ein Algorithmus aus akuter Ateminsuffizienz und Barthel-Index ermöglichte Identifikation von Kandidaten für ambulante Behandlung.",
+    transfer:"Spanien, vergleichbare Notaufnahmestruktur; Messinstrument universal anwendbar."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2172,7 +2163,7 @@ const RADAR_FRISTEN = [["2026-12-31", "2027-01-27"], [], ["2027-01-07"], [], [],
 // === RADAR-BLOCK-ENDE ===
 
 // === ZULASSUNG-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const ZUL_STAND = "29.10.2026";
+const ZUL_STAND = "30.10.2026";
 const ZUL_EIGENE = 18;
 const ZUL_GUTACHTEN = 2;
 const ZUL_ZULASSUNG = 5;
@@ -2182,7 +2173,7 @@ const ZUL_DIGA = 1;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "29.10.2026";
+const NEWS_STAND = "30.10.2026";
 const NEWS = [
   {titel:"Wertbasierte Diabetesversorgung: ICHOM-Webinar am 4. November 2026", datum:"2026-10-28", url:"https://www.monitor-versorgungsforschung.de/news/wertbasierte-diabetesversorgung-ichom-webinar-am-4-november-2026/"},
   {titel:"Chronische Nierenkrankheit früher erkennen: Betriebskrankenkassen starten Pilotprojekt", datum:"2026-10-26", url:"https://www.monitor-versorgungsforschung.de/news/chronische-nierenkrankheit-frueher-erkennen-betriebskrankenkassen-starten-pilotprojekt/"},
