@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- erzeugt von hub-scripts/studienseiten.py -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://ncd.m-vf.de/</loc><lastmod>2026-11-13</lastmod></url>
-<url><loc>https://ncd.m-vf.de/studie/</loc><lastmod>2026-11-13</lastmod></url>
+<url><loc>https://ncd.m-vf.de/</loc><lastmod>2026-11-14</lastmod></url>
+<url><loc>https://ncd.m-vf.de/studie/</loc><lastmod>2026-11-14</lastmod></url>
 <url><loc>https://ncd.m-vf.de/neue-studien.html</loc></url>
 <url><loc>https://ncd.m-vf.de/newsletter.html</loc></url>
 <url><loc>https://ncd.m-vf.de/themen-quellen.html</loc></url>
+<url><loc>https://ncd.m-vf.de/studie/43021912/</loc><lastmod>2026-11-14</lastmod></url>
+<url><loc>https://ncd.m-vf.de/studie/43021743/</loc><lastmod>2026-11-14</lastmod></url>
+<url><loc>https://ncd.m-vf.de/studie/43021400/</loc><lastmod>2026-11-14</lastmod></url>
+<url><loc>https://ncd.m-vf.de/studie/43021273/</loc><lastmod>2026-11-14</lastmod></url>
+<url><loc>https://ncd.m-vf.de/studie/43021141/</loc><lastmod>2026-11-14</lastmod></url>
+<url><loc>https://ncd.m-vf.de/studie/42976393/</loc><lastmod>2026-11-14</lastmod></url>
 <url><loc>https://ncd.m-vf.de/studie/43018011/</loc><lastmod>2026-11-13</lastmod></url>
 <url><loc>https://ncd.m-vf.de/studie/43016574/</loc><lastmod>2026-11-13</lastmod></url>
 <url><loc>https://ncd.m-vf.de/studie/43015760/</loc><lastmod>2026-11-13</lastmod></url>
