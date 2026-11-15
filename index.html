@@ -2289,62 +2289,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "14. Nov. 2026, 05:23 Uhr";
+const SNAP_DATE = "15. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Gut Liver", year:"2026", pmid:"43021743",
-    author:"Chung KH et al.", pubdate:"15.11.2026",
+    journal:"J Med Internet Res", year:"2026", pmid:"43019250",
+    author:"Rayapuraju A et al.", pubdate:"12.11.2026",
+    added:"12.11.2026",
+    title:"Web-Atemübungen bei Long COVID verbesserten Müdigkeit um 2,9 Punkte und Stimmung um 10 Punkte",
+    sum:"Randomisierte Pilotstudie (n=188, 96 Intervention, 92 Warteliste) zu einer 3-wöchigen webgestützten Yoga-Atem- und Meditationspraxis bei Long-COVID-Patienten mit gemischten Methoden (Quantitativ und qualitativ).",
+    result:"Adherenz: 55 % der 58 mit kompletten Daten (60 % Intervention, 50 % Warteliste) erfüllten Schwelle (≥4 Tage/Woche). Intervention vs. Warteliste: Müdigkeit −2,9 (95%KI −4,6 bis −1,2, p=0,001), Gesamtstimmungsstörung −10 (95%KI −19 bis −1,6, p=0,02), positive Stimmung +2,9 (95%KI 0,66 bis 5,1, p=0,01), Vitalität +1,7 (p=0,03). Keine Nebenereignisse gemeldet.",
+    transfer:"USA, webgestützte Intervention, digital übertragbar auf deutsche Telehealth-Systeme"
+  },
+  {
+    journal:"Med", year:"2026", pmid:"42748912",
+    author:"Huang CY et al.", pubdate:"13.11.2026",
+    added:"16.09.2026",
+    title:"Niedriges Geburtsgewicht hinterlässt Protein-Signatur mit 7-fach erhöhtem Krankheitsrisiko im Erwachsenenalter",
+    sum:"Studie analysierte 2923 Plasma-Proteine in 26061 UK-Biobank-Teilnehmern, um eine proteomische Signatur zu finden, die mit berichtetem sehr niedrigem Geburtsgewicht (&lt;1,5 kg) und späterem Erkrankungsrisiko assoziiert ist..",
+    result:"Proteomischer Prämaturitäts-Index (PPI) assoziiert mit berichtetem VLBW (OR 7,32, 95%KI 4,01–13,42), bleibt nach Adjustment signifikant (OR 5,82, 95%KI 3,99–8,47). PPI zeigte bessere Diskriminierung als Geburtsgewicht für 370 von 425 Diagnosen. Bei Personen mit normalem Geburtsgewicht war höheres PPI mit Krankheitslast und zukünftigem Risiko verbunden; hypothesengenerierend, externe Validierung erforderlich.",
+    transfer:"UK Biobank, europäische Kohortenmethoden, Mehrfacherkrankung früh erkannt"
+  },
+  {
+    journal:"BMC Public Health", year:"2026", pmid:"43026492",
+    author:"Yu C et al.", pubdate:"19.08.2026",
     added:"13.11.2026",
-    title:"Konsensus-Leitlinie Südkorea: Steroid-Therapie und Erhaltungsbehandlung bei autoimmuner Pankreatitis standardisieren",
-    sum:"Evidenzbasierte Konsensus-Leitlinie der Korean Pancreatobiliary Association zur Diagnose, Behandlung und Nachsorge der autoimmunen Pankreatitis (AIP) mit Delphi-Methode und Evidenzgraduierung.",
-    result:"Elf Konsensus-Aussagen zu Diagnosekriterien, Induktionstherapie mit Steroiden, Erhaltungsbehandlung und Rezidivmanagement formuliert. Leitlinie adressiert bisherige Variabilität in klinischer Praxis durch mangelnde standardisierte Vorgaben in Südkorea und soll evidenzbasierte Entscheidungsfindung unterstützen.",
-    transfer:"Südkorea; Struktur und Ergebnis-Evidenz international vergleichbar, Implementierung in deutsches System prüfenswert."
+    title:"Osteoporose betrifft ein Drittel der COPD-Patienten; Untergewicht erhöht Risiko um das 4-fache",
+    sum:"Systematische Übersichtsarbeit und Metaanalyse von 87 Beobachtungsstudien mit 1,45 Mio. COPD-Patienten zur Prävalenz von Osteoporose und assoziierten Faktoren.",
+    result:"Gepoolte Osteoporose-Prävalenz 33,8 % (95%KI 31,4–36,1 %, I²=99,7 %). Untergewicht: OR 3,91 (95%KI 1,36–11,24). Kortikosteroid-Exposition: OR 2,85 (95%KI 1,45–5,59); kumulative Dosis &gt;1000 mg Prednisolon-Äquivalent: OR 7,36 (95%KI 1,70–31,98). Höherer FEV₁%: OR 0,97 pro 1%-Anstieg (95%KI 0,96–0,98).",
+    transfer:"Globale Metaanalyse, regionale Unterschiede (28,7–42,3 %), auf deutsche COPD-Versorgung anwendbar"
   },
   {
-    journal:"BMC Res Notes", year:"2026", pmid:"43021400",
-    author:"Bouya S et al.", pubdate:"30.10.2026",
+    journal:"BMC Pulm Med", year:"2026", pmid:"43021152",
+    author:"Shen L et al.", pubdate:"18.08.2026",
     added:"12.11.2026",
-    title:"Anämie, Hyperphosphatämie und erhöhtes PTH bei 85 % der Dialysepatienten – Managementlücken",
-    sum:"Querschnittsstudie mit 151 Hämodialysepatienten; Erfassung von Hämoglobin, Kalzium, Phosphor, Albumin und Parathyroidhormon aus Patientenakten.",
-    result:"Anämie lag bei 84,8 % vor, Hyperphosphatämie bei 63,6 %, PTH erhöht bei 39,7 %. Kalzium war bei 53,0 % und Albumin bei 94,0 % normal. Signifikante Geschlechtsassoziation für Kalzium (p = 0,005). Mangelhafte biochemische Kontrolle deutet auf Versorgungs- und Überwachungslücken hin.",
-    transfer:"Iran; europäische DMP-Struktur und regelmäßige Laborkontrollen sollten bessere Raten erreichen."
+    title:"Pneumonie erhöht Sterblichkeitsrisiko bei chronischen Erkrankungen um 8- bis 17-fach",
+    sum:"Studie untersuchte in einer UK-Biobank-Kohorte die Häufigkeit von Pneumonie bei Patienten mit fünf chronischen Erkrankungen und deren Auswirkung auf Mortalität und Hospitalisierungen.",
+    result:"Pneumonie-Inzidenz war höchst bei COPD (26,8 pro 1000 Personenjahre), gefolgt von CKD (12,4), HKV (10,1), Diabetes (8,4) und Krebs (6,3). Nach Pneumonie zeigten sich markant erhöhte Sterberisiken: COPD HR 8,15, Krebs HR 17,11, andere Gruppen dazwischen. Hospitalisierungsrisiko verdoppelte sich über alle Gruppen.",
+    transfer:"UK-Biobank mit europäischen Versicherungsprinzipien, Mehrfacherkrankung zentral"
   },
   {
-    journal:"Front Endocrinol (Lausanne)", year:"2026", pmid:"43021912",
-    author:"Fu Y et al.", pubdate:"29.10.2026",
-    added:"13.11.2026",
-    title:"Neuaufzeichnung von Hypertonie bei Diabetes verdreifacht kardiometabolische Risiken – chinesische Kohortenstudie",
-    sum:"Analyse von 256.221 Erwachsenen mit neu diagnostiziertem Typ-2-Diabetes ohne Hypertonie oder kardiorenale Erkrankung auf Basis elektronischer Gesundheitsakten; Verfolgung kardiovaskulärer und Nierenereignisse nach erstmaliger Hypertonie-Dokumentation.",
-    result:"Bei 107.946 Patienten (42,1 %) wurde Hypertonie dokumentiert. Innerhalb 4,11 Jahren Median-Nachverfolgung betrug die adjustierte Hazard Ratio (HR) für kombinierte Ereignisse 2,49 (95 %-KI 2,43–2,55). Innerhalb 90 Tage nach Hypertonie-Erkennung war HR 3,37 (95 %-KI 3,10–3,65). Ambulante Kontakte verdreifachten sich (17,42 vs. 3,73 pro Person/Jahr), Nieren- und Albumin-Screening blieben gering.",
-    transfer:"China mit nationaler elektronischer Krankenakte; Erkennung als kritischer Wendepunkt für strukturierte Nachsorge übertragbar."
-  },
-  {
-    journal:"Health Policy", year:"2026", pmid:"42976393",
-    author:"Buja A et al.", pubdate:"22.10.2026",
-    added:"03.11.2026",
-    title:"Mehrfacherkrankung verdoppelt Kosten bei Vorhofflimmern – italienische Kohortenstudie zeigt Kosteneffekte",
-    sum:"Analyse von 4602 Patienten ≥65 Jahren mit Vorhofflimmern hinsichtlich Krankenhauskosten stratifiziert nach Anzahl und Muster der Komorbiditäten mit latenter Klassenanalyse.",
-    result:"98 % der Patienten hatten mindestens zwei weitere Erkrankungen. Die jährlichen Kosten stiegen von 1.049 € (nur Vorhofflimmern) auf 21.746 € (≥14 Komorbiditäten). Sieben Muster wurden identifiziert: Multisystem-Phenotyp verursachte 17.338 €, Demenz 15.107 €, neurologisch 13.943 € pro Jahr. Die Variabilität nach Musters zeigt heterogene Ressourcenbedarfe.",
-    transfer:"Italien mit vergleichbarem Sozialversicherungssystem; Krankenhausdaten mit dokumentierter Komorbiditäts-Klassifikation."
-  },
-  {
-    journal:"BMC Nephrol", year:"2026", pmid:"43021141",
-    author:"Virtanen J et al.", pubdate:"18.08.2026",
+    journal:"BMC Health Serv Res", year:"2026", pmid:"43021210",
+    author:"Turner W et al.", pubdate:"17.08.2026",
     added:"12.11.2026",
-    title:"Schlafapnoe erhöht Vorhofflimmer-Risiko bei Peritonealdialyse um 218 %",
-    sum:"Retrospektive Multicenter-Beobachtungsstudie von 401 Peritonealdialysepatienten (2009–2019) mit Nachverfolgung neuer Vorhofflimmerepisoden und kardiovaskulärer Ereignisse.",
-    result:"Vorhofflimmern trat bei 46 von 337 Patienten ohne Vorgeschichte auf (Inzidenz 6,3 pro 100 Patientenjahre). Schlafapnoe zeigte unabhängige Assoziation in multivariablem Cox-Modell (HR 3,182, 95 %-KI 1,399–7,238, p = 0,006). Bei Patienten &gt;60 Jahre mit Schlafapnoe betrug Vorhofflimmer-Prävalenz 50 %. 27 Schlaganfälle (6,7 %) wurden beobachtet.",
-    transfer:"Skandinavische Dialysedaten; Patientenkollek ähnlich deutschem Kontext, Schlafapnoe-Screening oft unterbewertet."
+    title:"Care-Koordination bei CKD: Mehr Transplant-Überweisungen, keine Reduktion von Notfallbesuchen",
+    sum:"Retrospektive Kohortenstudie evaluierte ein koordiniertes Versorgungsprogramm (Kidney Care Medical Home) für fortgeschrittene CKD nach dem Medicare-Modell Kidney Care First hinsichtlich Notfallbesuche, Hospitalisierungen und spezialisierte Überweisungen.",
+    result:"926 Patienten im Programm vs. 551 Kontrollen (2021–2023). Keine signifikanten Reduktionen bei Notfalleinsätzen (−3,09 bis +2,80 pro 100 Patienten pro Quartal) oder Hospitalisierungen (−3,00 bis +6,60). Aber: Heim-Dialyse +4,96 pro 100 Patienten in Q4, Nephrologen-Überweisungen +1,5–1,7 pro 100 in Q3–Q4 2022, Psychiatrische Überweisungen +3,9 pro 100 in Q2 2022.",
+    transfer:"USA-System mit Fee-for-Service, begrenzt übertragbar auf deutsche DMP-Struktur"
   },
   {
-    journal:"Health Qual Life Outcomes", year:"2026", pmid:"43021273",
-    author:"Chang Q et al.", pubdate:"14.08.2026",
+    journal:"BMC Nephrol", year:"2026", pmid:"43021111",
+    author:"Jiang Z et al.", pubdate:"17.08.2026",
     added:"12.11.2026",
-    title:"Psychische Belastung, Behinderung und Schlaf bestimmen Lebensqualität bei ländlicher Mehrfacherkrankung",
-    sum:"Sekundäranalyse von 1.411 ländlichen Teilnehmern (≥45 Jahre) mit Mehrfacherkrankung aus der China Health and Retirement Longitudinal Study; Tobit-Regression auf EQ-5D-3L-Nutzwert.",
-    result:"Depressive Symptome (β = −0,524, 95 %-KI −0,591 bis −0,458) und Behinderung (β = −0,576, 95 %-KI −0,734 bis −0,418) waren stärkste negative Prädiktoren. Schlaf ≥9 h (β = 0,138), Alkoholkonsum (β = 0,109) und männliches Geschlecht (β = 0,089) assoziiert mit besserer Lebensqualität. Drei oder mehr Erkrankungen (β = −0,175) und arme Selbstbeurteilung (β = −0,148) minderten Nutzwert.",
-    transfer:"China; ruraler Kontext mit Mehrfacherkrankung ähnlich deutschem Hausarzt-Setting, psychische Komponente unterbewertet."
+    title:"Peritonealdialyse-Vortherapie verschlechtert arteriovenöse Fistel-Reifung um 26 Prozent",
+    sum:"Retrospektive Vergleichsstudie untersuchte, ob vorherige Peritonealdialyse die Reifeung und Offenheit von arteriovenösen Fisteln bei 571 Hämodialysepatienten beeinflusst.",
+    result:"82 Patienten (14,4 %) mit PD-Vorgeschichte: niedrigere ungestützte Fistelreifung (65,9 % vs. 82,4 %, p=0,001), niedrigere 1-Jahres-Offenheit (86,5 % vs. 93,4 %, p=0,027). Multivariat: PD assoziiert mit niedrigerer ungestützter Reifung (OR 0,442, p=0,022) und höherem Offenheitsausfall (HR 2,759, p=0,006).",
+    transfer:"China, einzelnes Zentrum; prinzipiell auf europäische Dialysepraxis übertragbar"
+  },
+  {
+    journal:"BMC Nephrol", year:"2026", pmid:"43021143",
+    author:"Kurisawa A et al.", pubdate:"17.08.2026",
+    added:"12.11.2026",
+    title:"Kreatinin-Muskel-Index sagt Muskelschwäche bei CKD-Patienten mit AUC 0,8 voraus",
+    sum:"Querschnittstudie prüfte, ob der Kreatinin-Muskel-Index (CMI) mit Handgriffstärke und bioelektrischer Impedanz-gemessener Skelettmuskelindexübereinstimmt bei 97 CKD-Patienten unter Dapagliflozin.",
+    result:"CMI unabhängig assoziiert mit Handgriffstärke (β=0,25, p=0,024) und Skelettmuskelindex (β=0,24, p=0,028). Optimale CMI-Schwellen: 702 mg/Tag/1,73m² für niedrige Handgriffstärke (AUC 0,800) und 800 mg/Tag/1,73m² für niedrige Muskelmasse (AUC 0,843). Pro 100 mg/Tag/1,73m² CMI-Anstieg: reduziertes Risiko für niedrige Handgriffstärke (aOR 0,610) und niedrige Muskelmasse (aOR 0,576).",
+    transfer:"Japan, einzelnes Zentrum; einfache klinische Messung, gut auf deutsche Praxis übertragbar"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2369,7 +2378,7 @@ const ZUL_DIGA = 1;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "14.11.2026";
+const NEWS_STAND = "15.11.2026";
 const NEWS = [
   {titel:"Long Covid und ME/CFS: Erste umfassende Förderübersicht zeigt erhebliche Lücken in der Therapie- und Grundlagenforschung", datum:"2026-11-11", url:"https://www.monitor-versorgungsforschung.de/news/long-covid-und-me-cfs-erste-umfassende-foerderuebersicht-zeigt-erhebliche-luecken-in-der-therapie-und-grundlagenforschung/"},
   {titel:"Diabetische Nierenerkrankung früh erkennen: KfH zum Weltdiabetestag", datum:"2026-11-10", url:"https://www.monitor-versorgungsforschung.de/news/diabetische-nierenerkrankung-frueh-erkennen-kfh-zum-weltdiabetestag/"},
