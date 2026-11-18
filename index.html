@@ -2305,18 +2305,9 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "18. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "18. Nov. 2026, 05:23 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
-  {
-    journal:"Cochrane Database Syst Rev", year:"2026", pmid:"43042775",
-    author:"Weber M et al.", pubdate:"17.11.2026",
-    added:"17.11.2026",
-    title:"Pulmonale Rehabilitation nach COPD-Exazerbationen reduziert Krankenhausreadmissionen",
-    sum:"Cochrane-Übersichtsarbeit mit 40 Studien zu pulmonaler Rehabilitation nach akuter COPD-Exazerbation versus Standardbetreuung.",
-    result:"Moderate Evidenzsicherheit zeigt, dass pulmonale Rehabilitation die Krankenhausreadmissionen reduziert (OR 0,52, 95% KI 0,32–0,84). High-certainty-Evidenz für deutliche Verbesserung der Lebensqualität (SGRQ -9,05 Punkte, mindestens klinisch relevant sind -4 Punkte) und Gehleistung (6-MWD +57,79 m, 95% KI 41,68–73,91). Sterblichkeit: niedrige Evidenzsicherheit, kein signifikanter Unterschied.",
-    transfer:"Schweiz, Belgien, Spanien; Strukturen vergleichbar mit Deutschland (Versorgungspfade, Rehabilitation)"
-  },
   {
     journal:"PLoS One", year:"2026", pmid:"43043938",
     author:"Gavor-Kwashi CEK et al.", pubdate:"17.11.2026",
@@ -2325,6 +2316,15 @@ const STUDIES = [
     sum:"Querschnittsstudie mit 203 Erwachsenen zur Häufigkeit und Determinanten kardiometabolischer Mehrfacherkrankung (Hypertonie, Diabetes, metabolisches Syndrom, CKD) in Ghana.",
     result:"Über 80% der Patienten hatten ≥2 kardiometabolische Erkrankungen; &gt;80% übergewichtig/adipös. Adipositas stärkster unabhängiger Prädiktor für CKD (aOR 7–8 für Adipositas I/II). Glukose-Senker-Medikation mit besserer Glycämiekontrolle assoziiert (OR 7,16, 95% KI 3,31–15,47); Antihypertensiva mit besserer Blutdruckkontrolle (aOR 0,25, 95% KI 0,07–0,90). Genetische Varianten zeigten schwache Effekte. Kombinierte Modelle (klinisch, Lifestyle, genetisch) höchste Diskrimination (AUCs 0,83–0,89).",
     transfer:"Ghana, Sub-Sahara-Afrika; zeigt Übertragbarkeit des Risikofaktor-Fokus auf weniger ressourcenstarke Systeme"
+  },
+  {
+    journal:"Cochrane Database Syst Rev", year:"2026", pmid:"43042775",
+    author:"Weber M et al.", pubdate:"17.11.2026",
+    added:"17.11.2026",
+    title:"Pulmonale Rehabilitation nach COPD-Exazerbationen reduziert Krankenhausreadmissionen",
+    sum:"Cochrane-Übersichtsarbeit mit 40 Studien zu pulmonaler Rehabilitation nach akuter COPD-Exazerbation versus Standardbetreuung.",
+    result:"Moderate Evidenzsicherheit zeigt, dass pulmonale Rehabilitation die Krankenhausreadmissionen reduziert (OR 0,52, 95% KI 0,32–0,84). High-certainty-Evidenz für deutliche Verbesserung der Lebensqualität (SGRQ -9,05 Punkte, mindestens klinisch relevant sind -4 Punkte) und Gehleistung (6-MWD +57,79 m, 95% KI 41,68–73,91). Sterblichkeit: niedrige Evidenzsicherheit, kein signifikanter Unterschied.",
+    transfer:"Schweiz, Belgien, Spanien; Strukturen vergleichbar mit Deutschland (Versorgungspfade, Rehabilitation)"
   },
   {
     journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"43042242",
@@ -2353,6 +2353,15 @@ const STUDIES = [
     result:"Leitlinie empfiehlt: (1) Option der Nicht-Antikoagulation je nach Blutungsrisiko; (2) DOACs gegenüber Vitamin-K-Antagonisten bevorzugt, aber begrenzte Daten in eGFR &lt;30; (3) Monitoring erforderlich; (4) linksatriale Appendage-Okklusion als Alternative. Randomisierte Studien zu Antikoagulanzien in fortgeschrittener CKD sind noch laufend.",
     transfer:"Großbritannien; übertragbar auf Deutschland (Nierenfachkompetenz, vergleichbare Versicherungssysteme)"
   },
+  {
+    journal:"Respiration", year:"2026", pmid:"43044043",
+    author:"Saccomanno J et al.", pubdate:"17.11.2026",
+    added:"17.11.2026",
+    title:"Lungenvolumenreduktion mit Ventilen bei Emphysem: BMI beeinflusst Ergebnis nicht",
+    sum:"Multicenter-Registry von 549 Patienten mit fortgeschrittenem Lungenemphysem untersuchte, ob der BMI die Ergebnisse der endoskopischen Volumenreduktion mit Ventilen beeinflusst.",
+    result:"Alle Patientengruppen (untergewichtig, normalgewichtig, übergewichtig, adipös) zeigten signifikante Verbesserungen bei Lungenfunktion (FEV1), Trainingskapazität und Lebensqualität nach Intervention. Komplikationsraten waren niedrig und vergleichbar zwischen BMI-Gruppen. Untergewichtige Patienten hatten besonders ausgeprägte Verbesserungen bei Dyspnoe-Scores (CAT-Werte). BMI sollte als Abbild des Erkrankungsphenotyps und des klinischen Zustands, nicht als Prädiktor für Behandlungserfolg interpretiert werden.",
+    transfer:"Deutsche Registerdaten, flächendeckend verfügbares Verfahren"
+  },
 ];
 // === STUDIES-BLOCK-ENDE ===
 
@@ -2366,10 +2375,10 @@ const RADAR_FRISTEN = [["2026-12-31"], [], ["2027-01-07"], [], [], [], [], ["202
 // === RADAR-BLOCK-ENDE ===
 
 // === ZULASSUNG-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const ZUL_STAND = "17.11.2026";
+const ZUL_STAND = "18.11.2026";
 const ZUL_EIGENE = 20;
-const ZUL_GUTACHTEN = 2;
-const ZUL_ZULASSUNG = 5;
+const ZUL_GUTACHTEN = 1;
+const ZUL_ZULASSUNG = 6;
 const ZUL_FDA = 3;
 const ZUL_DIGA = 1;
 // === ZULASSUNG-BLOCK-ENDE ===
