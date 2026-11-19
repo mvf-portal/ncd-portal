@@ -1,34 +1,35 @@
 {
  "hub": "Knowledge-Hub NCD/Chronische Krankheiten",
  "domain": "ncd.m-vf.de",
- "datum": "2026-11-18",
+ "datum": "2026-11-19",
  "stand": "terminiert",
- "titel": "MVF NCD-Newsletter 18.11.2026",
- "betreff": "Neueste Studien - NCD und chronische Krankheiten – 18. November 2026",
- "anzahl": 5,
+ "titel": "MVF NCD-Newsletter 19.11.2026",
+ "betreff": "Neueste Studien - NCD und chronische Krankheiten – 19. November 2026",
+ "anzahl": 6,
  "pmids": [
-  "43043938",
-  "43042775",
-  "43042242",
-  "43040327",
-  "43035656"
+  "43048215",
+  "43048099",
+  "43047682",
+  "43047422",
+  "43047262",
+  "43046628"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099938",
- "termin_utc": "2026-11-18T09:00:00+00:00",
- "empfaenger": 17,
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099972",
+ "termin_utc": "2026-11-19T09:00:00+00:00",
+ "empfaenger": 15,
  "listengroesse": 5849,
  "beanstandungen": [],
  "aussortiert": [],
  "pool": {
   "geholt": 220,
-  "bekannt": 126,
-  "pool": 39,
-  "gewaehlt": 5,
-  "neu": 5
+  "bekannt": 129,
+  "pool": 38,
+  "gewaehlt": 6,
+  "neu": 6
  },
  "rubriken": {
   "radar": "cbd3937ab6ad09f9",
-  "news": "8fce11f15e55987f",
-  "zulassungen": "f9fb3151880c5750"
+  "news": "c50bcd380aa7f916",
+  "zulassungen": "f0f419da4eb81746"
  }
 }
